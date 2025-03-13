@@ -1154,3 +1154,17 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
 	.include "data/scripts/dexnav.inc"
+
+	.include "data/maps/TwinleafTown_House/scripts.inc"
+
+	.include "data/maps/Route201/scripts.inc"
+
+	.include "data/maps/TwinleafTown/scripts.inc"
+
+	.include "data/maps/Route202/scripts.inc"
+
+	.include "data/maps/SandgemTown/scripts.inc"
+
+	.include "data/maps/VerityLakefront/scripts.inc"
+
+	.include "data/maps/JubilifeCity/scripts.inc"
