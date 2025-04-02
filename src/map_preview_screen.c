@@ -90,79 +90,79 @@ static const u8 sAlteringCaveMapPreviewTilemap[] = INCBIN_U8("graphics/map_previ
 // and the duration will default to MPS_DURATION_NO_FLAG.
 static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] = {
     [MPS_VIRIDIAN_FOREST] = {
-        .mapsec = MAPSEC_VIRIDIAN_FOREST,
+        .mapsec = MAPSEC_ETERNA_FOREST,
         .type = MPS_TYPE_FADE_IN,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_VIRIDIAN_FOREST
     },
     [MPS_MT_MOON] = {
-        .mapsec = MAPSEC_MT_MOON,
+        .mapsec = MAPSEC_MT_PYRE,
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_MT_MOON
     },
     [MPS_DIGLETTS_CAVE] = {
-        .mapsec = MAPSEC_DIGLETTS_CAVE,
+        .mapsec = MAPSEC_RAVAGED_PATH,
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_DIGLETTS_CAVE
     },
     [MPS_ROCK_TUNNEL] = {
-        .mapsec = MAPSEC_ROCK_TUNNEL,
+        .mapsec = MAPSEC_OREBURGH_GATE,
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_ROCK_TUNNEL
     },
     [MPS_POKEMON_TOWER] = {
-        .mapsec = MAPSEC_POKEMON_TOWER,
+        .mapsec = MAPSEC_LOST_TOWER,
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_POKEMON_TOWER
     },
     [MPS_SAFARI_ZONE] = {
-        .mapsec = MAPSEC_KANTO_SAFARI_ZONE,
+        .mapsec = MAPSEC_GREAT_MARSH,
         .type = MPS_TYPE_FADE_IN,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_SAFARI_ZONE
     },
     [MPS_SEAFOAM_ISLANDS] = {
-        .mapsec = MAPSEC_SEAFOAM_ISLANDS,
+        .mapsec = MAPSEC_IRON_ISLAND,
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_SEAFOAM_ISLANDS
     },
     [MPS_POKEMON_MANSION] = {
-        .mapsec = MAPSEC_POKEMON_MANSION,
+        .mapsec = MAPSEC_OLD_CHATEAU,
         .type = MPS_TYPE_FADE_IN,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_POKEMON_MANSION
     },
     [MPS_ROCKET_HIDEOUT] = {
-        .mapsec = MAPSEC_ROCKET_HIDEOUT,
+        .mapsec = MAPSEC_VEILSTONE_GALACTIC_BUILDING,
         .type = MPS_TYPE_FADE_IN,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_ROCKET_HIDEOUT
     },
     [MPS_SILPH_CO] = {
-        .mapsec = MAPSEC_SILPH_CO,
+        .mapsec = MAPSEC_VEILSTONE_DEPARTMENT_STORE,
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_SILPH_CO
     },
     [MPS_VICTORY_ROAD] = {
-        .mapsec = MAPSEC_KANTO_VICTORY_ROAD,
+        .mapsec = MAPSEC_VICTORY_ROAD,
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_VICTORY_ROAD
     },
     [MPS_CERULEAN_CAVE] = {
-        .mapsec = MAPSEC_CERULEAN_CAVE,
+        .mapsec = MAPSEC_WAYWARD_CAVE,
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_CERULEAN_CAVE
     },
     [MPS_POWER_PLANT] = {
-        .mapsec = MAPSEC_POWER_PLANT,
+        .mapsec = MAPSEC_ANCIENT_TOMB,
         .type = MPS_TYPE_FADE_IN,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_POWER_PLANT
@@ -174,7 +174,7 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] = {
         .image = IMG_MT_EMBER
     },
     [MPS_ROCKET_WAREHOUSE] = {
-        .mapsec = MAPSEC_ROCKET_WAREHOUSE,
+        .mapsec = MAPSEC_GALACTIC_WAREHOUSE,
         .type = MPS_TYPE_FADE_IN,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_ROCKET_WAREHOUSE
@@ -192,8 +192,8 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] = {
         .image = IMG_DOTTED_HOLE
     },
     [MPS_BERRY_FOREST] = {
-        .mapsec = MAPSEC_BERRY_FOREST,
-        .type = MPS_TYPE_FADE_IN,
+        .mapsec = MAPSEC_ETERNA_FOREST_CLEARING,
+        .type = MPS_TYPE_BASIC,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_BERRY_FOREST
     },
@@ -256,6 +256,18 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] = {
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_MONEAN_CHAMBER
+    },
+    [MPS_OREBURGH_MINE] = {
+        .mapsec = MAPSEC_OREBURGH_MINE,
+        .type = MPS_TYPE_BASIC,
+        .flagId = MPS_FLAG_NULL,
+        .image = IMG_ALTERING_CAVE
+    },
+    [MPS_MT_CORONET] = {
+        .mapsec = MAPSEC_MT_CORONET,
+        .type = MPS_TYPE_CAVE,
+        .flagId = MPS_FLAG_NULL,
+        .image = IMG_MT_EMBER
     }
 };
 

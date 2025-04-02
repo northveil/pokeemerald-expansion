@@ -33,7 +33,16 @@
     "gMapGroup_IndoorRoute113",
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
-    "gMapGroup_IndoorRoute124"
+    "gMapGroup_IndoorRoute124",
+    "gMapGroup_IndoorTwinleaf",
+    "gMapGroup_IndoorSandgem",
+    "gMapGroup_IndoorJubilife",
+    "gMapGroup_IndoorOreburgh",
+    "gMapgroup_IndoorFloaroma",
+    "gMapgroup_IndoorEterna",
+    "gMapGroup_IndoorRoute203",
+    "gMapGroup_IndoorRoute204",
+    "gMapgroup_IndoorRoute205"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -98,7 +107,17 @@
     "Route202",
     "SandgemTown",
     "VerityLakefront",
-    "JubilifeCity"
+    "JubilifeCity",
+    "Route203",
+    "OreburghCity",
+    "Route204",
+    "FloaromaTown",
+    "Route205",
+    "Route205_North",
+    "EternaCity",
+    "Route206",
+    "Route207",
+    "Route208"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -436,7 +455,28 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave"
+    "MeteorFalls_StevensCave",
+    "ValleyWindworks",
+    "ValleyWindworksInside",
+    "EternaForest",
+    "EternaForest_Clearing",
+    "EternaForest_Outside",
+    "FloaromaMeadow",
+    "MtCoronet_207",
+    "MtCoronet_211",
+    "MtCoronet_216",
+    "MtCoronet_2F",
+    "MtCoronet_3F",
+    "MtCoronet_4F",
+    "MtCoronet_5F",
+    "MtCoronet_6F",
+    "MtCoronet_7F",
+    "MtCoronet_B1F",
+    "MtCoronet_SnowArea",
+    "MtCoronet_Top",
+    "MtCoronet_TopCave",
+    "SpearPillar",
+    "WaywardCave_1F"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
@@ -627,5 +667,38 @@
   ],
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
+  ],
+  "gMapGroup_IndoorTwinleaf": [
+
+  ],
+  "gMapGroup_IndoorSandgem": [
+    "SandgemTown_PokemonCenter_1F"
+  ],
+  "gMapGroup_IndoorJubilife": [
+    "JubilifeCity_PokemonCenter1f",
+    "Route218Gate"
+  ],
+  "gMapGroup_IndoorOreburgh": [
+    "OreburghMine1",
+    "OreburghMine2",
+    "OreburghCity_PokemonCenter_1F",
+    "OreburghMuseum"
+  ],
+  "gMapgroup_IndoorFloaroma": [
+    "FloaromaTown_PokemonCenter_1F"
+  ],
+  "gMapgroup_IndoorEterna": [
+    "EternaCity_PokemonCenter_1F",
+    "EternaCity_BikeShop"
+  ],
+  "gMapGroup_IndoorRoute203": [
+    "OreburghGate",
+    "OreburghGate_B2F"
+  ],
+  "gMapGroup_IndoorRoute204": [
+    "RavagedPath"
+  ],
+  "gMapgroup_IndoorRoute205": [
+
   ]
 }

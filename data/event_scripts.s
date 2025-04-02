@@ -1168,3 +1168,91 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/VerityLakefront/scripts.inc"
 
 	.include "data/maps/JubilifeCity/scripts.inc"
+
+	.include "data/maps/JubilifeCity_PokemonCenter1f/scripts.inc"
+
+	.include "data/maps/Route203/scripts.inc"
+
+	.include "data/maps/OreburghGate/scripts.inc"
+
+	.include "data/maps/OreburghGate_B2F/scripts.inc"
+
+	.include "data/maps/OreburghCity/scripts.inc"
+
+	.include "data/maps/OreburghMine1/scripts.inc"
+
+	.include "data/maps/OreburghMine2/scripts.inc"
+
+	.include "data/maps/OreburghCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/SandgemTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/Route204/scripts.inc"
+
+	.include "data/maps/RavagedPath/scripts.inc"
+
+	.include "data/maps/Route218Gate/scripts.inc"
+
+	.include "data/maps/FloaromaTown/scripts.inc"
+
+	.include "data/maps/Route205/scripts.inc"
+
+	.include "data/maps/ValleyWindworks/scripts.inc"
+
+	.include "data/maps/OreburghMuseum/scripts.inc"
+
+	.include "data/maps/ValleyWindworksInside/scripts.inc"
+
+	.include "data/maps/EternaForest/scripts.inc"
+
+	.include "data/maps/EternaForest_Clearing/scripts.inc"
+
+	.include "data/maps/EternaForest_Outside/scripts.inc"
+
+	.include "data/maps/Route205_North/scripts.inc"
+
+	.include "data/maps/EternaCity/scripts.inc"
+
+	.include "data/maps/FloaromaTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/Route206/scripts.inc"
+
+	.include "data/maps/Route207/scripts.inc"
+
+	.include "data/maps/FloaromaMeadow/scripts.inc"
+
+	.include "data/maps/MtCoronet_207/scripts.inc"
+
+	.include "data/maps/MtCoronet_211/scripts.inc"
+
+	.include "data/maps/MtCoronet_216/scripts.inc"
+
+	.include "data/maps/MtCoronet_2F/scripts.inc"
+
+	.include "data/maps/MtCoronet_3F/scripts.inc"
+
+	.include "data/maps/MtCoronet_4F/scripts.inc"
+
+	.include "data/maps/MtCoronet_5F/scripts.inc"
+
+	.include "data/maps/MtCoronet_6F/scripts.inc"
+
+	.include "data/maps/MtCoronet_7F/scripts.inc"
+
+	.include "data/maps/MtCoronet_B1F/scripts.inc"
+
+	.include "data/maps/MtCoronet_SnowArea/scripts.inc"
+
+	.include "data/maps/MtCoronet_Top/scripts.inc"
+
+	.include "data/maps/MtCoronet_TopCave/scripts.inc"
+
+	.include "data/maps/SpearPillar/scripts.inc"
+
+	.include "data/maps/Route208/scripts.inc"
+
+	.include "data/maps/EternaCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/EternaCity_BikeShop/scripts.inc"
+
+	.include "data/maps/WaywardCave_1F/scripts.inc"

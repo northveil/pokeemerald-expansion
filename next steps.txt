@@ -1,0 +1,78 @@
+graphics
+jubilife tileset needs trainer school, 
+oreburgh tileset needs conveyors, diggers, mineshaft, cycling road
+create eterna tileset for eterna, forest, floaroma, windworks
+twinleaf tileset needs rowans lab, sandgem houses, snow trees
+
+scripts
+honey trees
+rock climb
+shops that change depending on badges
+make nurse joy stop the cursed text
+reusable tms
+snow footprints
+
+key for %s 
+map created 5
+map fully tiled 15
+map art started 5
+map art done 10
+center and mart done 10
+nps and signs done 15
+trainers and wild pokemon done 10
+all misc structures done 10
+gym and/or important structures done 10
+story scripts done 10
+
+world
+twinleaf town 5%
+sandgem town 5%
+jubilife city 25%
+oreburgh city 10%
+floaroma town 5%
+eterna city 0%
+hearthome city 0%
+solaceon town 0%
+veilstone city 0%
+pastoria city 0%
+celestic town 0%
+snowpoint city 0%
+sunyshore city 0%
+canalave city 0%
+pokemon league 0%
+
+route 201 10%
+route 202 25%
+route 203 10%
+route 204 10%
+route 205 5%
+route 206 0%
+route 207 0%
+route 208 0%
+route 209 0%
+route 210 0%
+route 211 0%
+route 212 0%
+route 213 0%
+route 214 0%
+route 215 0%
+route 216 0%
+route 217 0%
+route 218 0%
+route 219 0%
+route 220 0%
+route 221 0%
+route 222 0%
+route 223 0%
+route 224 0%
+route 225 0%
+route 226 0%
+route 227 0%
+route 228 0%
+route 229 0%
+route 230 0%
+
+oreburgh gate 20%
+oreburgh mine 20%
+ravaged path 15%
+

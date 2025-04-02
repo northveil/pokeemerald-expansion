@@ -264,6 +264,10 @@
 #define METATILE_InsideShip_IntactDoor_Bottom_Locked    0x233
 #define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x22B
 
+// gTileset_Jubilife
+#define METATILE_Jubilife_Door_PokeCenter  0x2D5
+#define METATILE_Jubilife_Door_PokeMart    0x2F4
+
 // gTileset_Lavaridge
 #define METATILE_Lavaridge_AshGrass             0x207
 #define METATILE_Lavaridge_CaveEntrance_Bottom  0x25E
@@ -369,6 +373,9 @@
 
 // gTileset_MossdeepGym
 #define METATILE_MossdeepGym_YellowArrow_Right  0x250
+
+// gTileset_Oreburgh
+#define METATILE_Oreburgh_Door  0x29D
 
 // gTileset_Pacifidlog
 #define METATILE_Pacifidlog_Door                               0x21A

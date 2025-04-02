@@ -21,7 +21,7 @@ EventScript_PkmnCenterNurse_HealPkmn::
 	waitmessage
 	call EventScript_PkmnCenterNurse_TakeAndHealPkmn
 	goto_if_unset FLAG_POKERUS_EXPLAINED, EventScript_PkmnCenterNurse_CheckPokerus
-	goto EventScript_PkmnCenterNurse_CheckTrainerHillAndUnionRoom
+	@goto EventScript_PkmnCenterNurse_CheckTrainerHillAndUnionRoom
 	end
 
 EventScript_PkmnCenterNurse_IllTakeYourPkmn::

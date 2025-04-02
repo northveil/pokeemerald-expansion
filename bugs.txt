@@ -1,0 +1,2 @@
+sideways stairs go the wrong way
+pokecenter and mart doors dont have animations, might be because they just warp within the same map

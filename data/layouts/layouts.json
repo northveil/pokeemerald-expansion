@@ -4424,30 +4424,30 @@
     {
       "id": "LAYOUT_ROUTE201",
       "name": "Route201_Layout",
-      "width": 42,
-      "height": 22,
+      "width": 60,
+      "height": 24,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/Route201/border.bin",
       "blockdata_filepath": "data/layouts/Route201/map.bin"
     },
     {
       "id": "LAYOUT_SANDGEM_TOWN",
       "name": "SandgemTown_Layout",
-      "width": 32,
+      "width": 34,
       "height": 34,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/SandgemTown/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown/map.bin"
     },
     {
       "id": "LAYOUT_TWINLEAF_TOWN",
       "name": "TwinleafTown_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 24,
+      "height": 30,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/TwinleafTown/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown/map.bin"
     },
@@ -4465,9 +4465,9 @@
       "id": "LAYOUT_ROUTE202",
       "name": "Route202_Layout",
       "width": 32,
-      "height": 32,
+      "height": 28,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Jubilife",
+      "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/Route202/border.bin",
       "blockdata_filepath": "data/layouts/Route202/map.bin"
     },
@@ -4477,19 +4477,459 @@
       "width": 8,
       "height": 12,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/VerityLakefront/border.bin",
       "blockdata_filepath": "data/layouts/VerityLakefront/map.bin"
     },
     {
       "id": "LAYOUT_JUBILIFE_CITY",
       "name": "JubilifeCity_Layout",
-      "width": 72,
-      "height": 68,
+      "width": 76,
+      "height": 70,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/JubilifeCity/border.bin",
       "blockdata_filepath": "data/layouts/JubilifeCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_POKEMON_CENTER1F",
+      "name": "JubilifeCity_PokemonCenter1f_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/JubilifeCity_PokemonCenter1f/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_PokemonCenter1f/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE203",
+      "name": "Route203_Layout",
+      "width": 60,
+      "height": 37,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Jubilife",
+      "border_filepath": "data/layouts/Route203/border.bin",
+      "blockdata_filepath": "data/layouts/Route203/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_GATE",
+      "name": "OreburghGate_Layout",
+      "width": 30,
+      "height": 26,
+      "primary_tileset": "gTileset_Caves",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/OreburghGate/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghGate/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_GATE_B2F",
+      "name": "OreburghGate_B2F_Layout",
+      "width": 66,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/OreburghGate_B2F/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghGate_B2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY",
+      "name": "OreburghCity_Layout",
+      "width": 66,
+      "height": 64,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Oreburgh",
+      "border_filepath": "data/layouts/OreburghCity/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_MINE1",
+      "name": "OreburghMine1_Layout",
+      "width": 21,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/OreburghMine1/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghMine1/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_MINE2",
+      "name": "OreburghMine2_Layout",
+      "width": 35,
+      "height": 35,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/OreburghMine2/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghMine2/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_POKEMON_CENTER_1F",
+      "name": "OreburghCity_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/OreburghCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_POKEMON_CENTER_1F",
+      "name": "SandgemTown_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/SandgemTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE204",
+      "name": "Route204_Layout",
+      "width": 34,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Jubilife",
+      "border_filepath": "data/layouts/Route204/border.bin",
+      "blockdata_filepath": "data/layouts/Route204/map.bin"
+    },
+    {
+      "id": "LAYOUT_RAVAGED_PATH",
+      "name": "RavagedPath_Layout",
+      "width": 22,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RavagedPath/border.bin",
+      "blockdata_filepath": "data/layouts/RavagedPath/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE218GATE",
+      "name": "Route218Gate_Layout",
+      "width": 14,
+      "height": 7,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_MauvilleGameCorner",
+      "border_filepath": "data/layouts/Route218Gate/border.bin",
+      "blockdata_filepath": "data/layouts/Route218Gate/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN",
+      "name": "Floaroma_Town_Layout",
+      "width": 30,
+      "height": 34,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/FloaromaTown/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE205",
+      "name": "Route205_Layout",
+      "width": 32,
+      "height": 86,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/Route205/border.bin",
+      "blockdata_filepath": "data/layouts/Route205/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALLEY_WINDWORKS",
+      "name": "ValleyWindworks_Layout",
+      "width": 26,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/ValleyWindworks/border.bin",
+      "blockdata_filepath": "data/layouts/ValleyWindworks/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_MUSEUM",
+      "name": "OreburghMuseum_Layout",
+      "width": 20,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/OreburghMuseum/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghMuseum/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALLEY_WINDWORKS_INSIDE",
+      "name": "ValleyWindworksInside_Layout",
+      "width": 17,
+      "height": 14,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/ValleyWindworksInside/border.bin",
+      "blockdata_filepath": "data/layouts/ValleyWindworksInside/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_FOREST",
+      "name": "EternaForest_Layout",
+      "width": 82,
+      "height": 82,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/EternaForest/border.bin",
+      "blockdata_filepath": "data/layouts/EternaForest/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_FOREST_CLEARING",
+      "name": "EternaForest_Clearing_Layout",
+      "width": 20,
+      "height": 22,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/EternaForest_Clearing/border.bin",
+      "blockdata_filepath": "data/layouts/EternaForest_Clearing/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_FOREST_OUTSIDE",
+      "name": "EternaForest_Outside_Layout",
+      "width": 42,
+      "height": 42,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/EternaForest_Outside/border.bin",
+      "blockdata_filepath": "data/layouts/EternaForest_Outside/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE205_NORTH",
+      "name": "Route205_North_Layout",
+      "width": 34,
+      "height": 34,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/Route205_North/border.bin",
+      "blockdata_filepath": "data/layouts/Route205_North/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_CITY",
+      "name": "EternaCity_Layout",
+      "width": 64,
+      "height": 60,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/EternaCity/border.bin",
+      "blockdata_filepath": "data/layouts/EternaCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN_POKEMON_CENTER_1F",
+      "name": "FloaromaTown_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/FloaromaTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE206",
+      "name": "Route206_Layout",
+      "width": 38,
+      "height": 126,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Oreburgh",
+      "border_filepath": "data/layouts/Route206/border.bin",
+      "blockdata_filepath": "data/layouts/Route206/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE207",
+      "name": "Route207_Layout",
+      "width": 80,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Oreburgh",
+      "border_filepath": "data/layouts/Route207/border.bin",
+      "blockdata_filepath": "data/layouts/Route207/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_MEADOW",
+      "name": "FloaromaMeadow_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/FloaromaMeadow/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaMeadow/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_207",
+      "name": "MtCoronet_207_Layout",
+      "width": 22,
+      "height": 20,
+      "primary_tileset": "gTileset_Caves",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_207/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_207/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_211",
+      "name": "MtCoronet_211_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_211/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_211/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_216",
+      "name": "MtCoronet_216_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_216/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_216/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_2F",
+      "name": "MtCoronet_2F_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_2F/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_3F",
+      "name": "MtCoronet_3F_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_3F/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_4F",
+      "name": "MtCoronet_4F_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_4F/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_4F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_5F",
+      "name": "MtCoronet_5F_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_5F/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_5F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_6F",
+      "name": "MtCoronet_6F_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_6F/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_6F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_7F",
+      "name": "MtCoronet_7F_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_7F/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_7F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_B1F",
+      "name": "MtCoronet_B1F_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_SNOW_AREA",
+      "name": "MtCoronet_SnowArea_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_SnowArea/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_SnowArea/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_TOP",
+      "name": "MtCoronet_Top_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_Top/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_Top/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_CORONET_TOP_CAVE",
+      "name": "MtCoronet_TopCave_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MtCoronet_TopCave/border.bin",
+      "blockdata_filepath": "data/layouts/MtCoronet_TopCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPEAR_PILLAR",
+      "name": "SpearPillar_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SpearPillar/border.bin",
+      "blockdata_filepath": "data/layouts/SpearPillar/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE208",
+      "name": "Route208_Layout",
+      "width": 40,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/Route208/border.bin",
+      "blockdata_filepath": "data/layouts/Route208/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_CITY_POKEMON_CENTER_1F",
+      "name": "EternaCity_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/EternaCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/EternaCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_CITY_BIKE_SHOP",
+      "name": "EternaCity_BikeShop_Layout",
+      "width": 10,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BikeShop",
+      "border_filepath": "data/layouts/EternaCity_BikeShop/border.bin",
+      "blockdata_filepath": "data/layouts/EternaCity_BikeShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_WAYWARD_CAVE_1F",
+      "name": "WaywardCave_1F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Caves",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/WaywardCave_1F/border.bin",
+      "blockdata_filepath": "data/layouts/WaywardCave_1F/map.bin"
     }
   ]
 }

@@ -43,6 +43,7 @@ static void TilesetAnim_MauvilleGym(u16);
 static void TilesetAnim_BikeShop(u16);
 static void TilesetAnim_BattlePyramid(u16);
 static void TilesetAnim_BattleDome(u16);
+static void TilesetAnim_Jubilife(u16);
 static void QueueAnimTiles_General_Flower(u16);
 static void QueueAnimTiles_General_Water(u16);
 static void QueueAnimTiles_General_SandWaterEdge(u16);
@@ -73,6 +74,7 @@ static void QueueAnimTiles_MauvilleGym_ElectricGates(u16);
 static void QueueAnimTiles_SootopolisGym_Waterfalls(u16);
 static void QueueAnimTiles_EliteFour_GroundLights(u16);
 static void QueueAnimTiles_EliteFour_WallLights(u16);
+static void QueueAnimTiles_Jubilife_Fountain(u16);
 
 const u16 gTilesetAnims_General_Flower_Frame1[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/1.4bpp");
 const u16 gTilesetAnims_General_Flower_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/0.4bpp");
@@ -525,6 +527,14 @@ const u16 tileset_anims_space_11[224] = {};
 
 const u16 gTilesetAnims_Unused2_Frame1[] = INCBIN_U16("data/tilesets/secondary/unused_2/1.4bpp");
 
+const u16 gTilesetAnims_Jubilife_fountain_Frame0[] = INCBIN_U16("data/tilesets/secondary/jubilife/anim/fountain/0.4bpp");
+const u16 gTilesetAnims_Jubilife_fountain_Frame1[] = INCBIN_U16("data/tilesets/secondary/jubilife/anim/fountain/1.4bpp");
+
+const u16 *const gTilesetAnims_Jubilife_Fountain[] = {
+    gTilesetAnims_Jubilife_fountain_Frame0,
+    gTilesetAnims_Jubilife_fountain_Frame1
+};
+
 const u16 *const gTilesetAnims_BattlePyramid_Torch[] = {
     gTilesetAnims_BattlePyramid_Torch_Frame0,
     gTilesetAnims_BattlePyramid_Torch_Frame1,
@@ -647,6 +657,12 @@ static void TilesetAnim_Building(u16 timer)
 {
     if (timer % 8 == 0)
         QueueAnimTiles_Building_TVTurnedOn(timer / 8);
+}
+
+static void TilesetAnim_Jubilife(u16 timer)
+{
+    if (timer % 8 == 0)
+        QueueAnimTiles_Jubilife_Fountain(timer/8);
 }
 
 static void QueueAnimTiles_General_Flower(u16 timer)
@@ -832,6 +848,13 @@ void InitTilesetAnim_BattleDome(void)
     sSecondaryTilesetAnimCounter = 0;
     sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
     sSecondaryTilesetAnimCallback = TilesetAnim_BattleDome;
+}
+
+void InitTilesetAnim_Jubilife(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = TilesetAnim_Jubilife;
 }
 
 static void TilesetAnim_Rustboro(u16 timer)
@@ -1061,6 +1084,12 @@ static void QueueAnimTiles_Slateport_Balloons(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_Slateport_Balloons);
     AppendTilesetAnimToBuffer(gTilesetAnims_Slateport_Balloons[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(NUM_TILES_IN_PRIMARY + 224)), 4 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles_Jubilife_Fountain(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_Jubilife_Fountain);
+    AppendTilesetAnimToBuffer(gTilesetAnims_Jubilife_Fountain[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(NUM_TILES_IN_PRIMARY + 448)), 4 * TILE_SIZE_4BPP);
 }
 
 static void TilesetAnim_MauvilleGym(u16 timer)
