@@ -360,8 +360,15 @@ bool8 CheckForTrainersWantingBattle(void)
 {
     u8 i;
 
+<<<<<<< HEAD
     if (FlagGet(OW_FLAG_NO_TRAINER_SEE))
         return FALSE;
+=======
+#if TX_DEBUG_SYSTEM_ENABLE == TRUE
+    if (FlagGet(FLAG_SYS_NO_TRAINER_SEE))
+        return FALSE;
+#endif
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 
     gNoOfApproachingTrainers = 0;
     gApproachingTrainerId = 0;

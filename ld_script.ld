@@ -106,6 +106,11 @@ SECTIONS {
         src/random.o(.text);
         src/util.o(.text);
         src/daycare.o(.text);
+<<<<<<< HEAD:ld_script.ld
+=======
+        src/debug.o(.text);
+        src/debug_pokemon_creator.o(.text);
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f:ld_script.txt
         src/egg_hatch.o(.text);
         src/battle_interface.o(.text);
         src/battle_anim_smokescreen.o(.text);
@@ -493,6 +498,11 @@ SECTIONS {
         src/trig.o(.rodata);
         src/util.o(.rodata);
         src/daycare.o(.rodata);
+<<<<<<< HEAD:ld_script.ld
+=======
+        src/debug.o(.rodata);
+        src/debug_pokemon_creator.o(.rodata);
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f:ld_script.txt
         src/egg_hatch.o(.rodata);
         src/battle_gfx_sfx_util.o(.rodata);
         src/battle_interface.o(.rodata);

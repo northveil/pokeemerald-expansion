@@ -1639,10 +1639,22 @@ static void FieldTask_ReturnToPcMenu(void)
     MainCallback vblankCb = gMain.vblankCallback;
 
     SetVBlankCallback(NULL);
+<<<<<<< HEAD
     taskId = CreateTask(Task_PCMainMenu, 80);
     gTasks[taskId].tState = 0;
     gTasks[taskId].tSelectedOption = sPreviousBoxOption;
     Task_PCMainMenu(taskId);
+=======
+    if (!FlagGet(FLAG_SYS_PC_FROM_DEBUG_MENU)) {
+        taskId = CreateTask(Task_PCMainMenu, 80);
+        gTasks[taskId].tState = 0;
+        gTasks[taskId].tSelectedOption = sPreviousBoxOption;
+        Task_PCMainMenu(taskId);
+    } else {
+        FlagClear(FLAG_SYS_PC_FROM_DEBUG_MENU);
+        ScriptContext_Enable();
+    }
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
     SetVBlankCallback(vblankCb);
     FadeInFromBlack();
 }

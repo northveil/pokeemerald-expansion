@@ -350,7 +350,11 @@ void DoStandardWildBattle_Debug(void)
     gBattleTypeFlags = 0;
     if (InBattlePyramid())
     {
+<<<<<<< HEAD
         VarSet(VAR_TEMP_PLAYING_PYRAMID_MUSIC, 0);
+=======
+        VarSet(VAR_TEMP_E, 0);
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
         gBattleTypeFlags |= BATTLE_TYPE_PYRAMID;
     }
     CreateBattleStartTask_Debug(GetWildBattleTransition(), 0);
@@ -1225,6 +1229,7 @@ void BattleSetup_StartTrainerBattle_Debug(void)
     ScriptContext_Stop();
 }
 
+<<<<<<< HEAD
 static void SaveChangesToPlayerParty(void)
 {
     u8 i = 0, j = 0;
@@ -1248,6 +1253,8 @@ static void HandleBattleVariantEndParty(void)
     FlagClear(B_FLAG_SKY_BATTLE);
 }
 
+=======
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 static void CB2_EndTrainerBattle(void)
 {
     HandleBattleVariantEndParty();

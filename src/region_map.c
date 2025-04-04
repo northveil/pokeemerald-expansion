@@ -2016,6 +2016,7 @@ static void CB_ExitFlyMap(void)
     }
 }
 
+<<<<<<< HEAD
 u32 FilterFlyDestination(struct RegionMap* regionMap)
 {
     switch (regionMap->mapSecId)
@@ -2045,3 +2046,39 @@ void SetFlyDestination(struct RegionMap* regionMap)
     else
         SetWarpDestinationToMapWarp(sMapHealLocations[regionMap->mapSecId][0], sMapHealLocations[regionMap->mapSecId][1], WARP_ID_NONE);
 }
+=======
+// added 7/23/21, luma~
+u8* GetMapName_HandleVersion(u8* dest, u16 mapsec, u8 version) {
+	switch (version)
+    {
+	default:
+		if ((mapsec & 255) == METLOC_SPECIAL_EGG) {
+			return StringCopy(dest, gRegionMapEntries[214].name);
+		}
+		else if ((mapsec & 255) == METLOC_IN_GAME_TRADE) {
+			return StringCopy(dest, gRegionMapEntries[215].name);
+		}
+		else if ((mapsec & 255) == METLOC_FATEFUL_ENCOUNTER) {
+			return StringCopy(dest, gRegionMapEntries[216].name);
+		}
+		else {
+			return GetMapNameGeneric(dest, mapsec & 255);
+		}
+		// TODO: expand R/S Aqua Hideout placeholder
+	case 1 ... 6: // R/S/E/FR/LG/WB
+		if (mapsec == 253) {
+			return StringCopy(dest, gRegionMapEntries[214].name);
+		}
+		else if (mapsec == 254) {
+			return StringCopy(dest, gRegionMapEntries[215].name);
+		}
+		else if (mapsec == 255) {
+			return StringCopy(dest, gRegionMapEntries[216].name);
+		}
+		else if (mapsec < 213) {
+			return StringCopy(dest, gRegionMapEntries[mapsec].name);
+		}
+		// TODO: expand R/S Aqua Hideout placeholder
+    }
+}
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f

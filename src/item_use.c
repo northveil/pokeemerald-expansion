@@ -1123,7 +1123,19 @@ static const u8 sText_CantThrowPokeBall_SemiInvulnerable[] = _("Cannot throw a b
 static const u8 sText_CantThrowPokeBall_Disabled[] = _("POKé BALLS cannot be used\nright now!\p");
 void ItemUseInBattle_PokeBall(u8 taskId)
 {
+<<<<<<< HEAD
     switch (GetBallThrowableState())
+=======
+#if TX_DEBUG_SYSTEM_ENABLE == TRUE
+    if (FlagGet(FLAG_SYS_NO_CATCHING)){
+        static const u8 sText_BallsCannotBeUsed[] = _("Poké Balls cannot be used\nright now!\p");
+        DisplayItemMessage(taskId, 1, sText_BallsCannotBeUsed, CloseItemMessage);
+        return;
+    }
+#endif
+
+    if (IsPlayerPartyAndPokemonStorageFull() == FALSE) // have room for mon?
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
     {
     case BALL_THROW_ABLE:
     default:

@@ -62,10 +62,15 @@
 #include "constants/songs.h"
 #include "constants/trainer_slide.h"
 #include "constants/trainers.h"
+<<<<<<< HEAD
 #include "battle_util.h"
 #include "constants/pokemon.h"
 #include "config/battle.h"
 #include "data/battle_move_effects.h"
+=======
+#include "constants/flags.h"
+#include "debug.h"
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 
 // table to avoid ugly powing on gba (courtesy of doesnt)
 // this returns (i^2.5)/4
@@ -2504,8 +2509,18 @@ static void DoublesHPBarReduction(void)
 
 static void Cmd_healthbarupdate(void)
 {
+<<<<<<< HEAD
     CMD_ARGS(u8 battler);
     u32 battler = GetBattlerForBattleScript(cmd->battler);
+=======
+#if TX_DEBUG_SYSTEM_ENABLE == TRUE
+    u8 side = GetBattlerSide(gBattlerTarget);
+    if (FlagGet(FLAG_SYS_NO_BATTLE_DMG) && side == B_SIDE_PLAYER)
+    {
+        gMoveResultFlags |= MOVE_RESULT_NO_EFFECT;
+    }
+#endif
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 
     if (gBattleControllerExecFlags)
         return;

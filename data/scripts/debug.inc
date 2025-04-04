@@ -4,10 +4,13 @@ Debug_MessageEnd:
 	releaseall
 	end
 
+<<<<<<< HEAD
 Debug_ShowFieldMessageStringVar4::
 	special ShowFieldMessageStringVar4
 	goto Debug_MessageEnd
 
+=======
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 Debug_CheatStart::
 	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_RESCUED_BIRCH
@@ -23,7 +26,11 @@ Debug_CheatStart::
 	setflag FLAG_SYS_POKEDEX_GET
 	special SetUnlockedPokedexFlags
 	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+<<<<<<< HEAD
 	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 2
+=======
+	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
 	setflag FLAG_RECEIVED_RUNNING_SHOES
@@ -66,6 +73,10 @@ Debug_CheatStart::
 	setflag FLAG_LANDMARK_BATTLE_FRONTIER
 	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+<<<<<<< HEAD
+=======
+	closemessage
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 	release
 	end
 

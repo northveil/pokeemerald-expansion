@@ -149,4 +149,9 @@
 	.include "src/faraway_island.o"
 	.include "src/trainer_hill.o"
 	.include "src/rayquaza_scene.o"
+<<<<<<< HEAD
 	.include "src/map_preview_screen.o"
+=======
+	.include "src/debug.o"
+	.include "src/debug_pokemon_creator.o"
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f

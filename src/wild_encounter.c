@@ -1113,6 +1113,7 @@ static void ApplyCleanseTagEncounterRateMod(u32 *encRate)
         *encRate = *encRate * 2 / 3;
 }
 
+<<<<<<< HEAD
 bool8 TryDoDoubleWildBattle(void)
 {
     if (GetSafariZoneFlag()
@@ -1125,6 +1126,8 @@ bool8 TryDoDoubleWildBattle(void)
     return FALSE;
 }
 
+=======
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 bool8 StandardWildEncounter_Debug(void)
 {
     u16 headerId = GetCurrentMapWildMonHeaderId();
@@ -1132,6 +1135,7 @@ bool8 StandardWildEncounter_Debug(void)
         return FALSE;
 
     DoStandardWildBattle_Debug();
+<<<<<<< HEAD
     return TRUE;
 }
 
@@ -1154,4 +1158,6 @@ u8 ChooseHiddenMonIndex(void)
 bool32 MapHasNoEncounterData(void)
 {
     return (GetCurrentMapWildMonHeaderId() == HEADER_NONE);
+=======
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 }

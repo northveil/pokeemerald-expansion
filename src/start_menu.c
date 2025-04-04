@@ -203,8 +203,12 @@ static const struct MenuAction sStartMenuItems[] =
     [MENU_ACTION_REST_FRONTIER]   = {gText_MenuRest,    {.u8_void = StartMenuSaveCallback}},
     [MENU_ACTION_RETIRE_FRONTIER] = {gText_MenuRetire,  {.u8_void = StartMenuBattlePyramidRetireCallback}},
     [MENU_ACTION_PYRAMID_BAG]     = {gText_MenuBag,     {.u8_void = StartMenuBattlePyramidBagCallback}},
+<<<<<<< HEAD
     [MENU_ACTION_DEBUG]           = {sText_MenuDebug,   {.u8_void = StartMenuDebugCallback}},
     [MENU_ACTION_DEXNAV]          = {gText_MenuDexNav,  {.u8_void = StartMenuDexNavCallback}},
+=======
+    [MENU_ACTION_DEBUG]           = {gText_MenuDebug,   {.u8_void = StartMenuDebugCallback}}
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 };
 
 static const struct BgTemplate sBgTemplates_LinkBattleSave[] =
@@ -316,10 +320,18 @@ static void BuildStartMenuActions(void)
     }
     else
     {
+<<<<<<< HEAD
         if (DEBUG_OVERWORLD_MENU == TRUE && DEBUG_OVERWORLD_IN_MENU == TRUE)
             BuildDebugStartMenu();
         else
             BuildNormalStartMenu();
+=======
+    #if defined(TX_DEBUG_SYSTEM_ENABLE) && TX_DEBUG_SYSTEM_IN_MENU
+        BuildDebugStartMenu();
+    #else
+        BuildNormalStartMenu();
+    #endif
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
     }
 }
 
@@ -790,11 +802,18 @@ static bool8 StartMenuDebugCallback(void)
     RemoveExtraStartMenuWindows();
     HideStartMenuDebug(); // Hide start menu without enabling movement
 
+<<<<<<< HEAD
     if (DEBUG_OVERWORLD_MENU)
     {
         FreezeObjectEvents();
         Debug_ShowMainMenu();
     }
+=======
+#if TX_DEBUG_SYSTEM_ENABLE == TRUE
+    FreezeObjectEvents();
+    Debug_ShowMainMenu();
+#endif
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 
 return TRUE;
 }

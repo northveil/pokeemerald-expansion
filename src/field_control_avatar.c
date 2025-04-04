@@ -146,6 +146,7 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
     else if (heldKeys & DPAD_RIGHT)
         input->dpadDirection = DIR_EAST;
 
+<<<<<<< HEAD
     if(DEBUG_OVERWORLD_MENU && !DEBUG_OVERWORLD_IN_MENU)
     {
         if ((heldKeys & DEBUG_OVERWORLD_HELD_KEYS) && input->DEBUG_OVERWORLD_TRIGGER_EVENT)
@@ -154,6 +155,15 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
             input->DEBUG_OVERWORLD_TRIGGER_EVENT = FALSE;
         }
     }
+=======
+#if TX_DEBUG_SYSTEM_ENABLE == TRUE && TX_DEBUG_SYSTEM_IN_MENU == FALSE
+    if ((heldKeys & TX_DEBUG_SYSTEM_HELD_KEYS) && input->TX_DEBUG_SYSTEM_TRIGGER_EVENT)
+    {
+        input->input_field_1_2 = TRUE;
+        input->TX_DEBUG_SYSTEM_TRIGGER_EVENT = FALSE;
+    }
+#endif
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 }
 
 int ProcessPlayerFieldInput(struct FieldInput *input)
@@ -236,13 +246,22 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
     if (input->pressedRButton && TryStartDexNavSearch())
         return TRUE;
 
+<<<<<<< HEAD
     if(input->input_field_1_2 && DEBUG_OVERWORLD_MENU && !DEBUG_OVERWORLD_IN_MENU)
+=======
+#if TX_DEBUG_SYSTEM_ENABLE == TRUE && TX_DEBUG_SYSTEM_IN_MENU == FALSE
+    if (input->input_field_1_2)
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
     {
         PlaySE(SE_WIN_OPEN);
         FreezeObjectEvents();
         Debug_ShowMainMenu();
         return TRUE;
     }
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 
     return FALSE;
 }
@@ -792,8 +811,15 @@ void RestartWildEncounterImmunitySteps(void)
 
 static bool8 CheckStandardWildEncounter(u16 metatileBehavior)
 {
+<<<<<<< HEAD
     if (FlagGet(OW_FLAG_NO_ENCOUNTER))
         return FALSE;
+=======
+    #if TX_DEBUG_SYSTEM_ENABLE == TRUE
+    if (FlagGet(FLAG_SYS_NO_ENCOUNTER))
+        return FALSE;
+    #endif
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 
     if (sWildEncounterImmunitySteps < 4)
     {
@@ -811,12 +837,15 @@ static bool8 CheckStandardWildEncounter(u16 metatileBehavior)
 
     sPrevMetatileBehavior = metatileBehavior;
     return FALSE;
+<<<<<<< HEAD
 }
 
 static void StorePlayerStateAndSetupWarp(struct MapPosition *position, s32 warpEventId)
 {
     StoreInitialPlayerAvatarState();
     SetupWarp(&gMapHeader, warpEventId, position);
+=======
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 }
 
 static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, u8 direction)

@@ -79,7 +79,10 @@ static void EncryptBoxMon(struct BoxPokemon *boxMon);
 static void DecryptBoxMon(struct BoxPokemon *boxMon);
 static void Task_PlayMapChosenOrBattleBGM(u8 taskId);
 static bool8 ShouldSkipFriendshipChange(void);
+<<<<<<< HEAD
 void TrySpecialOverworldEvo();
+=======
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 
 EWRAM_DATA static u8 sLearningMoveTableID = 0;
 EWRAM_DATA u8 gPlayerPartyCount = 0;
@@ -3342,7 +3345,11 @@ u8 GiveMonToPlayer(struct Pokemon *mon)
     return MON_GIVEN_TO_PARTY;
 }
 
+<<<<<<< HEAD
 u8 CopyMonToPC(struct Pokemon *mon)
+=======
+u8 SendMonToPC(struct Pokemon* mon)
+>>>>>>> 4f6139360b9cdb2352d392655e6eabaceba1512f
 {
     s32 boxNo, boxPos;
 
