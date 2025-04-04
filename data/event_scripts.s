@@ -1256,3 +1256,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/EternaCity_BikeShop/scripts.inc"
 
 	.include "data/maps/WaywardCave_1F/scripts.inc"
+
+	.include "data/maps/WaywardCave_B1F/scripts.inc"
+
+	.include "data/maps/LakeVerity/scripts.inc"
+
+	.include "data/maps/Route211West/scripts.inc"

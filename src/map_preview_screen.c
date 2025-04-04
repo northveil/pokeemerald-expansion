@@ -156,7 +156,7 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] = {
         .image = IMG_VICTORY_ROAD
     },
     [MPS_CERULEAN_CAVE] = {
-        .mapsec = MAPSEC_WAYWARD_CAVE,
+        .mapsec = MAPSEC_SCORCHED_SLAB,
         .type = MPS_TYPE_CAVE,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_CERULEAN_CAVE

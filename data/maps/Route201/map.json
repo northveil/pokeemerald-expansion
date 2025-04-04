@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_TWINLEAF_TOWN",
-      "offset": 6,
+      "offset": 2,
       "direction": "down"
     },
     {
@@ -33,7 +33,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 11,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

@@ -1,5 +1,6 @@
 {
   "group_order": [
+    "gMapGroup_SinnohTownsAndRoutes",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -25,6 +26,8 @@
     "gMapGroup_IndoorRoute117",
     "gMapGroup_IndoorRoute121",
     "gMapGroup_Dungeons",
+    "gMapGroup_SinnohDungeons",
+    "gMapGroup_GreatUnderground",
     "gMapGroup_IndoorDynamic",
     "gMapGroup_SpecialArea",
     "gMapGroup_IndoorRoute104Prototype",
@@ -43,6 +46,25 @@
     "gMapGroup_IndoorRoute203",
     "gMapGroup_IndoorRoute204",
     "gMapgroup_IndoorRoute205"
+  ],
+  "gMapGroup_SinnohTownsAndRoutes": [
+    "TwinleafTown",
+    "SandgemTown",
+    "JubilifeCity",
+    "OreburghCity",
+    "FloaromaTown",
+    "EternaCity",
+    "Route202",
+    "Route201",
+    "Route203",
+    "Route204",
+    "Route205",
+    "Route205_North",
+    "Route206",
+    "Route207",
+    "Route208",
+    "VerityLakefront",
+    "Route211West"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -101,23 +123,7 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125",
-    "Route201",
-    "TwinleafTown",
-    "Route202",
-    "SandgemTown",
-    "VerityLakefront",
-    "JubilifeCity",
-    "Route203",
-    "OreburghCity",
-    "Route204",
-    "FloaromaTown",
-    "Route205",
-    "Route205_North",
-    "EternaCity",
-    "Route206",
-    "Route207",
-    "Route208"
+    "Underwater_Route125"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -455,7 +461,10 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave",
+    "MeteorFalls_StevensCave"
+  ],
+  "gMapGroup_SinnohDungeons": [
+    "LakeVerity",
     "ValleyWindworks",
     "ValleyWindworksInside",
     "EternaForest",
@@ -476,7 +485,11 @@
     "MtCoronet_Top",
     "MtCoronet_TopCave",
     "SpearPillar",
-    "WaywardCave_1F"
+    "WaywardCave_1F",
+    "WaywardCave_B1F"
+  ],
+  "gMapGroup_GreatUnderground": [
+
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

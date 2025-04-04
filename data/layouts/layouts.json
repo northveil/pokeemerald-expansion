@@ -4444,8 +4444,8 @@
     {
       "id": "LAYOUT_TWINLEAF_TOWN",
       "name": "TwinleafTown_Layout",
-      "width": 24,
-      "height": 30,
+      "width": 32,
+      "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/TwinleafTown/border.bin",
@@ -4705,7 +4705,7 @@
       "id": "LAYOUT_ETERNA_CITY",
       "name": "EternaCity_Layout",
       "width": 64,
-      "height": 60,
+      "height": 62,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/EternaCity/border.bin",
@@ -4766,7 +4766,7 @@
       "name": "MtCoronet_211_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Caves",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/MtCoronet_211/border.bin",
       "blockdata_filepath": "data/layouts/MtCoronet_211/map.bin"
@@ -4930,6 +4930,36 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/WaywardCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/WaywardCave_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_WAYWARD_CAVE_B1F",
+      "name": "WaywardCave_B1F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/WaywardCave_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/WaywardCave_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_VERITY",
+      "name": "LakeVerity_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Twinleaf",
+      "border_filepath": "data/layouts/LakeVerity/border.bin",
+      "blockdata_filepath": "data/layouts/LakeVerity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE211WEST",
+      "name": "Route211West_Layout",
+      "width": 36,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/Route211West/border.bin",
+      "blockdata_filepath": "data/layouts/Route211West/map.bin"
     }
   ]
 }

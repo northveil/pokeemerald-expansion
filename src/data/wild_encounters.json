@@ -11213,17 +11213,17 @@
               {
                 "min_level": 4,
                 "max_level": 7,
-                "species": "SPECIES_EEVEE"
+                "species": "SPECIES_BURMY_TRASH"
               },
               {
                 "min_level": 4,
                 "max_level": 7,
-                "species": "SPECIES_EEVEE"
+                "species": "SPECIES_PIDOVE"
               },
               {
                 "min_level": 4,
                 "max_level": 7,
-                "species": "SPECIES_EEVEE"
+                "species": "SPECIES_PIDOVE"
               },
               {
                 "min_level": 4,
@@ -11233,7 +11233,7 @@
               {
                 "min_level": 5,
                 "max_level": 7,
-                "species": "SPECIES_EEVEE"
+                "species": "SPECIES_KLEFKI"
               }
             ]
           }
@@ -11277,17 +11277,17 @@
               {
                 "min_level": 3,
                 "max_level": 6,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_MEOWTH"
               },
               {
                 "min_level": 3,
                 "max_level": 6,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_SNUBBULL"
               },
               {
                 "min_level": 3,
                 "max_level": 6,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_TAILLOW"
               },
               {
                 "min_level": 3,
@@ -11584,17 +11584,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_KRICKETOT"
+                "species": "SPECIES_ZUBAT"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_KRICKETOT"
+                "species": "SPECIES_ODDISH"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_KRICKETOT"
+                "species": "SPECIES_ODDISH"
               },
               {
                 "min_level": 5,
@@ -13049,6 +13049,70 @@
                 "min_level": 5,
                 "max_level": 5,
                 "species": "SPECIES_NONE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ROUTE211WEST",
+          "base_label": "gRoute211West0",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MEDITITE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MACHOP"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PONYTA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CHINGLING"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_TYROGUE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MIENFOO"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MIENFOO"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SWABLU"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SWABLU"
               }
             ]
           }
