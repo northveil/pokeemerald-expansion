@@ -265,7 +265,7 @@ const u8 gToxtricityGigantamaxPokedexText[] = _(
     "across the land in a rampage,\n"
     "contaminating the earth with toxic sweat.");
 
-// Gen 9 families
+//  families
 const u8 gOgerponTealMaskPokedexText[] = _(
     "This Pokémon's type changes based on\n"
     "which mask it's wearing. It confounds\n"

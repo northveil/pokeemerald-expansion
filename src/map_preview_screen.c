@@ -193,7 +193,7 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] = {
     },
     [MPS_BERRY_FOREST] = {
         .mapsec = MAPSEC_ETERNA_FOREST_CLEARING,
-        .type = MPS_TYPE_BASIC,
+        .type = MPS_TYPE_FADE_IN,
         .flagId = MPS_FLAG_NULL,
         .image = IMG_BERRY_FOREST
     },

@@ -1262,3 +1262,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/LakeVerity/scripts.inc"
 
 	.include "data/maps/Route211West/scripts.inc"
+
+	.include "data/maps/FuegoIronworks/scripts.inc"

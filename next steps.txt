@@ -1,7 +1,8 @@
 graphics
 jubilife tileset needs trainer school, 
 oreburgh tileset needs conveyors, diggers, mineshaft, cycling road
-create eterna tileset for eterna, forest, floaroma, windworks
+floaroma tileset needs flower shop, houses, windworks, ironworks
+eterna tileset needs buildings, statue,
 twinleaf tileset needs rowans lab, sandgem houses, snow trees
 
 scripts

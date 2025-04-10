@@ -4585,7 +4585,7 @@
       "id": "LAYOUT_ROUTE204",
       "name": "Route204_Layout",
       "width": 34,
-      "height": 60,
+      "height": 58,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/Route204/border.bin",
@@ -4615,9 +4615,9 @@
       "id": "LAYOUT_FLOAROMA_TOWN",
       "name": "Floaroma_Town_Layout",
       "width": 30,
-      "height": 34,
+      "height": 56,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Eterna",
+      "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/FloaromaTown/border.bin",
       "blockdata_filepath": "data/layouts/FloaromaTown/map.bin"
     },
@@ -4627,7 +4627,7 @@
       "width": 32,
       "height": 86,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Eterna",
+      "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/Route205/border.bin",
       "blockdata_filepath": "data/layouts/Route205/map.bin"
     },
@@ -4637,7 +4637,7 @@
       "width": 26,
       "height": 24,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Eterna",
+      "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/ValleyWindworks/border.bin",
       "blockdata_filepath": "data/layouts/ValleyWindworks/map.bin"
     },
@@ -4684,8 +4684,8 @@
     {
       "id": "LAYOUT_ETERNA_FOREST_OUTSIDE",
       "name": "EternaForest_Outside_Layout",
-      "width": 42,
-      "height": 42,
+      "width": 50,
+      "height": 46,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/EternaForest_Outside/border.bin",
@@ -4705,7 +4705,7 @@
       "id": "LAYOUT_ETERNA_CITY",
       "name": "EternaCity_Layout",
       "width": 64,
-      "height": 62,
+      "height": 66,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/EternaCity/border.bin",
@@ -4744,8 +4744,8 @@
     {
       "id": "LAYOUT_FLOAROMA_MEADOW",
       "name": "FloaromaMeadow_Layout",
-      "width": 40,
-      "height": 40,
+      "width": 60,
+      "height": 60,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/FloaromaMeadow/border.bin",
@@ -4960,6 +4960,16 @@
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/Route211West/border.bin",
       "blockdata_filepath": "data/layouts/Route211West/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUEGO_IRONWORKS",
+      "name": "FuegoIronworks_Layout",
+      "width": 34,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Floaroma",
+      "border_filepath": "data/layouts/FuegoIronworks/border.bin",
+      "blockdata_filepath": "data/layouts/FuegoIronworks/map.bin"
     }
   ]
 }

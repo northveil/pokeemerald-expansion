@@ -4780,6 +4780,15 @@ Route134_Text_HudsonPostBattle:
 	.string "My buddy's a timid fellow, so I'm\n"
 	.string "worried about him.$"
 
+Route202_Text_NatalieIntro:
+	.string "Let's Battle!$"
+
+Route202_Text_NatalieDefeated:
+	.string "I lost!$"
+
+Route202_Text_NataliePostBattle:
+	.string "You're Strong!$"
+
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
 	.string "The battery isn't charged enough.\p"
 	.string "No. of steps required to fully\n"

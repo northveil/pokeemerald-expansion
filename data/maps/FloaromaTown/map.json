@@ -15,20 +15,25 @@
   "connections": [
     {
       "map": "MAP_ROUTE205",
-      "offset": -54,
+      "offset": -36,
       "direction": "right"
     },
     {
       "map": "MAP_ROUTE204",
       "offset": 0,
       "direction": "down"
+    },
+    {
+      "map": "MAP_FUEGO_IRONWORKS",
+      "offset": -4,
+      "direction": "up"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_POKE_BALL",
       "x": 11,
-      "y": 21,
+      "y": 39,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -42,21 +47,21 @@
   "warp_events": [
     {
       "x": 16,
-      "y": 27,
+      "y": 47,
       "elevation": 0,
       "dest_map": "MAP_FLOAROMA_TOWN_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 2,
-      "y": 3,
+      "y": 23,
       "elevation": 0,
       "dest_map": "MAP_FLOAROMA_MEADOW",
       "dest_warp_id": "0"
     },
     {
       "x": 3,
-      "y": 3,
+      "y": 23,
       "elevation": 0,
       "dest_map": "MAP_FLOAROMA_MEADOW",
       "dest_warp_id": "1"

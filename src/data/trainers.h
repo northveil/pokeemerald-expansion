@@ -42178,3 +42178,37 @@ F_TRAINER_FEMALE |
             },
         },
     },
+#line 16879
+    [DIFFICULTY_NORMAL][TRAINER_NATALIE] =
+    {
+#line 16880
+        .trainerName = _("NATALIE"),
+#line 16881
+        .trainerClass = TRAINER_CLASS_LASS,
+#line 16882
+        .trainerPic = TRAINER_PIC_LASS,
+        .encounterMusic_gender =
+#line 16883
+F_TRAINER_FEMALE | 
+#line 16884
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 16885
+        .doubleBattle = FALSE,
+#line 16886
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .partySize = 1,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 16888
+            .species = SPECIES_BIDOOF,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16890
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 16889
+            .lvl = 5,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+        },
+    },

@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_FLOAROMA_TOWN",
-      "offset": 54,
+      "offset": 36,
       "direction": "left"
     },
     {
@@ -25,8 +25,13 @@
     },
     {
       "map": "MAP_ETERNA_FOREST_OUTSIDE",
-      "offset": 22,
+      "offset": 14,
       "direction": "up"
+    },
+    {
+      "map": "MAP_FUEGO_IRONWORKS",
+      "offset": -4,
+      "direction": "left"
     }
   ],
   "object_events": [
