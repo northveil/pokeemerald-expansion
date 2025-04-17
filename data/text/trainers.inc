@@ -4788,6 +4788,24 @@ Route202_Text_NatalieDefeated:
 
 Route202_Text_NataliePostBattle:
 	.string "You're Strong!$"
+	
+Route202_Text_TristanIntro:
+	.string "Let's Battle!$"
+
+Route202_Text_TristanDefeated:
+	.string "I lost!$"
+
+Route202_Text_TristanPostBattle:
+	.string "You're Strong!$"
+	
+Route202_Text_LoganIntro:
+	.string "Let's Battle!$"
+
+Route202_Text_LoganDefeated:
+	.string "I lost!$"
+
+Route202_Text_LoganPostBattle:
+	.string "You're Strong!$"
 
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
 	.string "The battery isn't charged enough.\p"

@@ -1264,3 +1264,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route211West/scripts.inc"
 
 	.include "data/maps/FuegoIronworks/scripts.inc"
+
+	.include "data/maps/OreburghCity_Gym/scripts.inc"

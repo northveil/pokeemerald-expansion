@@ -18,10 +18,10 @@
   ],
   "warp_events": [
     {
-      "x": 10,
-      "y": 6,
+      "x": 17,
+      "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE206",
+      "dest_map": "MAP_WAYWARD_CAVE_1F",
       "dest_warp_id": "1"
     }
   ],

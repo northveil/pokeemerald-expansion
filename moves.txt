@@ -1,0 +1,115 @@
+tms:
+1  focus punch oreburgh gate (tbc)
+2  dragon claw mt coronet
+3  water pulse ravaged path
+4  calm mind battle frontier shop (tbc)
+5  roar 213
+6  toxic  battle frontier shop (tbc)
+7  hail 217
+8  bulk up battle frontier shop (tbc)
+9  bullet seed 204
+10 hidden power game corner
+11 sunny day 212
+12 taunt 211
+13 ice beam 216 + game corner
+14 blizzard department store + acuity
+15 hyper beam department store
+16 light screen department store
+17 protect department store
+18 rain dance 213 
+19 giga drain 209
+20 safeguard department store (tbc)
+21 frustation galactic warehouse + department store
+22 solarbeam department store
+23 iron tail iron island
+24 thunderbolt windworks, game corner
+25 thunder department store lake valor
+26 earthquake wayward cave battlfrontier shop (tbc)
+27 return sandgem lost tower
+28 dig 214
+29 psychic game corner
+30 shadow ball 210 battle frontier shop (tbc)
+31 brick break oreburgh gate battle frontier (tbc)
+32 double team game corner
+33 reflect department store
+34 shock wave 215
+35 flamethrower ironworks
+36 sludge bomb galactic warehouse
+37 sandstorm 228
+38 fire blast department store lake verity
+39 rock tomb ravaged path
+40 aerial ace 213
+41 torment victory road(tbc)
+42 facade solaceon town
+43 secret power amity square
+44 rest game corner
+45 attract amity square
+46 thief eterna city
+47 steel wing 209
+48 skill swap canalave restaurant
+49 snatch galactic warehouse
+50 overheat stark mountain (tbc)
+51 roost 210
+52 focus blast department store
+53 energy ball 226 (tbc, perhaps eterna clearing)
+54 false swipe department store
+55 brine pastoria gym
+56 fling 222
+57 charge beam sunyshore gym (maybe replace with volt switch)
+58 endure game corner (tbc)
+59 dragon pulse victory road
+60 drain punch veilstone gym
+61 will o wisp battle frontier shop (change to old chateau)
+62 silver wind 212
+63 embargo veilstone (tbc)
+64 explosion game corner
+65 shadow claw hearthome gym
+66 payback 215
+67 recycle old chateau
+68 giga impact game corner
+69 rock polish mt coronet
+70 flash oreburgh gate
+71 stone edge victory road
+72 avalanche snowpoint gym (maybe change to freeze dry)
+73 thunder wave battle frontier shop (tbc)
+74 gyro ball game corner
+75 swords dance game corner
+76 stealth rock oreburgh gym
+77 psych up 211 (tbc, maybe dazzling gleam)
+78 captivate victory road (tbc)
+79 dark pulse victory road (tbc)
+80 rock slide mt coronet
+81 x scissor 221
+82 sleep talk eterna forest (tbc)
+83 natural gift department store(change to flower shop)
+84 poison jab 212
+85 dream eater lake valor 
+86 grass knot eterna gym
+87 swagger pokemon mansion
+88 pluck floaroma town
+89 u turn game corner
+90 substitute old chateau
+91 flash cannon canalave gym
+92 trick room 213
+93 wild charge tbd
+94 bulldoze tbd
+95 flame charge tbd
+96 acrobatics tbd
+97 power up punch tbd
+98 scald tbd
+99 psyshock tbd 
+100leech life tbd
+01 cut 	cynthia in eterna
+02 fly  galactic warehouse
+03 surf cynthia celestic town  
+04 strength iron island
+05 defog solaceon ruins
+06 rock smash oreburgh gate
+07 waterfall sunyshore city
+08 rock climb 217
+
+pastoria tutor:
+
+snowpoint tutor:
+
+resort area tutor:

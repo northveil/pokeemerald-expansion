@@ -696,7 +696,8 @@
     "OreburghMine1",
     "OreburghMine2",
     "OreburghCity_PokemonCenter_1F",
-    "OreburghMuseum"
+    "OreburghMuseum",
+    "OreburghCity_Gym"
   ],
   "gMapgroup_IndoorFloaroma": [
     "FloaromaTown_PokemonCenter_1F"
