@@ -4424,7 +4424,7 @@
     {
       "id": "LAYOUT_ROUTE201",
       "name": "Route201_Layout",
-      "width": 60,
+      "width": 68,
       "height": 24,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Twinleaf",
@@ -4434,7 +4434,7 @@
     {
       "id": "LAYOUT_SANDGEM_TOWN",
       "name": "SandgemTown_Layout",
-      "width": 34,
+      "width": 28,
       "height": 34,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Twinleaf",
@@ -4444,7 +4444,7 @@
     {
       "id": "LAYOUT_TWINLEAF_TOWN",
       "name": "TwinleafTown_Layout",
-      "width": 32,
+      "width": 36,
       "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Twinleaf",
@@ -4474,8 +4474,8 @@
     {
       "id": "LAYOUT_VERITY_LAKEFRONT",
       "name": "VerityLakefront_Layout",
-      "width": 8,
-      "height": 12,
+      "width": 20,
+      "height": 16,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/VerityLakefront/border.bin",
@@ -4526,7 +4526,7 @@
       "name": "OreburghGate_B2F_Layout",
       "width": 66,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Caves",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/OreburghGate_B2F/border.bin",
       "blockdata_filepath": "data/layouts/OreburghGate_B2F/map.bin"
@@ -4585,7 +4585,7 @@
       "id": "LAYOUT_ROUTE204",
       "name": "Route204_Layout",
       "width": 34,
-      "height": 58,
+      "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/Route204/border.bin",
@@ -4615,7 +4615,7 @@
       "id": "LAYOUT_FLOAROMA_TOWN",
       "name": "Floaroma_Town_Layout",
       "width": 30,
-      "height": 56,
+      "height": 50,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/FloaromaTown/border.bin",
@@ -4625,7 +4625,7 @@
       "id": "LAYOUT_ROUTE205",
       "name": "Route205_Layout",
       "width": 32,
-      "height": 92,
+      "height": 90,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/Route205/border.bin",
@@ -4944,8 +4944,8 @@
     {
       "id": "LAYOUT_LAKE_VERITY",
       "name": "LakeVerity_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 50,
+      "height": 50,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/LakeVerity/border.bin",
@@ -4980,6 +4980,96 @@
       "secondary_tileset": "gTileset_RustboroGym",
       "border_filepath": "data/layouts/OreburghCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/OreburghCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE204_NORTH",
+      "name": "Route204_North_Layout",
+      "width": 34,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Floaroma",
+      "border_filepath": "data/layouts/Route204_North/border.bin",
+      "blockdata_filepath": "data/layouts/Route204_North/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_CITY_GYM",
+      "name": "EternaCity_Gym_Layout",
+      "width": 9,
+      "height": 5,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_FortreeGym",
+      "border_filepath": "data/layouts/EternaCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/EternaCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_PLAYER_HOUSE_1F",
+      "name": "TwinleafTown_PlayerHouse_1F_Layout",
+      "width": 14,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwinleafTown_PlayerHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_PlayerHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_PLAYER_HOUSE_2F",
+      "name": "TwinleafTown_PlayerHouse_2F_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwinleafTown_PlayerHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_PlayerHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_BARRY_HOUSE1F",
+      "name": "TwinleafTown_BarryHouse1F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwinleafTown_BarryHouse1F/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_BarryHouse1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_BARRY_HOUSE_2F",
+      "name": "TwinleafTown_BarryHouse_2F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwinleafTown_BarryHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_BarryHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_HOUSE1",
+      "name": "TwinleafTown_House1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwinleafTown_House1/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_HOUSE2",
+      "name": "TwinleafTown_House2_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwinleafTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_ROWAN_LAB",
+      "name": "SandgemTown_RowanLab_Layout",
+      "width": 12,
+      "height": 15,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/SandgemTown_RowanLab/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_RowanLab/map.bin"
     }
   ]
 }

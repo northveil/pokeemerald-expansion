@@ -156,19 +156,6 @@ Route103_Text_LivRematchNotEnoughPokemon:
 	.string "have to have two POKéMON!\l"
 	.string "It's not fair if you don't!$"
 
-Route103_Text_AndrewIntro:
-	.string "Gah! My fishing line's all snarled up!\n"
-	.string "I'm getting frustrated and mean!\l"
-	.string "That's it! Battle me!$"
-
-Route103_Text_AndrewDefeated:
-	.string "Gah! Lost it!\n"
-	.string "I'm even more annoyed now!$"
-
-Route103_Text_AndrewPostBattle:
-	.string "Gah, I'm still boiling mad…\n"
-	.string "Grrrrr…$"
-
 Route103_Text_MiguelIntro:
 	.string "My POKéMON is delightfully adorable!\n"
 	.string "Don't be shy--I'll show you!$"
@@ -209,17 +196,6 @@ Route103_Text_PetePostBattle:
 	.string "from now.\p"
 	.string "If I had a POKéMON that trusty,\n"
 	.string "I'd want to SURF on it, too!$"
-
-Route103_Text_IsabelleIntro:
-	.string "Watch where you're going!\n"
-	.string "We're going to crash!$"
-
-Route103_Text_IsabelleDefeated:
-	.string "Groan…$"
-
-Route103_Text_IsabellePostBattle:
-	.string "I'm a poor swimmer so I was practicing…\n"
-	.string "Sorry for almost crashing into you.$"
 
 Route103_Text_RhettIntro:
 	.string "Whoa!\n"
@@ -279,20 +255,6 @@ Route104_Text_MiaNotEnoughMons:
 	.string "It's a big no-no if you don't have two\n"
 	.string "POKéMON with you.\l"
 	.string "We're too strong for you!$"
-
-Route104_Text_IvanIntro:
-	.string "Why keep it a secret?\n"
-	.string "I'm the WATER POKéMON expert!\p"
-	.string "Huh?\n"
-	.string "You don't know me?$"
-
-Route104_Text_IvanDefeat:
-	.string "I thought I wasn't too bad, if I may\n"
-	.string "say so, but I guess not… Bleah…$"
-
-Route104_Text_IvanPostBattle:
-	.string "I got too into fishing.\n"
-	.string "I forgot I had to raise my POKéMON…$"
 
 Route104_Text_BillyIntro:
 	.string "Leaving footprints in the sand is\n"
@@ -4787,7 +4749,8 @@ Route202_Text_NatalieDefeated:
 	.string "I lost!$"
 
 Route202_Text_NataliePostBattle:
-	.string "You're Strong!$"
+	.string "My Pokémon are all tuckered out!\n"
+	.string "I need to go to a Pokémon Center!$"
 	
 Route202_Text_TristanIntro:
 	.string "Let's Battle!$"

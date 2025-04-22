@@ -566,7 +566,7 @@ static const u8 *GetInteractedWaterScript(struct MapPosition *unused1, u8 metati
 
 static bool32 TrySetupDiveDownScript(void)
 {
-    if (FlagGet(FLAG_BADGE07_GET) && TrySetDiveWarp() == 2)
+    if (/*FlagGet(FLAG_BADGE07_GET) &&*/ TrySetDiveWarp() == 2)
     {
         ScriptContext_SetupScript(EventScript_UseDive);
         return TRUE;
@@ -576,7 +576,7 @@ static bool32 TrySetupDiveDownScript(void)
 
 static bool32 TrySetupDiveEmergeScript(void)
 {
-    if (FlagGet(FLAG_BADGE07_GET) && gMapHeader.mapType == MAP_TYPE_UNDERWATER && TrySetDiveWarp() == 1)
+    if (/*FlagGet(FLAG_BADGE07_GET) &&*/ gMapHeader.mapType == MAP_TYPE_UNDERWATER && TrySetDiveWarp() == 1)
     {
         ScriptContext_SetupScript(EventScript_UseDiveUnderwater);
         return TRUE;
@@ -821,30 +821,32 @@ static void StorePlayerStateAndSetupWarp(struct MapPosition *position, s32 warpE
 
 static bool8 TryArrowWarp(struct MapPosition *position, u16 metatileBehavior, u8 direction)
 {
-    s32 warpEventId = GetWarpEventAtMapPosition(&gMapHeader, position);
-    u32 delay;
+    s8 warpEventId = GetWarpEventAtMapPosition(&gMapHeader, position);
+    u16 delay;
 
-    if (warpEventId == WARP_ID_NONE)
-        return FALSE;
-
-    if (IsArrowWarpMetatileBehavior(metatileBehavior, direction) == TRUE)
+    if (warpEventId != -1)
     {
-        StorePlayerStateAndSetupWarp(position, warpEventId);
-        DoWarp();
-        return TRUE;
-    }
-    else if (IsDirectionalStairWarpMetatileBehavior(metatileBehavior, direction) == TRUE)
-    {
-        delay = 0;
-        if (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_BIKE)
+        if (IsArrowWarpMetatileBehavior(metatileBehavior, direction) == TRUE)
         {
-            SetPlayerAvatarTransitionFlags(PLAYER_AVATAR_FLAG_ON_FOOT);
-            delay = 12;
+            StoreInitialPlayerAvatarState();
+            SetupWarp(&gMapHeader, warpEventId, position);
+            DoWarp();
+            return TRUE;
         }
-
-        StorePlayerStateAndSetupWarp(position, warpEventId);
-        DoStairWarp(metatileBehavior, delay);
-        return TRUE;
+        else if (IsDirectionalStairWarpMetatileBehavior(metatileBehavior, direction) == TRUE)
+        {
+            delay = 0;
+            if (gPlayerAvatar.flags & (PLAYER_AVATAR_FLAG_MACH_BIKE | PLAYER_AVATAR_FLAG_ACRO_BIKE))
+            {
+                SetPlayerAvatarTransitionFlags(PLAYER_AVATAR_FLAG_ON_FOOT);
+                delay = 12;
+            }
+            
+            StoreInitialPlayerAvatarState();
+            SetupWarp(&gMapHeader, warpEventId, position);
+            DoStairWarp(metatileBehavior, delay);
+            return TRUE;
+        }
     }
     return FALSE;
 }

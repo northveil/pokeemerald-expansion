@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_TWINLEAF_TOWN",
-      "offset": 2,
+      "offset": 0,
       "direction": "down"
     },
     {
       "map": "MAP_VERITY_LAKEFRONT",
-      "offset": 6,
+      "offset": 2,
       "direction": "left"
     },
     {
@@ -31,16 +31,55 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_WALLY",
-      "x": 11,
+      "graphics_id": "OBJ_EVENT_GFX_BOY_2",
+      "x": 30,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 2,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route201_EventScript_Boy1",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
+      "x": 45,
       "y": 16,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route201_EventScript_Girl",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
+      "x": 59,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route201_EventScript_Boy2",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+      "x": 46,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route201_EventScript_MartEmployee",
       "flag": "0"
     }
   ],

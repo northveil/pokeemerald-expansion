@@ -242,11 +242,6 @@ Route102_EventScript_LivRematch::
 	msgbox Route103_Text_LivRematchPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route103_EventScript_Andrew::
-	trainerbattle_single TRAINER_ANDREW, Route103_Text_AndrewIntro, Route103_Text_AndrewDefeated
-	msgbox Route103_Text_AndrewPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 Route103_EventScript_Miguel::
 	trainerbattle_single TRAINER_MIGUEL_1, Route103_Text_MiguelIntro, Route103_Text_MiguelDefeated, Route102_EventScript_MiguelRegisterMatchCallAfterBattle
 	specialvar VAR_RESULT, ShouldTryRematchBattle
@@ -281,11 +276,6 @@ Route103_EventScript_Rhett::
 Route103_EventScript_Pete::
 	trainerbattle_single TRAINER_PETE, Route103_Text_PeteIntro, Route103_Text_PeteDefeated
 	msgbox Route103_Text_PetePostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route103_EventScript_Isabelle::
-	trainerbattle_single TRAINER_ISABELLE, Route103_Text_IsabelleIntro, Route103_Text_IsabelleDefeated
-	msgbox Route103_Text_IsabellePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route103_Text_MayRoute103Pokemon:

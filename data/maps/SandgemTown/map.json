@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_ROUTE202",
-      "offset": 4,
+      "offset": -2,
       "direction": "up"
     },
     {
@@ -34,10 +34,17 @@
   ],
   "warp_events": [
     {
-      "x": 19,
+      "x": 13,
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_SANDGEM_TOWN_POKEMON_CENTER_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_ROWAN_LAB",
       "dest_warp_id": "0"
     }
   ],

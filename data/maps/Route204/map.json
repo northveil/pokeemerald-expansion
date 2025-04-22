@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_FLOAROMA_TOWN",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
       "map": "MAP_JUBILIFE_CITY",
       "offset": -44,
       "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE204_NORTH",
+      "offset": 0,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -30,17 +30,10 @@
   "warp_events": [
     {
       "x": 11,
-      "y": 29,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_RAVAGED_PATH",
       "dest_warp_id": "0"
-    },
-    {
-      "x": 20,
-      "y": 22,
-      "elevation": 0,
-      "dest_map": "MAP_RAVAGED_PATH",
-      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

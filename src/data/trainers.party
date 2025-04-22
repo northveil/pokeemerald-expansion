@@ -6299,48 +6299,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Toxic
 
-=== TRAINER_ANDREW ===
-Name: ANDREW
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_IVAN ===
-Name: IVAN
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_CLAUDE ===
 Name: CLAUDE
 Class: Fisherman
@@ -13557,19 +13515,6 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacool
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ISABELLE ===
-Name: ISABELLE
-Class: Swimmer F
-Pic: Swimmer F
-Gender: Female
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Marill
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 

@@ -54,17 +54,18 @@
     "OreburghCity",
     "FloaromaTown",
     "EternaCity",
-    "Route202",
     "Route201",
+    "Route202",
     "Route203",
     "Route204",
+    "Route204_North",
     "Route205",
     "Route205_North",
     "Route206",
     "Route207",
     "Route208",
-    "VerityLakefront",
-    "Route211West"
+    "Route211West",
+    "VerityLakefront"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -683,10 +684,16 @@
     "Route124_DivingTreasureHuntersHouse"
   ],
   "gMapGroup_IndoorTwinleaf": [
-
+    "TwinleafTown_PlayerHouse_1F",
+    "TwinleafTown_PlayerHouse_2F",
+    "TwinleafTown_BarryHouse1F",
+    "TwinleafTown_BarryHouse_2F",
+    "TwinleafTown_House1",
+    "TwinleafTown_House2"
   ],
   "gMapGroup_IndoorSandgem": [
-    "SandgemTown_PokemonCenter_1F"
+    "SandgemTown_PokemonCenter_1F",
+    "SandgemTown_RowanLab"
   ],
   "gMapGroup_IndoorJubilife": [
     "JubilifeCity_PokemonCenter1f",
@@ -704,7 +711,8 @@
   ],
   "gMapgroup_IndoorEterna": [
     "EternaCity_PokemonCenter_1F",
-    "EternaCity_BikeShop"
+    "EternaCity_BikeShop",
+    "EternaCity_Gym"
   ],
   "gMapGroup_IndoorRoute203": [
     "OreburghGate",

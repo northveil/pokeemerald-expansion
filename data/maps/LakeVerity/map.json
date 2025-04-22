@@ -18,18 +18,25 @@
   ],
   "warp_events": [
     {
-      "x": 10,
-      "y": 18,
+      "x": 36,
+      "y": 48,
       "elevation": 0,
       "dest_map": "MAP_VERITY_LAKEFRONT",
       "dest_warp_id": "0"
     },
     {
-      "x": 11,
-      "y": 18,
+      "x": 37,
+      "y": 48,
       "elevation": 0,
       "dest_map": "MAP_VERITY_LAKEFRONT",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 22,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [

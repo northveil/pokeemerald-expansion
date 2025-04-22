@@ -339,8 +339,8 @@
 #define TRAINER_ALLEN                       333
 #define TRAINER_TIMMY                       334
 #define TRAINER_WALLACE                     335
-#define TRAINER_ANDREW                      336
-#define TRAINER_IVAN                        337
+#define TRAINER_ANDREW                      336//unused
+#define TRAINER_IVAN                        337//unused
 #define TRAINER_CLAUDE                      338
 #define TRAINER_ELLIOT_1                    339
 #define TRAINER_NED                         340
@@ -739,7 +739,7 @@
 #define TRAINER_DARCY                       733
 #define TRAINER_MAXIE_MOSSDEEP              734
 #define TRAINER_PETE                        735
-#define TRAINER_ISABELLE                    736
+#define TRAINER_ISABELLE                    736//unused
 #define TRAINER_ANDRES_1                    737
 #define TRAINER_JOSUE                       738
 #define TRAINER_CAMRON                      739

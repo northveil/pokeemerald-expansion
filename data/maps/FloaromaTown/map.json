@@ -14,12 +14,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE205",
-      "offset": -36,
-      "direction": "right"
-    },
-    {
-      "map": "MAP_ROUTE204",
+      "map": "MAP_ROUTE204_NORTH",
       "offset": 0,
       "direction": "down"
     },
@@ -27,6 +22,11 @@
       "map": "MAP_FUEGO_IRONWORKS",
       "offset": -4,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE205",
+      "offset": -34,
+      "direction": "right"
     }
   ],
   "object_events": [

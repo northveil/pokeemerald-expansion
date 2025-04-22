@@ -14,11 +14,6 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_FLOAROMA_TOWN",
-      "offset": 36,
-      "direction": "left"
-    },
-    {
       "map": "MAP_VALLEY_WINDWORKS",
       "offset": 58,
       "direction": "right"
@@ -31,6 +26,11 @@
     {
       "map": "MAP_FUEGO_IRONWORKS",
       "offset": -4,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_FLOAROMA_TOWN",
+      "offset": 34,
       "direction": "left"
     }
   ],

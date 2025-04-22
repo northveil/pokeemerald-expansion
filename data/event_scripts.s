@@ -1266,3 +1266,21 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FuegoIronworks/scripts.inc"
 
 	.include "data/maps/OreburghCity_Gym/scripts.inc"
+
+	.include "data/maps/Route204_North/scripts.inc"
+
+	.include "data/maps/EternaCity_Gym/scripts.inc"
+
+	.include "data/maps/TwinleafTown_PlayerHouse_1F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_PlayerHouse_2F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_BarryHouse1F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_BarryHouse_2F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_House1/scripts.inc"
+
+	.include "data/maps/TwinleafTown_House2/scripts.inc"
+
+	.include "data/maps/SandgemTown_RowanLab/scripts.inc"
