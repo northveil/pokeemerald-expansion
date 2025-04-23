@@ -21,9 +21,12 @@ TwinleafTown_PlayerHouse_1F_Text_HealGeneric:
 	.string "Pokémon back to top shape.$"
 TwinleafTown_PlayerHouse_1F_Text_HealMorning:
 	.string "Mom: Good morning {PLAYER},"
-	.string "Take some breakfast before you\n"
+	.string "Take some breakfast before you\l"
 	.string "go.$"
-@TwinleafTown_PlayerHouse_1F_Text_HealDay::
+TwinleafTown_PlayerHouse_1F_Text_HealDay::
+	.string "Mom: Welcome home, {PLAYER}.\n"
+	.string "Are you and your Pokémon healthy?\l"
+	.string "Take a quick rest, dear.$"
 @TwinleafTown_PlayerHouse_1F_Text_HealEvening::
 TwinleafTown_PlayerHouse_1F_Text_HealNight:
 	.string "Mom: Welcome home, {PLAYER}.\n"

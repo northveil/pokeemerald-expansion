@@ -16859,3 +16859,57 @@ AI: Check Bad Move
 Burmy
 Level:5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ROARK ===
+Name: ROARK
+Class: Leader
+Pic: Leader Roxanne
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Basic Trainer
+
+Geodude
+Level: 14
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Stealth Rock
+- Rock Tomb
+- Rock Polish
+- Defense Curl
+
+Dwebble
+Level: 14
+Ability: Shell Armor
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Smack Down
+- Bug Bite
+- Rest
+- Withdraw
+
+Onix
+Level: 15
+Ability: Rock Head
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Coil
+- Double-Edge
+- Rock Throw
+- Rock Polish
+
+Binacle
+Level: 15
+Ability: Sniper
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Fury Cutter
+- Taunt
+- Endeavor
+
+Cranidos @ Oran Berry
+Level: 16
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Headbutt
+- Pursuit
+- Leer
+- Smack Down

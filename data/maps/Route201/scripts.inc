@@ -43,7 +43,7 @@ Route201_Text_PokemonLurkInTallGrass::
 
 Route201_Text_IfYourMonsHPisLow::
 	.string "If your Pokémon's health--that's its\n"
-	.string "HP--is getting low, you should go\p"
+	.string "HP--is getting low, you should go\l"
 	.string "to a Pokémon Center!$"
 
 Route201_Text_LedgesAreOneWay::

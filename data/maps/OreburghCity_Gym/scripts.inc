@@ -2,7 +2,7 @@ OreburghCity_Gym_MapScripts::
 	.byte 0
 
 OreburghCity_Gym_EventScript_Roark::
-	trainerbattle_single TRAINER_ROXANNE_1, OreburghCity_Gym_Text_RoarkIntro, OreburghCity_Gym_Text_RoarkDefeat, OreburghCity_Gym_EventScript_RoarkDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_ROARK, OreburghCity_Gym_Text_RoarkIntro, OreburghCity_Gym_Text_RoarkDefeat, OreburghCity_Gym_EventScript_RoarkDefeated, NO_MUSIC
 	goto_if_unset FLAG_RECEIVED_TM_ROCK_TOMB, OreburghCity_Gym_EventScript_GiveStealthRock
 	msgbox OreburghCity_Gym_Text_RoarkPostBattle, MSGBOX_DEFAULT
 	release

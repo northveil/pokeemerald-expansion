@@ -42134,3 +42134,126 @@ F_TRAINER_FEMALE |
             },
         },
     },
+#line 16863
+    [DIFFICULTY_NORMAL][TRAINER_ROARK] =
+    {
+#line 16864
+        .trainerName = _("ROARK"),
+#line 16865
+        .trainerClass = TRAINER_CLASS_LEADER,
+#line 16866
+        .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
+        .encounterMusic_gender =
+#line 16868
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 16869
+        .items = { ITEM_POTION, ITEM_POTION },
+#line 16870
+        .doubleBattle = FALSE,
+#line 16871
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 5,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 16873
+            .species = SPECIES_GEODUDE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16876
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 16875
+            .ability = ABILITY_STURDY,
+#line 16874
+            .lvl = 14,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 16877
+                MOVE_STEALTH_ROCK,
+                MOVE_ROCK_TOMB,
+                MOVE_ROCK_POLISH,
+                MOVE_DEFENSE_CURL,
+            },
+            },
+            {
+#line 16882
+            .species = SPECIES_DWEBBLE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16885
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 16884
+            .ability = ABILITY_SHELL_ARMOR,
+#line 16883
+            .lvl = 14,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 16886
+                MOVE_SMACK_DOWN,
+                MOVE_BUG_BITE,
+                MOVE_REST,
+                MOVE_WITHDRAW,
+            },
+            },
+            {
+#line 16891
+            .species = SPECIES_ONIX,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16894
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 16893
+            .ability = ABILITY_ROCK_HEAD,
+#line 16892
+            .lvl = 15,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 16895
+                MOVE_COIL,
+                MOVE_DOUBLE_EDGE,
+                MOVE_ROCK_THROW,
+                MOVE_ROCK_POLISH,
+            },
+            },
+            {
+#line 16900
+            .species = SPECIES_BINACLE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16903
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 16902
+            .ability = ABILITY_SNIPER,
+#line 16901
+            .lvl = 15,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 16904
+                MOVE_WATER_PULSE,
+                MOVE_FURY_CUTTER,
+                MOVE_TAUNT,
+                MOVE_ENDEAVOR,
+            },
+            },
+            {
+#line 16909
+            .species = SPECIES_CRANIDOS,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16909
+            .heldItem = ITEM_ORAN_BERRY,
+#line 16911
+            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+#line 16910
+            .lvl = 16,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 16912
+                MOVE_HEADBUTT,
+                MOVE_PURSUIT,
+                MOVE_LEER,
+                MOVE_SMACK_DOWN,
+            },
+            },
+        },
+    },
