@@ -42,6 +42,7 @@ enum {
     WILD_AREA_WATER,
     WILD_AREA_ROCKS,
     WILD_AREA_FISHING,
+    WILD_AREA_HONEY,
 };
 
 #define WILD_CHECK_REPEL    (1 << 0)
@@ -188,6 +189,7 @@ static void FeebasSeedRng(u16 seed)
 // LAND_WILD_COUNT
 u8 ChooseWildMonIndex_Land(void)
 {
+    DebugPrintf("Trying to genereate wild encounter...");
     u8 wildMonIndex = 0;
     bool8 swap = FALSE;
     u8 rand = Random() % ENCOUNTER_CHANCE_LAND_MONS_TOTAL;
@@ -302,6 +304,44 @@ static u8 ChooseWildMonIndex_Fishing(u8 rod)
             wildMonIndex = 14 - wildMonIndex;
         break;
     }
+    return wildMonIndex;
+}
+
+//change all of this to the honey tree macros
+u8 ChooseWildMonIndex_Honey(void)
+{
+    DebugPrintf("Trying to genereate wild encounter...");
+    u8 wildMonIndex = 0;
+    bool8 swap = FALSE;
+    u8 rand = Random() % ENCOUNTER_CHANCE_HONEY_TREE_TOTAL;
+
+    if (rand < ENCOUNTER_CHANCE_HONEY_TREE_SLOT_0)
+        wildMonIndex = 0;
+    else if (rand >= ENCOUNTER_CHANCE_HONEY_TREE_SLOT_0 && rand < ENCOUNTER_CHANCE_HONEY_TREE_SLOT_1)
+        wildMonIndex = 1;
+    else if (rand >= ENCOUNTER_CHANCE_HONEY_TREE_SLOT_1 && rand < ENCOUNTER_CHANCE_HONEY_TREE_SLOT_2)
+        wildMonIndex = 2;
+    else if (rand >= ENCOUNTER_CHANCE_HONEY_TREE_SLOT_3 && rand < ENCOUNTER_CHANCE_HONEY_TREE_SLOT_4)
+        wildMonIndex = 3;
+    else if (rand >= ENCOUNTER_CHANCE_HONEY_TREE_SLOT_4 && rand < ENCOUNTER_CHANCE_HONEY_TREE_SLOT_5)
+        wildMonIndex = 4;
+    else if (rand >= ENCOUNTER_CHANCE_HONEY_TREE_SLOT_5 && rand < ENCOUNTER_CHANCE_HONEY_TREE_SLOT_6)
+        wildMonIndex = 5;
+    else if (rand >= ENCOUNTER_CHANCE_HONEY_TREE_SLOT_6 && rand < ENCOUNTER_CHANCE_HONEY_TREE_SLOT_7)
+        wildMonIndex = 6;
+    else if (rand >= ENCOUNTER_CHANCE_HONEY_TREE_SLOT_7 && rand < ENCOUNTER_CHANCE_HONEY_TREE_SLOT_8)
+        wildMonIndex = 7;
+    else if (rand >= ENCOUNTER_CHANCE_HONEY_TREE_SLOT_8 && rand < ENCOUNTER_CHANCE_HONEY_TREE_SLOT_9)
+        wildMonIndex = 8;
+    else
+        wildMonIndex = 9;
+
+    if (LURE_STEP_COUNT != 0 && (Random() % 20 < 2))
+        swap = TRUE;
+
+    if (swap)
+        wildMonIndex = 9 - wildMonIndex;
+
     return wildMonIndex;
 }
 
@@ -500,6 +540,12 @@ static bool8 TryGenerateWildMon(const struct WildPokemonInfo *wildMonInfo, u8 ar
         break;
     case WILD_AREA_ROCKS:
         wildMonIndex = ChooseWildMonIndex_WaterRock();
+        break;
+    case WILD_AREA_HONEY:
+        wildMonIndex = ChooseWildMonIndex_Honey();
+        level = ChooseWildMonLevel(wildMonInfo->wildPokemon, wildMonIndex, area);
+        CreateWildMon(wildMonInfo->wildPokemon[wildMonIndex].species, level);
+        return TRUE;
         break;
     }
 
@@ -781,6 +827,39 @@ void RockSmashWildEncounter(void)
     }
     else
     {
+        gSpecialVar_Result = FALSE;
+    }
+}
+
+void HoneyTreeWildEncounter(void)
+{
+    u16 headerId = GetCurrentMapWildMonHeaderId();
+
+    if (headerId != HEADER_NONE)
+    {
+        const struct WildPokemonInfo *wildPokemonInfo = gWildMonHeaders[headerId].honeyTreeMonsInfo;
+
+        if (wildPokemonInfo == NULL)
+        {
+            gSpecialVar_Result = FALSE;
+            DebugPrintf("No HoneyTree encounters on map");
+        }
+        else if (/*WildEncounterCheck(wildPokemonInfo->encounterRate, TRUE) == TRUE &&*/
+        TryGenerateWildMon(wildPokemonInfo, WILD_AREA_HONEY, 0) == TRUE)
+        {
+            BattleSetup_StartWildBattle();
+            gSpecialVar_Result = TRUE;
+            DebugPrintf("Success");
+        }
+        else
+        {
+            DebugPrintf("Could not start an encounter due to generate rules");
+            gSpecialVar_Result = FALSE;
+        }
+    }
+    else
+    {
+        DebugPrintf("No map header available");
         gSpecialVar_Result = FALSE;
     }
 }

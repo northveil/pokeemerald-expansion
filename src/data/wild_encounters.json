@@ -72,6 +72,21 @@
               9
             ]
           }
+        },
+        {
+          "type": "honey_tree",
+          "encounter_rates": [
+            20,
+            20,
+            15,
+            10,
+            10,
+            10,
+            5,
+            5,
+            4,
+            1
+          ]
         }
       ],
       "encounters": [
@@ -12114,6 +12129,61 @@
                 "species": "SPECIES_KELDEO"
               }
             ]
+          },
+          "honey_tree": {
+            "encounter_rate": 100,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_BURMY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_COMBEE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_JOLTIK"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CHERUBI"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SCATTERBUG"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_KARRABLAST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_KARRABLAST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_VOLBEAT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MUNCHLAX"
+              }
+            ]
           }
         },
         {
@@ -12476,6 +12546,61 @@
                 "species": "SPECIES_CLAWITZER"
               }
             ]
+          },
+          "honey_tree": {
+            "encounter_rate": 100,
+            "mons": [
+              {
+                "min_level": 7,
+                "max_level": 11,
+                "species": "SPECIES_BURMY"
+              },
+              {
+                "min_level": 6,
+                "max_level": 11,
+                "species": "SPECIES_COMBEE"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_WURMPLE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_CHERUBI"
+              },
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_AIPOM"
+              },
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_JOLTIK"
+              },
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_KARRABLAST"
+              },
+              {
+                "min_level": 6,
+                "max_level": 8,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 13,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 7,
+                "max_level": 13,
+                "species": "SPECIES_MUNCHLAX"
+              }
+            ]
           }
         },
         {
@@ -12625,6 +12750,61 @@
                 "species": "SPECIES_SEISMITOAD"
               }
             ]
+          },
+          "honey_tree": {
+            "encounter_rate": 100,
+            "mons": [
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_COMBEE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_BURMY"
+              },
+              {
+                "min_level": 7,
+                "max_level": 13,
+                "species": "SPECIES_CHERUBI"
+              },
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_VENIPEDE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 10,
+                "species": "SPECIES_WURMPLE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 10,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 10,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 10,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 9,
+                "max_level": 14,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 9,
+                "max_level": 14,
+                "species": "SPECIES_MUNCHLAX"
+              }
+            ]
           }
         },
         {
@@ -12690,33 +12870,58 @@
               }
             ]
           },
-          "rock_smash_mons": {
-            "encounter_rate": 20,
+          "honey_tree": {
+            "encounter_rate": 100,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 8,
+                "max_level": 15,
+                "species": "SPECIES_BURMY_SANDY"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 8,
+                "max_level": 14,
+                "species": "SPECIES_COMBEE"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 8,
+                "max_level": 15,
+                "species": "SPECIES_CHERUBI"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 9,
+                "max_level": 12,
+                "species": "SPECIES_KAKUNA"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 8,
+                "max_level": 11,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 8,
+                "max_level": 11,
+                "species": "SPECIES_CATERPIE"
+              },
+              {
+                "min_level": 9,
+                "max_level": 12,
+                "species": "SPECIES_METAPOD"
+              },
+              {
+                "min_level": 9,
+                "max_level": 15,
+                "species": "SPECIES_AIPOM"
+              },
+              {
+                "min_level": 10,
+                "max_level": 16,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 10,
+                "max_level": 16,
+                "species": "SPECIES_MUNCHLAX"
               }
             ]
           }
@@ -13326,6 +13531,124 @@
                 "min_level": 5,
                 "max_level": 5,
                 "species": "SPECIES_NONE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_FLOAROMA_MEADOW",
+          "base_label": "gFloaromaMeadow0",
+          "honey_tree": {
+            "encounter_rate": 100,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_COMBEE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_WURMPLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CHERUBI"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SEWADDLE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_BURMY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CATERPIE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CATERPIE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CATERPIE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_MUNCHLAX"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ETERNA_FOREST_OUTSIDE",
+          "base_label": "gEternaForest_Outside0",
+          "honey_tree": {
+            "encounter_rate": 100,
+            "mons": [
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_COMBEE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_BURMY"
+              },
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_CHERUBI"
+              },
+              {
+                "min_level": 6,
+                "max_level": 9,
+                "species": "SPECIES_WURMPLE"
+              },
+              {
+                "min_level": 6,
+                "max_level": 9,
+                "species": "SPECIES_CATERPIE"
+              },
+              {
+                "min_level": 6,
+                "max_level": 9,
+                "species": "SPECIES_WEEDLE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 11,
+                "species": "SPECIES_SEWADDLE"
+              },
+              {
+                "min_level": 7,
+                "max_level": 12,
+                "species": "SPECIES_VENIPEDE"
+              },
+              {
+                "min_level": 8,
+                "max_level": 14,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 8,
+                "max_level": 14,
+                "species": "SPECIES_MUNCHLAX"
               }
             ]
           }

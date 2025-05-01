@@ -1,0 +1,8 @@
+
+
+595 joltik 
+evolution: level *26*
+abilities: compound eyes, unnerve (*tinted lens*)
+
+596 galvantula 
+abilities: compound eyes, unnerve (*tinted lens*)

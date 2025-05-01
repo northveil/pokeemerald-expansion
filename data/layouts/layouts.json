@@ -5004,7 +5004,7 @@
     {
       "id": "LAYOUT_TWINLEAF_TOWN_PLAYER_HOUSE_1F",
       "name": "TwinleafTown_PlayerHouse_1F_Layout",
-      "width": 14,
+      "width": 11,
       "height": 11,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
@@ -5024,28 +5024,28 @@
     {
       "id": "LAYOUT_TWINLEAF_TOWN_BARRY_HOUSE1F",
       "name": "TwinleafTown_BarryHouse1F_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 11,
+      "height": 11,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/TwinleafTown_BarryHouse1F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_BarryHouse1F/map.bin"
     },
     {
       "id": "LAYOUT_TWINLEAF_TOWN_BARRY_HOUSE_2F",
       "name": "TwinleafTown_BarryHouse_2F_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 10,
+      "height": 12,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/TwinleafTown_BarryHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_BarryHouse_2F/map.bin"
     },
     {
       "id": "LAYOUT_TWINLEAF_TOWN_HOUSE1",
       "name": "TwinleafTown_House1_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 9,
+      "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/TwinleafTown_House1/border.bin",
@@ -5054,8 +5054,8 @@
     {
       "id": "LAYOUT_TWINLEAF_TOWN_HOUSE2",
       "name": "TwinleafTown_House2_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 9,
+      "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/TwinleafTown_House2/border.bin",
@@ -5070,6 +5070,46 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/SandgemTown_RowanLab/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown_RowanLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLD_CHATEAU_ENTRANCE",
+      "name": "OldChateau_Entrance_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OldChateau_Entrance/border.bin",
+      "blockdata_filepath": "data/layouts/OldChateau_Entrance/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLD_CHATEAU_DINING_ROOM",
+      "name": "OldChateau_DiningRoom_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OldChateau_DiningRoom/border.bin",
+      "blockdata_filepath": "data/layouts/OldChateau_DiningRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLD_CHATEAU_2F",
+      "name": "OldChateau_2F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/OldChateau_2F/border.bin",
+      "blockdata_filepath": "data/layouts/OldChateau_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_TRAINER_SCHOOL",
+      "name": "JubilifeCity_TrainerSchool_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/JubilifeCity_TrainerSchool/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_TrainerSchool/map.bin"
     }
   ]
 }

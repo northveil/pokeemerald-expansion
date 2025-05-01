@@ -488,7 +488,10 @@
     "SpearPillar",
     "WaywardCave_1F",
     "WaywardCave_B1F",
-    "FuegoIronworks"
+    "FuegoIronworks",
+    "OldChateau_Entrance",
+    "OldChateau_DiningRoom",
+    "OldChateau_2F"
   ],
   "gMapGroup_GreatUnderground": [
 
@@ -697,7 +700,8 @@
   ],
   "gMapGroup_IndoorJubilife": [
     "JubilifeCity_PokemonCenter1f",
-    "Route218Gate"
+    "Route218Gate",
+    "JubilifeCity_TrainerSchool"
   ],
   "gMapGroup_IndoorOreburgh": [
     "OreburghMine1",

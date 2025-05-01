@@ -40,6 +40,21 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 28,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_HoneyTree"
+    },
+    {
+      "type": "sign",
+      "x": 27,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Common_EventScript_HoneyTree"
+    }
   ]
 }

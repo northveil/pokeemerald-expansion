@@ -16,6 +16,13 @@ extern const u8 gText_ExpandedPlaceholder_Kyogre[];
 extern const u8 gText_ExpandedPlaceholder_Groudon[];
 extern const u8 gText_ExpandedPlaceholder_Brendan[];
 extern const u8 gText_ExpandedPlaceholder_May[];
+extern const u8 gText_Rival[];
+
+//Rival default names
+extern const u8 gText_DefaultNameBarry[];
+extern const u8 gText_DefaultNameNolan[];
+extern const u8 gText_DefaultNameRoy[];
+extern const u8 gText_DefaultNameGavin[];
 
 extern const u8 gText_FromSpace[];
 

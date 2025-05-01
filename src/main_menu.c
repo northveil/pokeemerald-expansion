@@ -523,9 +523,16 @@ static const u8 *const sFemalePresetNames[] = {
     COMPOUND_STRING("HALIE")
 };
 
+static const u8 *const gRivalPresetNames[] = {
+    COMPOUND_STRING("Barry"),
+    COMPOUND_STRING("Nolan"),
+    COMPOUND_STRING("Roy"),
+    COMPOUND_STRING("Gavin")
+};
+
 // The number of male vs. female names is assumed to be the same.
 // If they aren't, the smaller of the two sizes will be used and any extra names will be ignored.
-#define NUM_PRESET_NAMES min(ARRAY_COUNT(sMalePresetNames), ARRAY_COUNT(sFemalePresetNames))
+#define NUM_PRESET_NAMES min(ARRAY_COUNT(gRivalPresetNames), ARRAY_COUNT(gRivalPresetNames))
 
 enum
 {
@@ -2128,9 +2135,9 @@ void NewGameBirchSpeech_SetDefaultPlayerName(u8 nameId)
     u8 i;
 
     if (gSaveBlock2Ptr->playerGender == MALE)
-        name = sMalePresetNames[nameId];
+        name = gText_ExpandedPlaceholder_Brendan;
     else
-        name = sFemalePresetNames[nameId];
+        name = gText_ExpandedPlaceholder_May;
     for (i = 0; i < PLAYER_NAME_LENGTH; i++)
         gSaveBlock2Ptr->playerName[i] = name[i];
     gSaveBlock2Ptr->playerName[PLAYER_NAME_LENGTH] = EOS;

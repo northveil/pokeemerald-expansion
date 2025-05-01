@@ -5,6 +5,7 @@
 #include "constants/trainers.h"
 #include "constants/battle.h"
 #include "difficulty.h"
+#include "text.h"
 
 #define MAX_TRAINER_ITEMS 4
 
@@ -230,8 +231,11 @@ static inline const u8 *GetTrainerNameFromId(u16 trainerId)
 
     enum DifficultyLevel partnerDifficulty = GetBattlePartnerDifficultyLevel(trainerId);
 
+    //if (gTrainers[difficulty][sanitizedTrainerId].trainerName == gText_Rival)
+    //    return GetExpandedPlaceholder(PLACEHOLDER_ID_RIVAL);
     if (trainerId > TRAINER_PARTNER(PARTNER_NONE))
         return gBattlePartners[partnerDifficulty][trainerId - TRAINER_PARTNER(PARTNER_NONE)].trainerName;
+    
     return gTrainers[difficulty][sanitizedTrainerId].trainerName;
 }
 

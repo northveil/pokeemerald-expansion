@@ -18,6 +18,7 @@ const u8 gText_ExpandedPlaceholder_Kyogre[] = _("KYOGRE");
 const u8 gText_ExpandedPlaceholder_Groudon[] = _("GROUDON");
 const u8 gText_ExpandedPlaceholder_Brendan[] = _("BRENDAN");
 const u8 gText_ExpandedPlaceholder_May[] = _("MAY");
+const u8 gText_Rival[] = _("RIVAL");
 const u8 gText_EggNickname[] = _("EGG");
 const u8 gText_Pokemon[] = _("POKéMON");
 const u8 gText_Player[] = _("PLAYER"); // Unused
@@ -169,6 +170,11 @@ const u8 gText_TheBattle[] = _("the battle");
 const u8 gText_ThePokemonList[] = _("the POKéMON LIST");
 const u8 gText_TheShop[] = _("the shop");
 const u8 gText_ThePC[] = _("the PC");
+
+const u8 gText_DefaultNameBarry[] = _("Barry");
+const u8 gText_DefaultNameNolan[] = _("Nolan");
+const u8 gText_DefaultNameRoy[] = _("Roy");
+const u8 gText_DefaultNameGavin[] = _("Gavin");
 
 const u8 *const gBagMenu_ReturnToStrings[] =
 {

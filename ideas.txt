@@ -12,3 +12,25 @@ following pokemon maybe
 rock climb
 sideways waterfalls maybe
 sideways sliding ice for the snowpoint gym
+
+day/night cycle:
+4 time blocks, morning, day,evening,and night.
+time will pass after:
+1 battling a trainer. time will only pass once for every time you enter a building and fight a trainer; eg, clearing a galactic hideout in one go will only pass from morning to day.
+2 healing, either at a center or otherwise. if you heal at your house or at the valor lakefront hotel it will pass time just like if you heal at a center.
+3 certain story events, such as 
+4 you will be able to "wait" for a certain time at pokemon centers and beds that you can heal at.
+
+"week" cycle
+7 day rotation for certain events. 
+some things will only happen on certain days.
+1 friday drifloon at the windworks
+2 mom will be at hearthome on the weekends, after talking to her at the contest hall. she will leave a note on the counter. you will still be able to heal in your bed.
+3 roark will be in different places in the underground based on the day, and will give you a different evo stone based on location.
+4 gardenia will be in different routes throughout sinnoh based on the day, after you beat her. 1:eterna forest.2:floaroma meadow.3:212.4:210.5:215.6:214.7:224 she will battle you with a small team of local grass types and give you berries if you win
+5 fantina will enter different contests based on the day (maybe)
+6 maylene will be in snowpoint on certain days, and at the celestic hot springs on others. she will battle you and give you a tm at each place 
+7 wake will be at different water routes based on the day 1:220.2:218.3:213.4:212.5:lake acuity.6:223.7:mt coronet b1f?
+8 byron will be at the house on iron island on day 1, mt coronet on day 3, underground on day 5(same area as roark)
+9 candice will be in the upper areas of mt coronet on days 1 and 2. she will be at the celestic hot springs on days 4 and 5
+10 volkner will be at the windworks on day 1, the lighthouse on day 3, and the pokemon league lobby on day 5

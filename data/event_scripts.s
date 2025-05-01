@@ -1092,6 +1092,11 @@ Common_EventScript_LegendaryFlewAway::
 	release
 	end
 
+	.include "data/scripts/honey_tree.inc"
+
+Common_EventScript_HoneyTree::
+    goto HoneyTree_EventScript
+
 EventScript_VsSeekerChargingDone::
 	special VsSeekerFreezeObjectsAfterChargeComplete
 	waitstate
@@ -1284,3 +1289,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/TwinleafTown_House2/scripts.inc"
 
 	.include "data/maps/SandgemTown_RowanLab/scripts.inc"
+
+	.include "data/maps/OldChateau_Entrance/scripts.inc"
+
+	.include "data/maps/OldChateau_DiningRoom/scripts.inc"
+
+	.include "data/maps/OldChateau_2F/scripts.inc"
+
+	.include "data/maps/JubilifeCity_TrainerSchool/scripts.inc"
