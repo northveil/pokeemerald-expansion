@@ -3259,6 +3259,8 @@ bool8 TryPutNameRaterShowOnTheAir(void)
 
 void ChangePokemonNickname(void)
 {
+    DebugPrintf("0");
+    //ConvertIntToHexStringN()
     void ChangePokemonNickname_CB(void);
 
     GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_NICKNAME, gStringVar3);

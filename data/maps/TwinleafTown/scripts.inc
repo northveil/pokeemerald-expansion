@@ -20,7 +20,7 @@ TwinleafTown_Text_WildPokemonAttack:
 	.string "But, Pokémon also open their hearts\n"
 	.string "to you, so you can become friends.$"
 
-TwinleafTown_Text_BarryWasLooking
+TwinleafTown_Text_BarryWasLooking:
 	.string "Hiya, {PLAYER}.\n"
 	.string "Barry was looking for you.\p"
 	.string "I think he's home now.\n"

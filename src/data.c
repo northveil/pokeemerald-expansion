@@ -5,6 +5,7 @@
 #include "graphics.h"
 #include "trainer_pools.h"
 #include "battle_transition.h"
+#include "battle_message.h"
 #include "constants/abilities.h"
 #include "constants/items.h"
 #include "constants/moves.h"

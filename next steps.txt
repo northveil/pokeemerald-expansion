@@ -6,11 +6,12 @@ eterna tileset needs buildings, statue,
 twinleaf tileset needs rowans lab, sandgem houses, snow trees
 
 scripts
+day night cycle that changes encounter tables. will be based on activities done in game, like battling and healing instead of system time. certain story events will cause the game to be at a certain time.
 honey trees
 rock climb
 shops that change depending on badges
-make nurse joy stop the cursed text
-reusable tms
+make nurse joy stop the cursed text-done
+reusable tms-done
 snow footprints
 
 key for %s 
@@ -42,7 +43,7 @@ sunyshore city 0%
 canalave city 0%
 pokemon league 0%
 
-route 201 10%
+route 201 90%
 route 202 25%
 route 203 10%
 route 204 10%

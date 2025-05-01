@@ -23616,13 +23616,15 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_BRENDAN_ROUTE_103_MUDKIP] =
     {
 #line 9463
-        .trainerName = _("BRENDAN"),
+        .trainerName = _("RIVAL"),
 #line 9464
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9465
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9467
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 9468
         .doubleBattle = FALSE,
 #line 9469
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -23651,8 +23653,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9478
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9480
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 9481
         .doubleBattle = FALSE,
 #line 9482
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -23703,8 +23707,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9499
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9501
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 9502
         .doubleBattle = FALSE,
 #line 9503
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -23755,8 +23761,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9520
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9522
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 9523
         .doubleBattle = FALSE,
 #line 9524
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
@@ -23785,8 +23793,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9533
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9535
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 9536
         .doubleBattle = FALSE,
 #line 9537
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -23837,8 +23847,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9554
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9556
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 9557
         .doubleBattle = FALSE,
 #line 9558
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -23889,8 +23901,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9575
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9577
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 9578
         .doubleBattle = FALSE,
 #line 9579
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -23919,8 +23933,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9588
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9590
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 9591
         .doubleBattle = FALSE,
 #line 9592
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -23971,8 +23987,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9609
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9611
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 9612
         .doubleBattle = FALSE,
 #line 9613
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -24023,8 +24041,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9630
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9631
+F_TRAINER_FEMALE | 
+#line 9632
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 9633
         .doubleBattle = FALSE,
 #line 9634
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -24053,8 +24075,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9643
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9644
+F_TRAINER_FEMALE | 
+#line 9645
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 9646
         .doubleBattle = FALSE,
 #line 9647
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -24105,8 +24131,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9664
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9665
+F_TRAINER_FEMALE | 
+#line 9666
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 9667
         .doubleBattle = FALSE,
 #line 9668
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -24157,8 +24187,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9685
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9686
+F_TRAINER_FEMALE | 
+#line 9687
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 9688
         .doubleBattle = FALSE,
 #line 9689
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -24187,8 +24221,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9698
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9699
+F_TRAINER_FEMALE | 
+#line 9700
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 9701
         .doubleBattle = FALSE,
 #line 9702
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -24239,8 +24277,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9719
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9720
+F_TRAINER_FEMALE | 
+#line 9721
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 9722
         .doubleBattle = FALSE,
 #line 9723
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -24291,8 +24333,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9740
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9741
+F_TRAINER_FEMALE | 
+#line 9742
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 9743
         .doubleBattle = FALSE,
 #line 9744
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -24321,8 +24367,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9753
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9754
+F_TRAINER_FEMALE | 
+#line 9755
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 9756
         .doubleBattle = FALSE,
 #line 9757
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -24373,8 +24423,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9774
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 9775
+F_TRAINER_FEMALE | 
+#line 9776
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 9777
         .doubleBattle = FALSE,
 #line 9778
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -27024,8 +27078,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 10806
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 10808
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 10809
         .doubleBattle = FALSE,
 #line 10810
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
@@ -27065,8 +27121,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 10823
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 10825
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 10826
         .doubleBattle = FALSE,
 #line 10827
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
@@ -27338,8 +27396,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 10930
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 10932
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 10933
         .doubleBattle = FALSE,
 #line 10934
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -27379,8 +27439,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 10947
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 10948
+F_TRAINER_FEMALE | 
+#line 10949
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 10950
         .doubleBattle = FALSE,
 #line 10951
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
@@ -30524,8 +30588,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12209
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 12211
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 12212
         .doubleBattle = FALSE,
 #line 12213
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -30587,8 +30653,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12234
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 12236
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 12237
         .doubleBattle = FALSE,
 #line 12238
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -30650,8 +30718,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12259
         .trainerPic = TRAINER_PIC_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 12261
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 12262
         .doubleBattle = FALSE,
 #line 12263
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -30713,8 +30783,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12284
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 12285
+F_TRAINER_FEMALE | 
+#line 12286
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 12287
         .doubleBattle = FALSE,
 #line 12288
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -30776,8 +30850,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12309
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 12310
+F_TRAINER_FEMALE | 
+#line 12311
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 12312
         .doubleBattle = FALSE,
 #line 12313
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -30839,8 +30917,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 12334
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 12335
+F_TRAINER_FEMALE | 
+#line 12336
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 12337
         .doubleBattle = FALSE,
 #line 12338
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -35226,8 +35308,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 14070
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 14071
+F_TRAINER_FEMALE | 
+#line 14072
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 14073
         .doubleBattle = FALSE,
 #line 14074
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -35267,8 +35353,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 14087
         .trainerPic = TRAINER_PIC_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 14088
+F_TRAINER_FEMALE | 
+#line 14089
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 14090
         .doubleBattle = FALSE,
 #line 14091
         .aiFlags = AI_FLAG_BASIC_TRAINER,
@@ -41893,8 +41983,10 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
 #line 16801
         .trainerPic = TRAINER_PIC_RS_BRENDAN,
-        .trainerName = _("BRENDAN"),
-        .items = {},
+        .encounterMusic_gender =
+#line 16803
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 16804
         .doubleBattle = FALSE,
         .partySize = 1,
         .party = (const struct TrainerMon[])
@@ -41921,8 +42013,12 @@ F_TRAINER_FEMALE |
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
 #line 16813
         .trainerPic = TRAINER_PIC_RS_MAY,
-        .trainerName = _("MAY"),
-        .items = {},
+        .encounterMusic_gender =
+#line 16814
+F_TRAINER_FEMALE | 
+#line 16815
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 16816
         .doubleBattle = FALSE,
         .partySize = 1,
         .party = (const struct TrainerMon[])

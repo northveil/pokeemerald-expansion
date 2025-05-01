@@ -30,6 +30,8 @@
 #include "constants/event_objects.h"
 #include "constants/rgb.h"
 #include "random.h"
+#include "battle_message.h"
+#include "string_util.h"
 
 enum {
     INPUT_NONE,
@@ -311,7 +313,7 @@ static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
 };
 
 static const u8 *const gMalePresetNames[] = {
-    gText_ExpandedPlaceholder_Brendan,
+    gText_ExpandedPlaceholder_Brendan/*
     gText_DefaultNameStu,
     gText_DefaultNameMilton,
     gText_DefaultNameTom,
@@ -331,11 +333,11 @@ static const u8 *const gMalePresetNames[] = {
     gText_DefaultNameLandon,
     gText_DefaultNameCollin,
     gText_DefaultNameStanley,
-    gText_DefaultNameQuincy
+    gText_DefaultNameQuincy*/
 };
 
 static const u8 *const gFemalePresetNames[] = {
-    gText_ExpandedPlaceholder_May,
+    gText_ExpandedPlaceholder_May/*,
     gText_DefaultNameKimmy,
     gText_DefaultNameTiara,
     gText_DefaultNameBella,
@@ -355,7 +357,7 @@ static const u8 *const gFemalePresetNames[] = {
     gText_DefaultNameLillie,
     gText_DefaultNameTerra,
     gText_DefaultNameLucy,
-    gText_DefaultNameHalie
+    gText_DefaultNameHalie*/
 };
 
 // forward declarations
@@ -1428,18 +1430,18 @@ static void (*const sIconFunctions[])(void) =
     NamingScreen_CreateMonIcon,
     NamingScreen_CreateWaldaDadIcon,
     NamingScreen_CreateCodeIcon,
-    NamingScreen_CreateRivalIcon,
+    NamingScreen_CreateRivalIcon
 };
 
 static void CreateInputTargetIcon(void)
 {
     sIconFunctions[sNamingScreen->template->iconFunction]();
-}
+};
 
 static void NamingScreen_NoIcon(void)
 {
 
-}
+};
 
 static void NamingScreen_CreatePlayerIcon(void)
 {
@@ -1450,7 +1452,7 @@ static void NamingScreen_CreatePlayerIcon(void)
     spriteId = CreateObjectGraphicsSprite(rivalGfxId, SpriteCallbackDummy, 56, 37, 0);
     gSprites[spriteId].oam.priority = 3;
     StartSpriteAnim(&gSprites[spriteId], ANIM_STD_GO_SOUTH);
-}
+};
 
 static void NamingScreen_CreatePCIcon(void)
 {
@@ -1459,7 +1461,7 @@ static void NamingScreen_CreatePCIcon(void)
     spriteId = CreateSprite(&sSpriteTemplate_PCIcon, 56, 41, 0);
     SetSubspriteTables(&gSprites[spriteId], sSubspriteTable_PCIcon);
     gSprites[spriteId].oam.priority = 3;
-}
+};
 
 static void NamingScreen_CreateMonIcon(void)
 {
@@ -1468,7 +1470,7 @@ static void NamingScreen_CreateMonIcon(void)
     LoadMonIconPalettes();
     spriteId = CreateMonIcon(sNamingScreen->monSpecies, SpriteCallbackDummy, 56, 40, 0, sNamingScreen->monPersonality);
     gSprites[spriteId].oam.priority = 3;
-}
+};
 
 static void NamingScreen_CreateWaldaDadIcon(void)
 {
@@ -1477,13 +1479,15 @@ static void NamingScreen_CreateWaldaDadIcon(void)
     spriteId = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_MAN_1, SpriteCallbackDummy, 56, 37, 0);
     gSprites[spriteId].oam.priority = 3;
     StartSpriteAnim(&gSprites[spriteId], ANIM_STD_GO_SOUTH);
-}
+};
 
 static void NamingScreen_CreateCodeIcon(void)
 {
     u8 spriteId;
     spriteId = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_MYSTERY_GIFT_MAN, SpriteCallbackDummy, 56, 37, 0);
     gSprites[spriteId].oam.priority = 3;
+};
+
 static void NamingScreen_CreateRivalIcon(void)
 {
     u8 rivalGfxId;
@@ -1493,7 +1497,7 @@ static void NamingScreen_CreateRivalIcon(void)
     spriteId = CreateObjectGraphicsSprite(rivalGfxId, SpriteCallbackDummy, 56, 37, 0);
     gSprites[spriteId].oam.priority = 3;
     StartSpriteAnim(&gSprites[spriteId], 4);
-}
+};
 
 //--------------------------------------------------
 // Keyboard handling
@@ -1536,7 +1540,7 @@ static bool8 HandleKeyboardEvent(void)
     {
         return sKeyboardKeyHandlers[keyRole](input);
     }
-}
+};
 
 static bool8 KeyboardKeyHandler_Character(u8 input)
 {
@@ -1555,7 +1559,7 @@ static bool8 KeyboardKeyHandler_Character(u8 input)
         }
     }
     return FALSE;
-}
+};
 
 static void SwapKeyboardToLowerAfterFirstCapitalLetter(void)
 {
@@ -1569,7 +1573,7 @@ static void SwapKeyboardToLowerAfterFirstCapitalLetter(void)
         return;
 
     MainState_StartPageSwap();
-}
+};
 
 static bool8 KeyboardKeyHandler_Page(u8 input)
 {
@@ -1578,7 +1582,7 @@ static bool8 KeyboardKeyHandler_Page(u8 input)
         return SwapKeyboardPage();
     else
         return FALSE;
-}
+};
 
 static bool8 KeyboardKeyHandler_Backspace(u8 input)
 {
@@ -1586,7 +1590,7 @@ static bool8 KeyboardKeyHandler_Backspace(u8 input)
     if (input == INPUT_A_BUTTON)
         DeleteTextCharacter();
     return FALSE;
-}
+};
 
 static bool8 KeyboardKeyHandler_OK(u8 input)
 {
@@ -1599,13 +1603,13 @@ static bool8 KeyboardKeyHandler_OK(u8 input)
     }
     else
         return FALSE;
-}
+};
 
 static bool8 SwapKeyboardPage(void)
 {
     sNamingScreen->state = STATE_START_PAGE_SWAP;
     return TRUE;
-}
+};
 
 //--------------------------------------------------
 // Input handling
@@ -1633,31 +1637,31 @@ static void HandleDpadMovement(struct Task *);
 static void CreateInputHandlerTask(void)
 {
     CreateTask(Task_HandleInput, 1);
-}
+};
 
 static u8 GetInputEvent(void)
 {
     u8 taskId = FindTaskIdByFunc(Task_HandleInput);
 
     return gTasks[taskId].tKeyboardEvent;
-}
+};
 
 static void SetInputState(u8 state)
 {
     u8 taskId = FindTaskIdByFunc(Task_HandleInput);
 
     gTasks[taskId].tState = state;
-}
+};
 
 static void Task_HandleInput(u8 taskId)
 {
     sInputFuncs[gTasks[taskId].tState](&gTasks[taskId]);
-}
+};
 
 static void Input_Disabled(struct Task *task)
 {
     task->tKeyboardEvent = INPUT_NONE;
-}
+};
 
 static void Input_Enabled(struct Task *task)
 {
@@ -1673,12 +1677,12 @@ static void Input_Enabled(struct Task *task)
         task->tKeyboardEvent = INPUT_START;
     else
         HandleDpadMovement(task);
-}
+};
 
 static void Input_Override(struct Task *task)
 {
     task->tKeyboardEvent = INPUT_NONE;
-}
+};
 
 static void HandleDpadMovement(struct Task *task)
 {
@@ -1776,7 +1780,7 @@ static void HandleDpadMovement(struct Task *task)
             cursorY = 0;
     }
     SetCursorPos(cursorX, cursorY);
-}
+};
 
 #undef tState
 #undef tKeyboardEvent
@@ -1787,7 +1791,7 @@ static void DrawNormalTextEntryBox(void)
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
     AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, sNamingScreen->template->title, 8, 1, 0, 0);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
-}
+};
 
 static void DrawMonTextEntryBox(void)
 {
@@ -1799,7 +1803,7 @@ static void DrawMonTextEntryBox(void)
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
     AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, buffer, 8, 1, 0, 0);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
-}
+};
 
 static void (*const sDrawTextEntryBoxFuncs[])(void) =
 {
@@ -1815,7 +1819,7 @@ static void (*const sDrawTextEntryBoxFuncs[])(void) =
 static void DrawTextEntryBox(void)
 {
     sDrawTextEntryBoxFuncs[sNamingScreen->templateNum]();
-}
+};
 
 static void DummyGenderIcon(void);
 static void DrawGenderIcon(void);
@@ -1829,12 +1833,12 @@ static void (*const sDrawGenderIconFuncs[])(void) =
 static void TryDrawGenderIcon(void)
 {
     sDrawGenderIconFuncs[sNamingScreen->template->addGenderIcon]();
-}
+};
 
 static void DummyGenderIcon(void)
 {
 
-}
+};
 
 static const u8 sGenderColors[2][3] =
 {
@@ -1857,12 +1861,12 @@ static void DrawGenderIcon(void)
         }
         AddTextPrinterParameterized3(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL, (POKEMON_NAME_LENGTH * 4) + 64, 1, sGenderColors[isFemale], TEXT_SKIP_DRAW, text);
     }
-}
+};
 
 static u8 GetCharAtKeyboardPos(s16 x, s16 y)
 {
     return sKeyboardChars[CurrentPageToKeyboardId()][y][x];
-}
+};
 
 
 static u8 GetTextEntryPosition(void)
@@ -1875,7 +1879,7 @@ static u8 GetTextEntryPosition(void)
             return i;
     }
     return sNamingScreen->template->maxChars - 1;
-}
+};
 
 static u8 GetPreviousTextCaretPosition(void)
 {
@@ -1887,7 +1891,7 @@ static u8 GetPreviousTextCaretPosition(void)
             return i;
     }
     return 0;
-}
+};
 
 static void DeleteTextCharacter(void)
 {
@@ -1906,7 +1910,7 @@ static void DeleteTextCharacter(void)
     if (keyRole == KEY_ROLE_CHAR || keyRole == KEY_ROLE_BACKSPACE)
         TryStartButtonFlash(BUTTON_BACK, FALSE, TRUE);
     PlaySE(SE_BALL);
-}
+};
 
 // Returns TRUE if the text entry is now full
 static bool8 AddTextCharacter(void)
@@ -1924,13 +1928,13 @@ static bool8 AddTextCharacter(void)
         return FALSE;
     else
         return TRUE;
-}
+};
 
 static void BufferCharacter(u8 ch)
 {
     u8 index = GetTextEntryPosition();
     sNamingScreen->textBuffer[index] = ch;
-}
+};
 
 static void SaveInputText(void)
 {
@@ -1944,7 +1948,7 @@ static void SaveInputText(void)
             break;
         }
     }
-}
+};
 
 static void LoadGfx(void)
 {
@@ -1954,30 +1958,30 @@ static void LoadGfx(void)
     LoadBgTiles(3, sNamingScreen->tileBuffer, sizeof(sNamingScreen->tileBuffer), 0);
     LoadSpriteSheets(sSpriteSheets);
     LoadSpritePalettes(sSpritePalettes);
-}
+};
 
 static void CreateHelperTasks(void)
 {
     CreateInputHandlerTask();
     CreateButtonFlashTask();
-}
+};
 
 static void LoadPalettes(void)
 {
     LoadPalette(gNamingScreenMenu_Pal, BG_PLTT_ID(0), sizeof(gNamingScreenMenu_Pal));
     LoadPalette(sKeyboard_Pal, BG_PLTT_ID(10), sizeof(sKeyboard_Pal));
     LoadPalette(GetTextWindowPalette(2), BG_PLTT_ID(11), PLTT_SIZE_4BPP);
-}
+};
 
 static void DrawBgTilemap(u8 bg, const void *src)
 {
     CopyToBgTilemapBuffer(bg, src, 0, 0);
-}
+};
 
 static void NamingScreen_Dummy(u8 bg, u8 page)
 {
 
-}
+};
 
 static void DrawTextEntry(void)
 {
@@ -2001,7 +2005,7 @@ static void DrawTextEntry(void)
     TryDrawGenderIcon();
     CopyWindowToVram(sNamingScreen->windows[WIN_TEXT_ENTRY], COPYWIN_GFX);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY]);
-}
+};
 
 struct TextColor   // Needed because of alignment
 {
@@ -2041,7 +2045,7 @@ static void PrintKeyboardKeys(u8 window, u8 page)
         AddTextPrinterParameterized3(window, FONT_NORMAL, 0, i * 16 + 1, sKeyboardTextColors[page], 0, sNamingScreenKeyboardText[page][i]);
 
     PutWindowTilemap(window);
-}
+};
 
 static const u8 *const sNextKeyboardPageTilemaps[] =
 {
@@ -2077,7 +2081,7 @@ static void DrawKeyboardPageOnDeck(void)
     PrintKeyboardKeys(windowId, CurrentPageToNextKeyboardId());
     NamingScreen_Dummy(bg, CurrentPageToNextKeyboardId());
     CopyBgTilemapBufferToVram(bg_);
-}
+};
 
 static void PrintControls(void)
 {
@@ -2087,7 +2091,7 @@ static void PrintControls(void)
     AddTextPrinterParameterized3(sNamingScreen->windows[WIN_BANNER], FONT_SMALL, 2, 1, color, 0, gText_MoveOkBack);
     PutWindowTilemap(sNamingScreen->windows[WIN_BANNER]);
     CopyWindowToVram(sNamingScreen->windows[WIN_BANNER], COPYWIN_FULL);
-}
+};
 
 static void CB2_NamingScreen(void)
 {
@@ -2095,18 +2099,18 @@ static void CB2_NamingScreen(void)
     AnimateSprites();
     BuildOamBuffer();
     UpdatePaletteFade();
-}
+};
 
 static void ResetVHBlank(void)
 {
     SetVBlankCallback(NULL);
     SetHBlankCallback(NULL);
-}
+};
 
 static void SetVBlank(void)
 {
     SetVBlankCallback(VBlankCB_NamingScreen);
-}
+};
 
 static void VBlankCB_NamingScreen(void)
 {
@@ -2119,7 +2123,7 @@ static void VBlankCB_NamingScreen(void)
     SetGpuRegBits(REG_OFFSET_BG1CNT, sNamingScreen->bg1Priority);
     SetGpuReg(REG_OFFSET_BG2CNT, GetGpuReg(REG_OFFSET_BG2CNT) & 0xFFFC);
     SetGpuRegBits(REG_OFFSET_BG2CNT, sNamingScreen->bg2Priority);
-}
+};
 
 static void NamingScreen_ShowBgs(void)
 {
@@ -2127,7 +2131,7 @@ static void NamingScreen_ShowBgs(void)
     ShowBg(1);
     ShowBg(2);
     ShowBg(3);
-}
+};
 
 // Always false (presumably for non-latin languages)
 static bool8 IsWideLetter(u8 character)
@@ -2140,7 +2144,7 @@ static bool8 IsWideLetter(u8 character)
             return FALSE;
     }
     return FALSE;
-}
+};
 
 // Debug? Arguments aren't sensible for non-player screens.
 static void UNUSED Debug_NamingScreenPlayer(void)
@@ -2170,6 +2174,7 @@ void NameRival(void)
     else
         StringCopy(gSaveBlock2Ptr->rivalName, gMalePresetNames[Random() % NELEMS(gMalePresetNames)]); // choose a random name from gMalePresetNames for a female player's rival
     DoNamingScreen(NAMING_SCREEN_RIVAL, gSaveBlock2Ptr->rivalName, 0, 0, 0, CB2_ReturnToFieldContinueScript);
+    //DebugPrintf("RIVAL")
 }
 
 
@@ -2227,7 +2232,10 @@ static const struct NamingScreenTemplate sCodeScreenTemplate =
 {
     .copyExistingString = FALSE,
     .maxChars = CODE_NAME_LENGTH,
-static const u8 sText_RivalsName[] = _("Rival's Name?");
+    .title = sText_EnterCode,
+};
+
+static const u8 sText_RivalsName[] = _("Friend's Name?");
 static const struct NamingScreenTemplate sRivalNamingScreenTemplate =
 {
     .copyExistingString = FALSE,
@@ -2236,7 +2244,6 @@ static const struct NamingScreenTemplate sRivalNamingScreenTemplate =
     .addGenderIcon = FALSE,
     .initialPage = KBPAGE_LETTERS_UPPER,
     .unused = 35,
-    .title = sText_EnterCode,
     .title = sText_RivalsName,
 };
 

@@ -393,7 +393,7 @@ LittlerootTown_EventScript_GoSaveBirchTrigger::
 	end
 
 LittlerootTown_EventScript_TownSign::
-	msgbox LittlerootTown_Text_TownSign, MSGBOX_SIGN
+	special NameRival
 	end
 
 LittlerootTown_EventScript_BirchsLabSign::

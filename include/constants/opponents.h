@@ -739,7 +739,7 @@
 #define TRAINER_DARCY                       733
 #define TRAINER_MAXIE_MOSSDEEP              734
 #define TRAINER_PETE                        735
-#define TRAINER_ROARK                    736//unused
+#define TRAINER_ROARK                       736//replaced
 #define TRAINER_ANDRES_1                    737
 #define TRAINER_JOSUE                       738
 #define TRAINER_CAMRON                      739
