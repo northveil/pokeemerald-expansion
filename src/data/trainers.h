@@ -42257,3 +42257,136 @@ F_TRAINER_FEMALE |
             },
         },
     },
+#line 16917
+    [DIFFICULTY_NORMAL][TRAINER_GARDENIA] =
+    {
+#line 16918
+        .trainerName = _("Gardenia"),
+#line 16919
+        .trainerClass = TRAINER_CLASS_LEADER,
+#line 16920
+        .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
+        .encounterMusic_gender =
+#line 16921
+F_TRAINER_FEMALE | 
+#line 16922
+            TRAINER_ENCOUNTER_MUSIC_FEMALE,
+#line 16923
+        .items = { ITEM_POTION, ITEM_POTION, ITEM_FULL_HEAL },
+#line 16924
+        .doubleBattle = FALSE,
+#line 16925
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 5,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 16927
+            .species = SPECIES_GROTLE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16931
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 16930
+            .ability = ABILITY_SHELL_ARMOR,
+#line 16929
+            .lvl = 24,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16928
+            .tags = MON_POOL_TAG_LEAD | MON_POOL_TAG_WEATHER_SETTER,
+            .moves = {
+#line 16932
+                MOVE_SUNNY_DAY,
+                MOVE_PROTECT,
+                MOVE_BULLDOZE,
+                MOVE_LEECH_SEED,
+            },
+            },
+            {
+#line 16937
+            .species = SPECIES_LOMBRE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16937
+            .heldItem = ITEM_WEPEAR_BERRY,
+#line 16940
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 16939
+            .ability = ABILITY_OWN_TEMPO,
+#line 16938
+            .lvl = 24,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 16941
+                MOVE_WATER_PULSE,
+                MOVE_NATURAL_GIFT,
+                MOVE_FAKE_OUT,
+                MOVE_KNOCK_OFF,
+            },
+            },
+            {
+#line 16946
+            .species = SPECIES_CHERRIM,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16950
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 16949
+            .ability = ABILITY_FLOWER_GIFT,
+#line 16948
+            .lvl = 25,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16947
+            .tags = MON_POOL_TAG_WEATHER_ABUSER,
+            .moves = {
+#line 16951
+                MOVE_SUNNY_DAY,
+                MOVE_SOLAR_BEAM,
+                MOVE_WEATHER_BALL,
+                MOVE_DAZZLING_GLEAM,
+            },
+            },
+            {
+#line 16956
+            .species = SPECIES_TREVENANT,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16959
+            .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
+#line 16958
+            .ability = ABILITY_NATURAL_CURE,
+#line 16957
+            .lvl = 24,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 16960
+                MOVE_WILL_O_WISP,
+                MOVE_ALLY_SWITCH,
+                MOVE_SHADOW_CLAW,
+                MOVE_SEED_BOMB,
+            },
+            },
+            {
+#line 16965
+            .species = SPECIES_ROSERADE,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 16965
+            .heldItem = ITEM_SITRUS_BERRY,
+#line 16968
+            .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
+#line 16967
+            .lvl = 26,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+#line 16966
+            .tags = MON_POOL_TAG_WEATHER_ABUSER,
+            .moves = {
+#line 16969
+                MOVE_GRASS_KNOT,
+                MOVE_WEATHER_BALL,
+                MOVE_SLUDGE,
+                MOVE_STUN_SPORE,
+            },
+            },
+        },
+    },

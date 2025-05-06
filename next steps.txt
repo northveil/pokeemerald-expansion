@@ -27,12 +27,12 @@ gym and/or important structures done 10
 story scripts done 10
 
 world
-twinleaf town 5%
-sandgem town 5%
+twinleaf town 65%
+sandgem town 20%
 jubilife city 25%
-oreburgh city 10%
-floaroma town 5%
-eterna city 0%
+oreburgh city 60%
+floaroma town 20%
+eterna city 10%
 hearthome city 0%
 solaceon town 0%
 veilstone city 0%
@@ -45,11 +45,11 @@ pokemon league 0%
 
 route 201 90%
 route 202 25%
-route 203 10%
-route 204 10%
-route 205 5%
-route 206 0%
-route 207 0%
+route 203 40%
+route 204 40%
+route 205 35%
+route 206 35%
+route 207 40%
 route 208 0%
 route 209 0%
 route 210 0%
@@ -74,7 +74,10 @@ route 228 0%
 route 229 0%
 route 230 0%
 
-oreburgh gate 20%
-oreburgh mine 20%
+oreburgh gate 40%
+oreburgh mine 40%
 ravaged path 15%
+eterna forest 40%
+wayward cave 5%
+mt coronet 1%
 

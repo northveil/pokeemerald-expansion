@@ -24,6 +24,7 @@ time will pass after:
 "week" cycle
 7 day rotation for certain events. 
 some things will only happen on certain days.
+maybe routes will have a weather rotation based on day?
 1 friday drifloon at the windworks
 2 mom will be at hearthome on the weekends, after talking to her at the contest hall. she will leave a note on the counter. you will still be able to heal in your bed.
 3 roark will be in different places in the underground based on the day, and will give you a different evo stone based on location.

@@ -16913,3 +16913,60 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Pursuit
 - Leer
 - Smack Down
+
+=== TRAINER_GARDENIA ===
+Name: Gardenia
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Items: Potion / Potion / Full Heal
+Double Battle: No
+AI: Basic Trainer
+
+Grotle
+Tags: Lead / Weather Setter
+Level: 24
+Ability: Shell Armor
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sunny Day
+- Protect
+- Bulldoze
+- Leech Seed
+
+Lombre @ Wepear Berry
+Level: 24
+Ability: Own Tempo
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Natural Gift
+- Fake Out
+- Knock Off
+
+Cherrim
+Tags: Weather Abuser
+Level: 25
+Ability: Flower Gift
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sunny Day
+- Solar Beam
+- Weather Ball
+- Dazzling Gleam
+
+Trevenant
+Level: 24
+Ability: Natural Cure
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Will-O-Wisp
+- Ally Switch
+- Shadow Claw
+- Seed Bomb
+
+Roserade @ Sitrus Berry
+Tags: Weather Abuser
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Grass Knot
+- Weather Ball
+- Sludge 
+- Stun Spore
