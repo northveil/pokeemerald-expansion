@@ -5014,7 +5014,7 @@
     {
       "id": "LAYOUT_TWINLEAF_TOWN_PLAYER_HOUSE_2F",
       "name": "TwinleafTown_PlayerHouse_2F_Layout",
-      "width": 14,
+      "width": 10,
       "height": 10,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
@@ -5110,6 +5110,26 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/JubilifeCity_TrainerSchool/border.bin",
       "blockdata_filepath": "data/layouts/JubilifeCity_TrainerSchool/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_MART",
+      "name": "SandgemTown_Mart_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/SandgemTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE218",
+      "name": "Route218_Layout",
+      "width": 70,
+      "height": 34,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/Route218/border.bin",
+      "blockdata_filepath": "data/layouts/Route218/map.bin"
     }
   ]
 }

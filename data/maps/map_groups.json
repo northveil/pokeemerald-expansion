@@ -65,7 +65,8 @@
     "Route207",
     "Route208",
     "Route211West",
-    "VerityLakefront"
+    "VerityLakefront",
+    "Route218"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -696,7 +697,8 @@
   ],
   "gMapGroup_IndoorSandgem": [
     "SandgemTown_PokemonCenter_1F",
-    "SandgemTown_RowanLab"
+    "SandgemTown_RowanLab",
+    "SandgemTown_Mart"
   ],
   "gMapGroup_IndoorJubilife": [
     "JubilifeCity_PokemonCenter1f",

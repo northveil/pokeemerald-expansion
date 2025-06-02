@@ -3,7 +3,7 @@ EternaCity_Gym_MapScripts::
 
 EternaCity_Gym_EventScript_Gardenia::
 	trainerbattle_single TRAINER_GARDENIA, EternaCity_Gym_Text_GardeniaIntro, EternaCity_Gym_Text_GardeniaDefeat, EternaCity_Gym_EventScript_GardeniaDefeated, NO_MUSIC
-	goto_if_unset FLAG_RECEIVED_TM_ROCK_TOMB, EternaCity_Gym_EventScript_GiveGrassKnot
+	goto_if_unset FLAG_RECEIVED_TM_BULK_UP, EternaCity_Gym_EventScript_GiveGrassKnot
 	msgbox EternaCity_Gym_Text_GardeniaPostBattle, MSGBOX_DEFAULT
 	release
 	end

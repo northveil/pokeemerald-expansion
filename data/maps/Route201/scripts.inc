@@ -1,5 +1,39 @@
+.set LOCALID_RIVAL, 8
+.set LOCALID_ROWAN, 5
+.set LOCALID_BAG, 7
+.set LOCALID_ASSISTANT, 6
+
 Route201_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route201_OnTransition
 	.byte 0
+
+Route201_OnTransition:
+	goto_if_eq VAR_ROUTE102_STATE, 0, Route201_EventScript_HideRowanBag
+	goto_if_eq VAR_ROUTE102_STATE, 2, Route201_EventScript_HideRowanBag
+	end
+
+Route201_EventScript_HideRowanBag::
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	release 
+	end
+
+Route201_EventScript_RowanBag::
+	lock
+	faceplayer
+	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_RESCUED_BIRCH
+	fadescreen FADE_TO_BLACK
+	special ChooseStarter
+	waitstate
+	special HealPlayerParty
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	setvar VAR_BIRCH_LAB_STATE, 2
+	setvar VAR_ROUTE101_STATE, 2
+	release
+	end
+
 
 Route201_EventScript_Barry1::
 	msgbox Route201_Text_DontGoInTallGrass, MSGBOX_NPC

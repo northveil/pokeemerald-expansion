@@ -42078,7 +42078,7 @@ F_TRAINER_FEMALE |
 #line 16839
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
 #line 16840
-        .trainerPic = TRAINER_PIC_YOUNGSTER,
+        .trainerPic = TRAINER_PIC_DAWN,
         .encounterMusic_gender =
 #line 16842
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -42293,7 +42293,7 @@ F_TRAINER_FEMALE |
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
 #line 16928
-            .tags = MON_POOL_TAG_LEAD | MON_POOL_TAG_WEATHER_SETTER,
+            .tags = MON_POOL_TAG_WEATHER_SETTER,
             .moves = {
 #line 16932
                 MOVE_SUNNY_DAY,

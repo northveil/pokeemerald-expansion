@@ -1297,3 +1297,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/OldChateau_2F/scripts.inc"
 
 	.include "data/maps/JubilifeCity_TrainerSchool/scripts.inc"
+
+	.include "data/maps/SandgemTown_Mart/scripts.inc"
+
+	.include "data/maps/Route218/scripts.inc"

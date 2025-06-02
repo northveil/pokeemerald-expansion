@@ -189,7 +189,7 @@ static void FeebasSeedRng(u16 seed)
 // LAND_WILD_COUNT
 u8 ChooseWildMonIndex_Land(void)
 {
-    DebugPrintf("Trying to genereate wild encounter...");
+    //DebugPrintf("Trying to genereate wild encounter...");
     u8 wildMonIndex = 0;
     bool8 swap = FALSE;
     u8 rand = Random() % ENCOUNTER_CHANCE_LAND_MONS_TOTAL;
@@ -310,7 +310,7 @@ static u8 ChooseWildMonIndex_Fishing(u8 rod)
 //change all of this to the honey tree macros
 u8 ChooseWildMonIndex_Honey(void)
 {
-    DebugPrintf("Trying to genereate wild encounter...");
+    //DebugPrintf("Trying to genereate wild encounter...");
     u8 wildMonIndex = 0;
     bool8 swap = FALSE;
     u8 rand = Random() % ENCOUNTER_CHANCE_HONEY_TREE_TOTAL;
@@ -842,24 +842,24 @@ void HoneyTreeWildEncounter(void)
         if (wildPokemonInfo == NULL)
         {
             gSpecialVar_Result = FALSE;
-            DebugPrintf("No HoneyTree encounters on map");
+            //DebugPrintf("No HoneyTree encounters on map");
         }
         else if (/*WildEncounterCheck(wildPokemonInfo->encounterRate, TRUE) == TRUE &&*/
         TryGenerateWildMon(wildPokemonInfo, WILD_AREA_HONEY, 0) == TRUE)
         {
             BattleSetup_StartWildBattle();
             gSpecialVar_Result = TRUE;
-            DebugPrintf("Success");
+            //DebugPrintf("Success");
         }
         else
         {
-            DebugPrintf("Could not start an encounter due to generate rules");
+            //DebugPrintf("Could not start an encounter due to generate rules");
             gSpecialVar_Result = FALSE;
         }
     }
     else
     {
-        DebugPrintf("No map header available");
+        //DebugPrintf("No map header available");
         gSpecialVar_Result = FALSE;
     }
 }

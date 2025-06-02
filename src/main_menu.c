@@ -1627,6 +1627,7 @@ static void Task_NewGameBirchSpeech_StartNamingScreen(u8 taskId)
         FreeAllWindowBuffers();
         FreeAndDestroyMonPicSprite(gTasks[taskId].tLotadSpriteId);
         NewGameBirchSpeech_SetDefaultPlayerName(Random() % NUM_PRESET_NAMES);
+        NewGameBirchSpeech_SetDefaultRivalName(Random() % NUM_PRESET_NAMES);
         DestroyTask(taskId);
         DoNamingScreen(NAMING_SCREEN_PLAYER, gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender, 0, 0, CB2_NewGameBirchSpeech_ReturnFromNamingScreen);
     }
@@ -1679,6 +1680,20 @@ static void Task_NewGameBirchSpeech_SlidePlatformAway2(u8 taskId)
         gTasks[taskId].func = Task_NewGameBirchSpeech_ReshowBirchLotad;
     }
 }
+
+//----------------------------------------------------------------------------
+//Rival naming functions
+/*
+SlideInRivalSprite
+WhatsRivalName
+WaitForWhatsRivalNameToPrint
+WaitPressBeforeRivalNameChoice
+StartRivalNamingScreen
+SoItsRivalName
+CreateRivalNameYesNo
+ProcessRivalNameYesNoMenu
+SlidePlatformAway3
+*/
 
 static void Task_NewGameBirchSpeech_ReshowBirchLotad(u8 taskId)
 {
@@ -2141,6 +2156,16 @@ void NewGameBirchSpeech_SetDefaultPlayerName(u8 nameId)
     for (i = 0; i < PLAYER_NAME_LENGTH; i++)
         gSaveBlock2Ptr->playerName[i] = name[i];
     gSaveBlock2Ptr->playerName[PLAYER_NAME_LENGTH] = EOS;
+}
+
+void NewGameBirchSpeech_SetDefaultRivalName(u8 nameId)
+{
+    const u8 *name;
+    u8 i;
+    name = gText_DefaultNameBarry;
+    for (i = 0;i < PLAYER_NAME_LENGTH; i++)
+        gSaveBlock2Ptr->rivalName[i] = name[i];
+    gSaveBlock2Ptr->rivalName[PLAYER_NAME_LENGTH] = EOS;
 }
 
 static void CreateMainMenuErrorWindow(const u8 *str)

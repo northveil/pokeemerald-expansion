@@ -1,13 +1,16 @@
 graphics
-jubilife tileset needs trainer school, 
-oreburgh tileset needs conveyors, diggers, mineshaft, cycling road
+new general tileset for better tilemap usage?
+jubilife tileset needs trainer school, gts building, jubilife tv 
+oreburgh tileset needs conveyors, diggers, mineshaft, cycling road// try to find a way to add either a new palette or use an existing paleete better
 floaroma tileset needs flower shop, houses, windworks, ironworks
 eterna tileset needs buildings, statue,
 twinleaf tileset needs rowans lab, sandgem houses, snow trees
+new building tileset(s). tvs, sideways stair warps, 
+underground tileset. mine support beams, mine doors, underground encounter areas 
 
 scripts
 day night cycle that changes encounter tables. will be based on activities done in game, like battling and healing instead of system time. certain story events will cause the game to be at a certain time.
-honey trees
+honey trees-done
 rock climb
 shops that change depending on badges
 make nurse joy stop the cursed text-done

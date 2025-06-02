@@ -16837,7 +16837,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_TRISTAN ===
 Name: TRISTAN
 Class: Youngster
-Pic: Youngster
+Pic: Dawn
 Gender: Male
 Music: Male
 Double Battle: No
@@ -16925,7 +16925,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Grotle
-Tags: Lead / Weather Setter
+Tags: Weather Setter
 Level: 24
 Ability: Shell Armor
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe

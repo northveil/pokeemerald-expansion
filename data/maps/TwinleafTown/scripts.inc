@@ -3,6 +3,9 @@ TwinleafTown_MapScripts::
 
 TwinleafTown_EventScript_Barry::
 
+TwinleafTown_EventScript_TownSign::
+	special NameRival
+
 @@Thud,pause,eclamation+music,talk
 TwinleafTown_EventScript_Girl::
 	goto_if_unset FLAG_SYS_POKEMON_GET, TwinleafTown_EventScript_Girl_NoMon

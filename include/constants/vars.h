@@ -113,8 +113,8 @@
 #define VAR_MOSSDEEP_CITY_STATE                          0x405D
 #define VAR_SOOTOPOLIS_CITY_STATE                        0x405E
 #define VAR_EVER_GRANDE_CITY_STATE                       0x405F // Unused Var
-#define VAR_ROUTE101_STATE                               0x4060
-#define VAR_ROUTE102_STATE                               0x4061 // Unused Var
+#define VAR_ROUTE101_STATE                               0x4060 //Repurposed for 201//0=rival waiting before getting starter.1=choosing starter.2=starter chosen.3=after rival battle.4=lake verity visited
+#define VAR_ROUTE102_STATE                               0x4061 // Repurposed for 202//0=mom not met before catching tutorial.1=ready for catching tutorial.2=catching tutorial done 
 #define VAR_ROUTE103_STATE                               0x4062 // Unused Var
 #define VAR_ROUTE104_STATE                               0x4063
 #define VAR_ROUTE105_STATE                               0x4064 // Unused Var
@@ -264,8 +264,8 @@
 #define VAR_ROXANNE_CALL_STEP_COUNTER                    0x40F4
 #define VAR_SCOTT_BF_CALL_STEP_COUNTER                   0x40F5
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER             0x40F6
-#define VAR_UNUSED_0x40F7                                0x40F7 // Unused Var
-#define VAR_UNUSED_0x40F8                                0x40F8 // Unused Var
+#define VAR_TWINLEAF_TOWN_STATE                          0x40F7 // Unused Var//0=rival in player room 1-2.talk to mom downstairs 3=rival at door.4=rival in room.4=rival at 201. 5
+#define VAR_SANDGEM_TOWN_STATE                           0x40F8 // Unused Var//0=dawn/lucas outside lab
 #define VAR_UNUSED_0x40F9                                0x40F9 // Unused Var
 #define VAR_UNUSED_0x40FA                                0x40FA // Unused Var
 #define VAR_UNUSED_0x40FB                                0x40FB // Unused Var
