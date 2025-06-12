@@ -137,7 +137,7 @@ static void WarpToTruck(void)
 
 static void WarpToRoom(void)
 {
-    SetWarpDestination(MAP_GROUP(TWINLEAF_TOWN_PLAYER_HOUSE_2F), MAP_NUM(TWINLEAF_TOWN_PLAYER_HOUSE_2F), WARP_ID_NONE, 3, 5);
+    SetWarpDestination(MAP_GROUP(MAP_TWINLEAF_TOWN_PLAYER_HOUSE_2F), MAP_NUM(MAP_TWINLEAF_TOWN_PLAYER_HOUSE_2F), WARP_ID_NONE, 3, 5);
     WarpIntoMap();
 }
 

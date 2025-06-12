@@ -251,17 +251,30 @@
 #define OBJ_EVENT_GFX_DAWN_SURFING               244
 #define OBJ_EVENT_GFX_DAWN_FIELD_MOVE            245  
 #define OBJ_EVENT_GFX_DAWN_FISHING               246
-#define OBJ_EVENT_GFX_RIVAL_DAWN_NORMAL          247
-#define OBJ_EVENT_GFX_RIVAL_DAWN_MACH_BIKE       248
-#define OBJ_EVENT_GFX_RIVAL_DAWN_ACRO_BIKE       249
-#define OBJ_EVENT_GFX_RIVAL_DAWN_SURFING         250
-#define OBJ_EVENT_GFX_RIVAL_DAWN_FIELD_MOVE      251
-#define OBJ_EVENT_GFX_OW_MON                     252
+#define OBJ_EVENT_GFX_DAWN_WATERING              247
+#define OBJ_EVENT_GFX_RIVAL_DAWN_NORMAL          248
+#define OBJ_EVENT_GFX_RIVAL_DAWN_MACH_BIKE       249
+#define OBJ_EVENT_GFX_RIVAL_DAWN_ACRO_BIKE       250
+#define OBJ_EVENT_GFX_RIVAL_DAWN_SURFING         251
+#define OBJ_EVENT_GFX_RIVAL_DAWN_FIELD_MOVE      252
+#define OBJ_EVENT_GFX_LUCAS_NORMAL               253
+#define OBJ_EVENT_GFX_LUCAS_MACH_BIKE            254
+#define OBJ_EVENT_GFX_LUCAS_ACRO_BIKE            255
+#define OBJ_EVENT_GFX_LUCAS_SURFING              256
+#define OBJ_EVENT_GFX_LUCAS_FIELD_MOVE           257  
+#define OBJ_EVENT_GFX_LUCAS_FISHING              258
+#define OBJ_EVENT_GFX_LUCAS_WATERING             259
+#define OBJ_EVENT_GFX_RIVAL_LUCAS_NORMAL         260
+#define OBJ_EVENT_GFX_RIVAL_LUCAS_MACH_BIKE      261
+#define OBJ_EVENT_GFX_RIVAL_LUCAS_ACRO_BIKE      262
+#define OBJ_EVENT_GFX_RIVAL_LUCAS_SURFING        263
+#define OBJ_EVENT_GFX_RIVAL_LUCAS_FIELD_MOVE     264
+#define OBJ_EVENT_GFX_OW_MON                     265
 
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        253
+#define NUM_OBJ_EVENT_GFX                        266
 
 
 // These are dynamic object gfx ids.

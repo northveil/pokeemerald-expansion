@@ -4426,7 +4426,7 @@
       "name": "Route201_Layout",
       "width": 68,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/Route201/border.bin",
       "blockdata_filepath": "data/layouts/Route201/map.bin"
@@ -4436,7 +4436,7 @@
       "name": "SandgemTown_Layout",
       "width": 28,
       "height": 34,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/SandgemTown/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown/map.bin"
@@ -4446,7 +4446,7 @@
       "name": "TwinleafTown_Layout",
       "width": 36,
       "height": 32,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/TwinleafTown/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown/map.bin"
@@ -4466,7 +4466,7 @@
       "name": "Route202_Layout",
       "width": 32,
       "height": 28,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/Route202/border.bin",
       "blockdata_filepath": "data/layouts/Route202/map.bin"
@@ -4476,7 +4476,7 @@
       "name": "VerityLakefront_Layout",
       "width": 20,
       "height": 16,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/VerityLakefront/border.bin",
       "blockdata_filepath": "data/layouts/VerityLakefront/map.bin"
@@ -4486,7 +4486,7 @@
       "name": "JubilifeCity_Layout",
       "width": 76,
       "height": 70,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/JubilifeCity/border.bin",
       "blockdata_filepath": "data/layouts/JubilifeCity/map.bin"
@@ -4506,7 +4506,7 @@
       "name": "Route203_Layout",
       "width": 60,
       "height": 37,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/Route203/border.bin",
       "blockdata_filepath": "data/layouts/Route203/map.bin"
@@ -4536,7 +4536,7 @@
       "name": "OreburghCity_Layout",
       "width": 66,
       "height": 64,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Oreburgh",
       "border_filepath": "data/layouts/OreburghCity/border.bin",
       "blockdata_filepath": "data/layouts/OreburghCity/map.bin"
@@ -4586,7 +4586,7 @@
       "name": "Route204_Layout",
       "width": 34,
       "height": 32,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/Route204/border.bin",
       "blockdata_filepath": "data/layouts/Route204/map.bin"
@@ -4616,7 +4616,7 @@
       "name": "Floaroma_Town_Layout",
       "width": 30,
       "height": 50,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/FloaromaTown/border.bin",
       "blockdata_filepath": "data/layouts/FloaromaTown/map.bin"
@@ -4626,7 +4626,7 @@
       "name": "Route205_Layout",
       "width": 32,
       "height": 90,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/Route205/border.bin",
       "blockdata_filepath": "data/layouts/Route205/map.bin"
@@ -4636,7 +4636,7 @@
       "name": "ValleyWindworks_Layout",
       "width": 26,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/ValleyWindworks/border.bin",
       "blockdata_filepath": "data/layouts/ValleyWindworks/map.bin"
@@ -4666,7 +4666,7 @@
       "name": "EternaForest_Layout",
       "width": 82,
       "height": 82,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/EternaForest/border.bin",
       "blockdata_filepath": "data/layouts/EternaForest/map.bin"
@@ -4676,7 +4676,7 @@
       "name": "EternaForest_Clearing_Layout",
       "width": 20,
       "height": 22,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/EternaForest_Clearing/border.bin",
       "blockdata_filepath": "data/layouts/EternaForest_Clearing/map.bin"
@@ -4686,7 +4686,7 @@
       "name": "EternaForest_Outside_Layout",
       "width": 50,
       "height": 46,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/EternaForest_Outside/border.bin",
       "blockdata_filepath": "data/layouts/EternaForest_Outside/map.bin"
@@ -4696,7 +4696,7 @@
       "name": "Route205_North_Layout",
       "width": 34,
       "height": 34,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/Route205_North/border.bin",
       "blockdata_filepath": "data/layouts/Route205_North/map.bin"
@@ -4706,7 +4706,7 @@
       "name": "EternaCity_Layout",
       "width": 64,
       "height": 66,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/EternaCity/border.bin",
       "blockdata_filepath": "data/layouts/EternaCity/map.bin"
@@ -4726,7 +4726,7 @@
       "name": "Route206_Layout",
       "width": 38,
       "height": 126,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Oreburgh",
       "border_filepath": "data/layouts/Route206/border.bin",
       "blockdata_filepath": "data/layouts/Route206/map.bin"
@@ -4736,7 +4736,7 @@
       "name": "Route207_Layout",
       "width": 80,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Oreburgh",
       "border_filepath": "data/layouts/Route207/border.bin",
       "blockdata_filepath": "data/layouts/Route207/map.bin"
@@ -4746,7 +4746,7 @@
       "name": "FloaromaMeadow_Layout",
       "width": 60,
       "height": 60,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/FloaromaMeadow/border.bin",
       "blockdata_filepath": "data/layouts/FloaromaMeadow/map.bin"
@@ -4754,8 +4754,8 @@
     {
       "id": "LAYOUT_MT_CORONET_207",
       "name": "MtCoronet_207_Layout",
-      "width": 22,
-      "height": 20,
+      "width": 32,
+      "height": 26,
       "primary_tileset": "gTileset_Caves",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/MtCoronet_207/border.bin",
@@ -4894,10 +4894,10 @@
     {
       "id": "LAYOUT_ROUTE208",
       "name": "Route208_Layout",
-      "width": 40,
-      "height": 40,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Eterna",
+      "width": 76,
+      "height": 33,
+      "primary_tileset": "gTileset_Sinnoh",
+      "secondary_tileset": "gTileset_Hearthome",
       "border_filepath": "data/layouts/Route208/border.bin",
       "blockdata_filepath": "data/layouts/Route208/map.bin"
     },
@@ -4946,7 +4946,7 @@
       "name": "LakeVerity_Layout",
       "width": 50,
       "height": 50,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Twinleaf",
       "border_filepath": "data/layouts/LakeVerity/border.bin",
       "blockdata_filepath": "data/layouts/LakeVerity/map.bin"
@@ -4956,7 +4956,7 @@
       "name": "Route211West_Layout",
       "width": 36,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/Route211West/border.bin",
       "blockdata_filepath": "data/layouts/Route211West/map.bin"
@@ -4966,7 +4966,7 @@
       "name": "FuegoIronworks_Layout",
       "width": 34,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/FuegoIronworks/border.bin",
       "blockdata_filepath": "data/layouts/FuegoIronworks/map.bin"
@@ -4986,7 +4986,7 @@
       "name": "Route204_North_Layout",
       "width": 34,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/Route204_North/border.bin",
       "blockdata_filepath": "data/layouts/Route204_North/map.bin"
@@ -5126,10 +5126,50 @@
       "name": "Route218_Layout",
       "width": 70,
       "height": 34,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh",
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/Route218/border.bin",
       "blockdata_filepath": "data/layouts/Route218/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_MART",
+      "name": "JubilifeCity_Mart_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/JubilifeCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_MART",
+      "name": "OreburghCity_Mart_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/OreburghCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN_MART",
+      "name": "FloaromaTown_Mart_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/FloaromaTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_CITY_MART",
+      "name": "EternaCity_Mart_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/EternaCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/EternaCity_Mart/map.bin"
     }
   ]
 }

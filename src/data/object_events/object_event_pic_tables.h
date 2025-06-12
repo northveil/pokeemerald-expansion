@@ -171,6 +171,64 @@ static const struct SpriteFrameImage sPicTable_DawnFieldMove[] = {
     overworld_ascending_frames(gObjectEventPic_DawnFieldMove, 4, 4),
 };
 
+static const struct SpriteFrameImage sPicTable_DawnWatering[] = {
+    overworld_frame(gObjectEventPic_DawnWatering, 4, 4, 0),
+    overworld_frame(gObjectEventPic_DawnWatering, 4, 4, 2),
+    overworld_frame(gObjectEventPic_DawnWatering, 4, 4, 4),
+    overworld_frame(gObjectEventPic_DawnWatering, 4, 4, 1),
+    overworld_frame(gObjectEventPic_DawnWatering, 4, 4, 1),
+    overworld_frame(gObjectEventPic_DawnWatering, 4, 4, 3),
+    overworld_frame(gObjectEventPic_DawnWatering, 4, 4, 3),
+    overworld_frame(gObjectEventPic_DawnWatering, 4, 4, 5),
+    overworld_frame(gObjectEventPic_DawnWatering, 4, 4, 5),
+};
+//
+static const struct SpriteFrameImage sPicTable_LucasNormal[] = {
+    overworld_ascending_frames(gObjectEventPic_LucasNormalRunning, 2, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_LucasMachBike[] = {
+    overworld_ascending_frames(gObjectEventPic_LucasMachBike, 4, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_LucasAcroBike[] = {
+    overworld_ascending_frames(gObjectEventPic_LucasAcroBike, 4, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_LucasSurfing[] = {
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 1),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 3),
+    overworld_frame(gObjectEventPic_LucasSurfing, 4, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_LucasFishing[] = {
+    overworld_ascending_frames(gObjectEventPic_LucasFishing, 4, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_LucasFieldMove[] = {
+    overworld_ascending_frames(gObjectEventPic_LucasFieldMove, 4, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_LucasWatering[] = {
+    overworld_frame(gObjectEventPic_LucasWatering, 4, 4, 0),
+    overworld_frame(gObjectEventPic_LucasWatering, 4, 4, 2),
+    overworld_frame(gObjectEventPic_LucasWatering, 4, 4, 4),
+    overworld_frame(gObjectEventPic_LucasWatering, 4, 4, 1),
+    overworld_frame(gObjectEventPic_LucasWatering, 4, 4, 1),
+    overworld_frame(gObjectEventPic_LucasWatering, 4, 4, 3),
+    overworld_frame(gObjectEventPic_LucasWatering, 4, 4, 3),
+    overworld_frame(gObjectEventPic_LucasWatering, 4, 4, 5),
+    overworld_frame(gObjectEventPic_LucasWatering, 4, 4, 5),
+};
 //--------------------------------------------------------------
 
 static const struct SpriteFrameImage sPicTable_QuintyPlump[] = {

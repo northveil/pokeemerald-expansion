@@ -131,6 +131,42 @@
       "map": "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
       "x": 3,
       "y": 52
+    },
+    {
+      "id": "HEAL_LOCATION_ETERNA_CITY",
+      "map": "MAP_ETERNA_CITY",
+      "x": 15,
+      "y": 21
+    },
+    {
+      "id": "HEAL_LOCATION_FLOAROMA_TOWN",
+      "map": "MAP_FLOAROMA_TOWN",
+      "x": 16,
+      "y": 48
+    },
+    {
+      "id": "HEAL_LOCATION_JUBILIFE_CITY",
+      "map": "MAP_JUBILIFE_CITY",
+      "x": 63,
+      "y": 42
+    },
+    {
+      "id": "HEAL_LOCATION_OREBURGH_CITY",
+      "map": "MAP_OREBURGH_CITY",
+      "x": 48,
+      "y": 24
+    },
+    {
+      "id": "HEAL_LOCATION_SANDGEM_TOWN",
+      "map": "MAP_SANDGEM_TOWN",
+      "x": 13,
+      "y": 11
+    },
+    {
+      "id": "HEAL_LOCATION_TWINLEAF_TOWN",
+      "map": "MAP_TWINLEAF_TOWN",
+      "x": 22,
+      "y": 21
     }
   ]
 }

@@ -494,9 +494,7 @@
     "OldChateau_DiningRoom",
     "OldChateau_2F"
   ],
-  "gMapGroup_GreatUnderground": [
-
-  ],
+  "gMapGroup_GreatUnderground": [],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
     "SecretBase_BrownCave1",
@@ -703,22 +701,26 @@
   "gMapGroup_IndoorJubilife": [
     "JubilifeCity_PokemonCenter1f",
     "Route218Gate",
-    "JubilifeCity_TrainerSchool"
+    "JubilifeCity_TrainerSchool",
+    "JubilifeCity_Mart"
   ],
   "gMapGroup_IndoorOreburgh": [
     "OreburghMine1",
     "OreburghMine2",
     "OreburghCity_PokemonCenter_1F",
     "OreburghMuseum",
-    "OreburghCity_Gym"
+    "OreburghCity_Gym",
+    "OreburghCity_Mart"
   ],
   "gMapgroup_IndoorFloaroma": [
-    "FloaromaTown_PokemonCenter_1F"
+    "FloaromaTown_PokemonCenter_1F",
+    "FloaromaTown_Mart"
   ],
   "gMapgroup_IndoorEterna": [
     "EternaCity_PokemonCenter_1F",
     "EternaCity_BikeShop",
-    "EternaCity_Gym"
+    "EternaCity_Gym",
+    "EternaCity_Mart"
   ],
   "gMapGroup_IndoorRoute203": [
     "OreburghGate",
@@ -727,7 +729,5 @@
   "gMapGroup_IndoorRoute204": [
     "RavagedPath"
   ],
-  "gMapgroup_IndoorRoute205": [
-
-  ]
+  "gMapgroup_IndoorRoute205": []
 }

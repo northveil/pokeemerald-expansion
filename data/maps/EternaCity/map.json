@@ -26,17 +26,43 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_TM_BALL",
-      "x": 38,
-      "y": 5,
+      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+      "x": 14,
+      "y": 10,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_TM_THIEF",
-      "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_RECEIVED_TM_THIEF"
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+      "x": 15,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+      "x": 16,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_3"
     }
   ],
   "warp_events": [
@@ -48,13 +74,6 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 14,
-      "y": 58,
-      "elevation": 0,
-      "dest_map": "MAP_ROUTE206",
-      "dest_warp_id": "0"
-    },
-    {
       "x": 19,
       "y": 30,
       "elevation": 0,
@@ -62,11 +81,18 @@
       "dest_warp_id": "0"
     },
     {
+      "x": 14,
+      "y": 58,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE206",
+      "dest_warp_id": "0"
+    },
+    {
       "x": 15,
       "y": 58,
       "elevation": 0,
-      "dest_map": "MAP_ETERNA_CITY",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_ROUTE206",
+      "dest_warp_id": "1"
     },
     {
       "x": 22,
@@ -74,12 +100,15 @@
       "elevation": 0,
       "dest_map": "MAP_ETERNA_CITY_GYM",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 19,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_MART",
+      "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }

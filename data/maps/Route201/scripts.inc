@@ -8,6 +8,7 @@ Route201_MapScripts::
 	.byte 0
 
 Route201_OnTransition:
+	call Common_EventScript_SetupRivalGfxId
 	goto_if_eq VAR_ROUTE102_STATE, 0, Route201_EventScript_HideRowanBag
 	goto_if_eq VAR_ROUTE102_STATE, 2, Route201_EventScript_HideRowanBag
 	end

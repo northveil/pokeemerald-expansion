@@ -255,6 +255,16 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DawnFishing
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DawnFieldMove;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DawnMachBike;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DawnAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DawnWatering;
+
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LucasNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LucasSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LucasFishing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LucasFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LucasMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LucasAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LucasWatering;
+
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -509,6 +519,17 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_RIVAL_DAWN_ACRO_BIKE] =     &gObjectEventGraphicsInfo_DawnAcroBike,
     [OBJ_EVENT_GFX_RIVAL_DAWN_SURFING] =       &gObjectEventGraphicsInfo_DawnSurfing,
     [OBJ_EVENT_GFX_RIVAL_DAWN_FIELD_MOVE] =    &gObjectEventGraphicsInfo_DawnFieldMove,
+    [OBJ_EVENT_GFX_LUCAS_NORMAL] =             &gObjectEventGraphicsInfo_LucasNormal,
+    [OBJ_EVENT_GFX_LUCAS_MACH_BIKE] =          &gObjectEventGraphicsInfo_LucasMachBike,
+    [OBJ_EVENT_GFX_LUCAS_ACRO_BIKE] =          &gObjectEventGraphicsInfo_LucasAcroBike,
+    [OBJ_EVENT_GFX_LUCAS_SURFING] =            &gObjectEventGraphicsInfo_LucasSurfing,
+    [OBJ_EVENT_GFX_LUCAS_FIELD_MOVE] =         &gObjectEventGraphicsInfo_LucasFieldMove,
+    [OBJ_EVENT_GFX_LUCAS_FISHING] =            &gObjectEventGraphicsInfo_LucasFishing,
+    [OBJ_EVENT_GFX_RIVAL_LUCAS_NORMAL] =       &gObjectEventGraphicsInfo_LucasNormal,
+    [OBJ_EVENT_GFX_RIVAL_LUCAS_MACH_BIKE] =    &gObjectEventGraphicsInfo_LucasMachBike,
+    [OBJ_EVENT_GFX_RIVAL_LUCAS_ACRO_BIKE] =    &gObjectEventGraphicsInfo_LucasAcroBike,
+    [OBJ_EVENT_GFX_RIVAL_LUCAS_SURFING] =      &gObjectEventGraphicsInfo_LucasSurfing,
+    [OBJ_EVENT_GFX_RIVAL_LUCAS_FIELD_MOVE] =   &gObjectEventGraphicsInfo_LucasFieldMove,
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
 };
 

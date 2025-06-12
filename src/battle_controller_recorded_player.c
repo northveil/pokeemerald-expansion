@@ -513,7 +513,7 @@ static void RecordedPlayerHandleIntroTrainerBallThrow(u32 battler)
     else
     {
         if (!gSaveBlock2Ptr->playerGender)
-        trainerPicId = TRAINER_BACK_PIC_BRENDAN;
+        trainerPicId = TRAINER_BACK_PIC_LUCAS;
         else
         trainerPicId = TRAINER_BACK_PIC_DAWN;
         //trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_LUCAS;

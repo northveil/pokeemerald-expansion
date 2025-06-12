@@ -1892,7 +1892,7 @@ static u32 PlayerGetTrainerBackPicId(void)
     if (gBattleTypeFlags & BATTLE_TYPE_LINK)
         trainerPicId = LinkPlayerGetTrainerPicId(GetMultiplayerId());
     else if (!gSaveBlock2Ptr->playerGender)
-    trainerPicId = TRAINER_BACK_PIC_BRENDAN;
+    trainerPicId = TRAINER_BACK_PIC_LUCAS;
     else 
     trainerPicId = TRAINER_BACK_PIC_DAWN;
         //trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_LUCAS;
@@ -2305,7 +2305,7 @@ static void PlayerHandleOneReturnValue_Duplicate(u32 battler)
 
 static void PlayerHandleIntroTrainerBallThrow(u32 battler)
 {
-    const u32 *trainerPal = gTrainerBacksprites[gSaveBlock2Ptr->playerGender + 7].palette.data;
+    const u32 *trainerPal = gTrainerBacksprites[gSaveBlock2Ptr->playerGender + 8].palette.data;
     BtlController_HandleIntroTrainerBallThrow(battler, 0xD6F8, trainerPal, 31, Intro_TryShinyAnimShowHealthbox);
 }
 

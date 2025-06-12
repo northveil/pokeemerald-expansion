@@ -688,6 +688,7 @@ EventScript_SetBrineyLocation_Route109::
 	return
 
 	.include "data/scripts/pkmn_center_nurse.inc"
+	.include "data/scripts/pokemart.inc"
 	.include "data/scripts/obtain_item.inc"
 	.include "data/scripts/record_mix.inc"
 	.include "data/scripts/pc.inc"
@@ -1301,3 +1302,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SandgemTown_Mart/scripts.inc"
 
 	.include "data/maps/Route218/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Mart/scripts.inc"
+
+	.include "data/maps/OreburghCity_Mart/scripts.inc"
+
+	.include "data/maps/FloaromaTown_Mart/scripts.inc"
+
+	.include "data/maps/EternaCity_Mart/scripts.inc"

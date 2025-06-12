@@ -525,6 +525,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_RubySapphireMay,       OBJ_EVENT_PAL_TAG_RS_MAY},
     {gObjectEventPal_TM_Ball,               OBJ_EVENT_PAL_TAG_TM_BALL},
     {gObjectEventPal_Dawn,                  OBJ_EVENT_PAL_TAG_DAWN},
+    {gObjectEventPal_Lucas,                 OBJ_EVENT_PAL_TAG_LUCAS},
 
 #if OW_FOLLOWERS_POKEBALLS
     {gObjectEventPal_MasterBall,            OBJ_EVENT_PAL_TAG_BALL_MASTER},
@@ -9346,6 +9347,7 @@ static void GetGroundEffectFlags_Reflection(struct ObjectEvent *objEvent, u32 *f
         {
             objEvent->hasReflection++;
             *flags |= reflectionFlags[reflType - 1];
+            DebugPrintf("refl");
         }
     }
     else
@@ -9549,7 +9551,7 @@ static u8 ObjectEventGetNearbyReflectionType(struct ObjectEvent *objEvent)
             RETURN_REFLECTION_TYPE_AT(objEvent->previousCoords.x - j, objEvent->previousCoords.y + one + i)
         }
     }
-
+    DebugPrintf(":(");
     return REFL_TYPE_NONE;
 }
 

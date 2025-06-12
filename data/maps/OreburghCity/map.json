@@ -24,9 +24,7 @@
       "direction": "left"
     }
   ],
-  "object_events": [
-
-  ],
+  "object_events": [],
   "warp_events": [
     {
       "x": 3,
@@ -90,12 +88,15 @@
       "elevation": 0,
       "dest_map": "MAP_OREBURGH_CITY_GYM",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_OREBURGH_CITY_MART",
+      "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }

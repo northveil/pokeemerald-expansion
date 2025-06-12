@@ -119,9 +119,7 @@
       "flag": "FLAG_UNUSED_0x493"
     }
   ],
-  "warp_events": [
-
-  ],
+  "warp_events": [],
   "coord_events": [
     {
       "type": "trigger",

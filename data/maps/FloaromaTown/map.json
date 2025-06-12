@@ -65,12 +65,15 @@
       "elevation": 0,
       "dest_map": "MAP_FLOAROMA_MEADOW",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 24,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_FLOAROMA_TOWN_MART",
+      "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }

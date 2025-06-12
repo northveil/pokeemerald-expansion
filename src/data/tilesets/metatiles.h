@@ -228,3 +228,6 @@ const u16 gMetatileAttributes_Sinnoh[] = INCBIN_U16("data/tilesets/primary/sinno
 
 const u16 gMetatiles_Floaroma[] = INCBIN_U16("data/tilesets/secondary/floaroma/metatiles.bin");
 const u16 gMetatileAttributes_Floaroma[] = INCBIN_U16("data/tilesets/secondary/floaroma/metatile_attributes.bin");
+
+const u16 gMetatiles_Hearthome[] = INCBIN_U16("data/tilesets/secondary/hearthome/metatiles.bin");
+const u16 gMetatileAttributes_Hearthome[] = INCBIN_U16("data/tilesets/secondary/hearthome/metatile_attributes.bin");

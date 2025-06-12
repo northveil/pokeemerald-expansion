@@ -698,14 +698,13 @@
     },
     {
       "id": "MAPSEC_DYNAMIC",
-      "name": "",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TWINLEAF_TOWN",
+      "id": "MAPSEC_TWINLEAF_TOWN",
       "name": "TWINLEAF TOWN",
       "x": 18,
       "y": 0,
@@ -713,7 +712,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SANDGEM_TOWN",
+      "id": "MAPSEC_SANDGEM_TOWN",
       "name": "SANDGEM TOWN",
       "x": 19,
       "y": 0,
@@ -721,7 +720,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_JUBILIFE_CITY",
+      "id": "MAPSEC_JUBILIFE_CITY",
       "name": "JUBILIFE CITY",
       "x": 21,
       "y": 0,
@@ -729,7 +728,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_OREBURGH_CITY",
+      "id": "MAPSEC_OREBURGH_CITY",
       "name": "OREBURGH CITY",
       "x": 0,
       "y": 0,
@@ -737,7 +736,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FLOAROMA_TOWN",
+      "id": "MAPSEC_FLOAROMA_TOWN",
       "name": "FLOAROMA TOWN",
       "x": 0,
       "y": 0,
@@ -745,7 +744,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ETERNA_CITY",
+      "id": "MAPSEC_ETERNA_CITY",
       "name": "ETERNA CITY",
       "x": 0,
       "y": 0,
@@ -753,7 +752,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_HEARTHOME_CITY",
+      "id": "MAPSEC_HEARTHOME_CITY",
       "name": "HEARTHOME CITY",
       "x": 0,
       "y": 0,
@@ -761,7 +760,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SOLACEON_TOWN",
+      "id": "MAPSEC_SOLACEON_TOWN",
       "name": "SOLACEON TOWN",
       "x": 0,
       "y": 0,
@@ -769,7 +768,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VEILSTONE_CITY",
+      "id": "MAPSEC_VEILSTONE_CITY",
       "name": "VEILSTONE_CITY",
       "x": 0,
       "y": 0,
@@ -777,7 +776,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_PASTORIA_CITY",
+      "id": "MAPSEC_PASTORIA_CITY",
       "name": "PASTORIA CITY",
       "x": 0,
       "y": 0,
@@ -785,7 +784,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_CELESTIC_TOWN",
+      "id": "MAPSEC_CELESTIC_TOWN",
       "name": "CELESTIC TOWN",
       "x": 0,
       "y": 0,
@@ -793,7 +792,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SNOWPOINT_CITY",
+      "id": "MAPSEC_SNOWPOINT_CITY",
       "name": "SNOWPOINT CITY",
       "x": 0,
       "y": 0,
@@ -801,7 +800,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SUNYSHORE_CITY",
+      "id": "MAPSEC_SUNYSHORE_CITY",
       "name": "SUNNYSHORE CITY",
       "x": 0,
       "y": 0,
@@ -809,7 +808,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_CANALAVE_CITY",
+      "id": "MAPSEC_CANALAVE_CITY",
       "name": "CANALAVE CITY",
       "x": 0,
       "y": 0,
@@ -817,7 +816,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_201",
+      "id": "MAPSEC_ROUTE_201",
       "name": "ROUTE 201",
       "x": 0,
       "y": 0,
@@ -825,7 +824,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_202",
+      "id": "MAPSEC_ROUTE_202",
       "name": "ROUTE 202",
       "x": 0,
       "y": 0,
@@ -833,7 +832,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_203",
+      "id": "MAPSEC_ROUTE_203",
       "name": "ROUTE 203",
       "x": 0,
       "y": 0,
@@ -841,7 +840,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_204",
+      "id": "MAPSEC_ROUTE_204",
       "name": "ROUTE 204",
       "x": 0,
       "y": 0,
@@ -849,7 +848,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_205",
+      "id": "MAPSEC_ROUTE_205",
       "name": "ROUTE 205",
       "x": 0,
       "y": 0,
@@ -857,7 +856,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_206",
+      "id": "MAPSEC_ROUTE_206",
       "name": "ROUTE 206",
       "x": 0,
       "y": 0,
@@ -865,7 +864,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_207",
+      "id": "MAPSEC_ROUTE_207",
       "name": "ROUTE 207",
       "x": 0,
       "y": 0,
@@ -873,7 +872,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_208",
+      "id": "MAPSEC_ROUTE_208",
       "name": "ROUTE 208",
       "x": 0,
       "y": 0,
@@ -881,7 +880,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_209",
+      "id": "MAPSEC_ROUTE_209",
       "name": "ROUTE 209",
       "x": 0,
       "y": 0,
@@ -889,7 +888,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_210",
+      "id": "MAPSEC_ROUTE_210",
       "name": "ROUTE 210",
       "x": 0,
       "y": 0,
@@ -897,7 +896,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_211",
+      "id": "MAPSEC_ROUTE_211",
       "name": "ROUTE 211",
       "x": 0,
       "y": 0,
@@ -905,7 +904,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_212",
+      "id": "MAPSEC_ROUTE_212",
       "name": "ROUTE 212",
       "x": 0,
       "y": 0,
@@ -913,7 +912,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_213",
+      "id": "MAPSEC_ROUTE_213",
       "name": "ROUTE 213",
       "x": 0,
       "y": 0,
@@ -921,7 +920,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_214",
+      "id": "MAPSEC_ROUTE_214",
       "name": "ROUTE 214",
       "x": 0,
       "y": 0,
@@ -929,7 +928,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_215",
+      "id": "MAPSEC_ROUTE_215",
       "name": "ROUTE 215",
       "x": 0,
       "y": 0,
@@ -937,7 +936,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_216",
+      "id": "MAPSEC_ROUTE_216",
       "name": "ROUTE 216",
       "x": 0,
       "y": 0,
@@ -945,7 +944,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_217",
+      "id": "MAPSEC_ROUTE_217",
       "name": "ROUTE 217",
       "x": 0,
       "y": 0,
@@ -953,7 +952,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_218",
+      "id": "MAPSEC_ROUTE_218",
       "name": "ROUTE 218",
       "x": 0,
       "y": 0,
@@ -961,7 +960,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_219",
+      "id": "MAPSEC_ROUTE_219",
       "name": "ROUTE 219",
       "x": 0,
       "y": 0,
@@ -969,7 +968,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_220",
+      "id": "MAPSEC_ROUTE_220",
       "name": "ROUTE 220",
       "x": 0,
       "y": 0,
@@ -977,7 +976,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_221",
+      "id": "MAPSEC_ROUTE_221",
       "name": "ROUTE 221",
       "x": 0,
       "y": 0,
@@ -985,7 +984,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_222",
+      "id": "MAPSEC_ROUTE_222",
       "name": "ROUTE 222",
       "x": 0,
       "y": 0,
@@ -993,7 +992,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_223",
+      "id": "MAPSEC_ROUTE_223",
       "name": "ROUTE 223",
       "x": 0,
       "y": 0,
@@ -1001,7 +1000,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_224",
+      "id": "MAPSEC_ROUTE_224",
       "name": "ROUTE 224",
       "x": 0,
       "y": 0,
@@ -1009,7 +1008,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_225",
+      "id": "MAPSEC_ROUTE_225",
       "name": "ROUTE 225",
       "x": 0,
       "y": 0,
@@ -1017,7 +1016,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_226",
+      "id": "MAPSEC_ROUTE_226",
       "name": "ROUTE 226",
       "x": 0,
       "y": 0,
@@ -1025,7 +1024,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_227",
+      "id": "MAPSEC_ROUTE_227",
       "name": "ROUTE 227",
       "x": 0,
       "y": 0,
@@ -1033,7 +1032,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_228",
+      "id": "MAPSEC_ROUTE_228",
       "name": "ROUTE 228",
       "x": 0,
       "y": 0,
@@ -1041,7 +1040,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_229",
+      "id": "MAPSEC_ROUTE_229",
       "name": "ROUTE 229",
       "x": 0,
       "y": 0,
@@ -1049,7 +1048,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_230",
+      "id": "MAPSEC_ROUTE_230",
       "name": "ROUTE 230",
       "x": 0,
       "y": 0,
@@ -1057,7 +1056,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_OREBURGH_GATE",
+      "id": "MAPSEC_OREBURGH_GATE",
       "name": "OREBURGH GATE",
       "x": 0,
       "y": 0,
@@ -1065,7 +1064,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_OREBURGH_MINE",
+      "id": "MAPSEC_OREBURGH_MINE",
       "name": "OREBURGH MINE",
       "x": 0,
       "y": 0,
@@ -1073,7 +1072,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_RAVAGED_PATH",
+      "id": "MAPSEC_RAVAGED_PATH",
       "name": "RAVAGED PATH",
       "x": 0,
       "y": 0,
@@ -1081,7 +1080,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VALLEY_WINDWORKS",
+      "id": "MAPSEC_VALLEY_WINDWORKS",
       "name": "VALLEY WINDWORKS",
       "x": 0,
       "y": 0,
@@ -1089,7 +1088,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ETERNA_FOREST",
+      "id": "MAPSEC_ETERNA_FOREST",
       "name": "ETERNA FOREST",
       "x": 0,
       "y": 0,
@@ -1097,7 +1096,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_OLD_CHATEAU",
+      "id": "MAPSEC_OLD_CHATEAU",
       "name": "OLD CHATEAU",
       "x": 0,
       "y": 0,
@@ -1105,7 +1104,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_MT_CORONET",
+      "id": "MAPSEC_MT_CORONET",
       "name": "MT CORONET",
       "x": 0,
       "y": 0,
@@ -1113,7 +1112,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_WAYWARD_CAVE",
+      "id": "MAPSEC_WAYWARD_CAVE",
       "name": "WAYWARD CAVE",
       "x": 0,
       "y": 0,
@@ -1121,7 +1120,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_AMITY_SQUARE",
+      "id": "MAPSEC_AMITY_SQUARE",
       "name": "AMITY SQUARE",
       "x": 0,
       "y": 0,
@@ -1129,7 +1128,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FLOAROMA_MEADOW",
+      "id": "MAPSEC_FLOAROMA_MEADOW",
       "name": "FLOAROMA MEADOW",
       "x": 0,
       "y": 0,
@@ -1137,7 +1136,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_LOST_TOWER",
+      "id": "MAPSEC_LOST_TOWER",
       "name": "LOST TOWER",
       "x": 0,
       "y": 0,
@@ -1145,7 +1144,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SOLACEON_RUINS",
+      "id": "MAPSEC_SOLACEON_RUINS",
       "name": "SOLACEON RUINS",
       "x": 0,
       "y": 0,
@@ -1153,7 +1152,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_GAME_CORNER",
+      "id": "MAPSEC_GAME_CORNER",
       "name": "GAME CORNER",
       "x": 0,
       "y": 0,
@@ -1161,7 +1160,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_RUIN_MANIACS_CAVE",
+      "id": "MAPSEC_RUIN_MANIACS_CAVE",
       "name": "RUIN MANIC'S CAVE",
       "x": 0,
       "y": 0,
@@ -1169,7 +1168,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_GRAND_LAKE_HOTEL",
+      "id": "MAPSEC_GRAND_LAKE_HOTEL",
       "name": "GRAND LAKE HOTEL",
       "x": 0,
       "y": 0,
@@ -1177,7 +1176,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_GREAT_MARSH",
+      "id": "MAPSEC_GREAT_MARSH",
       "name": "GREAT MARSH",
       "x": 0,
       "y": 0,
@@ -1185,7 +1184,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_POKEMON_MANSION",
+      "id": "MAPSEC_POKEMON_MANSION",
       "name": "POKEMON MANSION",
       "x": 0,
       "y": 0,
@@ -1193,7 +1192,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TROPHY_GARDEN",
+      "id": "MAPSEC_TROPHY_GARDEN",
       "name": "TROPHY GARDEN",
       "x": 0,
       "y": 0,
@@ -1201,7 +1200,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VERITY_LAKEFRONT",
+      "id": "MAPSEC_VERITY_LAKEFRONT",
       "name": "VERITY LAKEFRONT",
       "x": 0,
       "y": 0,
@@ -1209,7 +1208,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VALOR_LAKEFRONT",
+      "id": "MAPSEC_VALOR_LAKEFRONT",
       "name": "VALOR LAKEFRONT",
       "x": 0,
       "y": 0,
@@ -1217,7 +1216,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ACUITY_LAKEFRONT",
+      "id": "MAPSEC_ACUITY_LAKEFRONT",
       "name": "ACUITY LAKEFRONT",
       "x": 0,
       "y": 0,
@@ -1225,7 +1224,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_LAKE_VERITY",
+      "id": "MAPSEC_LAKE_VERITY",
       "name": "LAKE VERITY",
       "x": 0,
       "y": 0,
@@ -1233,7 +1232,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_LAKE_VALOR",
+      "id": "MAPSEC_LAKE_VALOR",
       "name": "LAKE VALOR",
       "x": 0,
       "y": 0,
@@ -1241,7 +1240,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_LAKE_ACUITY",
+      "id": "MAPSEC_LAKE_ACUITY",
       "name": "LAKE ACUITY",
       "x": 0,
       "y": 0,
@@ -1249,7 +1248,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SPEAR_PILLAR",
+      "id": "MAPSEC_SPEAR_PILLAR",
       "name": "SPEAR PILLAR",
       "x": 0,
       "y": 0,
@@ -1257,7 +1256,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_DISTORTION_WORLD",
+      "id": "MAPSEC_DISTORTION_WORLD",
       "name": "DISTORTION WORLD",
       "x": 0,
       "y": 0,
@@ -1265,7 +1264,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TURNBACK_CAVE",
+      "id": "MAPSEC_TURNBACK_CAVE",
       "name": "TURNBACK CAVE",
       "x": 0,
       "y": 0,
@@ -1273,7 +1272,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SENDOFF_SPRING",
+      "id": "MAPSEC_SENDOFF_SPRING",
       "name": "SENDOFF SPRING",
       "x": 0,
       "y": 0,
@@ -1281,7 +1280,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SPRING_PATH",
+      "id": "MAPSEC_SPRING_PATH",
       "name": "SPRING PATH",
       "x": 0,
       "y": 0,
@@ -1289,7 +1288,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FUEGO_IRONWORKS",
+      "id": "MAPSEC_FUEGO_IRONWORKS",
       "name": "FUEGO IRONWORKS",
       "x": 0,
       "y": 0,
@@ -1297,7 +1296,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_IRON_ISLAND",
+      "id": "MAPSEC_IRON_ISLAND",
       "name": "IRON ISLAND",
       "x": 0,
       "y": 0,
@@ -1305,7 +1304,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_POKEMON_LEAGUE",
+      "id": "MAPSEC_POKEMON_LEAGUE",
       "name": "POKEMON LEAGUE",
       "x": 0,
       "y": 0,
@@ -1313,7 +1312,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_OREBURGH_MUSEUM",
+      "id": "MAPSEC_OREBURGH_MUSEUM",
       "name": "OREBURGH MUSEUM",
       "x": 0,
       "y": 0,
@@ -1321,7 +1320,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_BIKE_SHOP",
+      "id": "MAPSEC_BIKE_SHOP",
       "name": "WATER PATH",
       "x": 0,
       "y": 0,
@@ -1329,7 +1328,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TRAINER_SCHOOL",
+      "id": "MAPSEC_TRAINER_SCHOOL",
       "name": "TRAINER SCHOOL",
       "x": 0,
       "y": 0,
@@ -1337,7 +1336,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FULLMOON_ISLAND",
+      "id": "MAPSEC_FULLMOON_ISLAND",
       "name": "FULLMOON ISLAND",
       "x": 0,
       "y": 0,
@@ -1345,7 +1344,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_NEWMOON_ISLAND",
+      "id": "MAPSEC_NEWMOON_ISLAND",
       "name": "NEWMOON ISLAND",
       "x": 0,
       "y": 0,
@@ -1353,7 +1352,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VEILSTONE_DEPARTMENT_STORE",
+      "id": "MAPSEC_VEILSTONE_DEPARTMENT_STORE",
       "name": "DEPARTMENT STORE",
       "x": 0,
       "y": 0,
@@ -1361,7 +1360,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ETERNA_GALACTIC_BUILDING",
+      "id": "MAPSEC_ETERNA_GALACTIC_BUILDING",
       "name": "ETERNA GALACTIC BUILDING",
       "x": 0,
       "y": 0,
@@ -1369,7 +1368,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VEILSTONE_GALACTIC_BUILDING",
+      "id": "MAPSEC_VEILSTONE_GALACTIC_BUILDING",
       "name": "VEILSTONE GALACTIC BUILDING",
       "x": 0,
       "y": 0,
@@ -1377,7 +1376,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_GALACTIC_WAREHOUSE",
+      "id": "MAPSEC_GALACTIC_WAREHOUSE",
       "name": "GALACTIC WAREHOUSE",
       "x": 0,
       "y": 0,
@@ -1385,7 +1384,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ETERNA_FOREST_CLEARING",
+      "id": "MAPSEC_ETERNA_FOREST_CLEARING",
       "name": "ETERNA FOREST",
       "x": 0,
       "y": 0,

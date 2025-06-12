@@ -722,7 +722,12 @@
 #define METATILE_Shop_Laptop2_Normal  0x2A5
 
 // gTileset_Sinnoh
-#define METATILE_Sinnoh_ReflectiveWater  0x079
+#define METATILE_Sinnoh_Door_PokeCenter    0x022
+#define METATILE_Sinnoh_MuddySlope_Frame0  0x0E3
+#define METATILE_Sinnoh_MuddySlope_Frame1  0x0EB
+#define METATILE_Sinnoh_MuddySlope_Frame2  0x0F3
+#define METATILE_Sinnoh_MuddySlope_Frame3  0x0FB
+#define METATILE_Sinnoh_ReflectiveWater    0x079
 
 // gTileset_Slateport
 #define METATILE_Slateport_Door             0x2DC

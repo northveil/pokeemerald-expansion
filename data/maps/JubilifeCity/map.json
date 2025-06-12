@@ -69,7 +69,7 @@
       "x": 62,
       "y": 32,
       "elevation": 0,
-      "dest_map": "MAP_JUBILIFE_CITY",
+      "dest_map": "MAP_JUBILIFE_CITY_MART",
       "dest_warp_id": "0"
     },
     {
@@ -80,10 +80,6 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": []
 }

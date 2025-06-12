@@ -45,8 +45,6 @@ static const u8 sTileBitAttributes[NUM_METATILE_BEHAVIORS] =
     [MB_LAVARIDGE_GYM_B1F_WARP]             = TILE_FLAG_UNUSED,
     [MB_SEAWEED_NO_SURFACING]               = TILE_FLAG_UNUSED | TILE_FLAG_SURFABLE | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_REFLECTION_UNDER_BRIDGE]            = TILE_FLAG_UNUSED,
-    [MB_EAST_CAVE_ENTRANCE]                 = TILE_FLAG_UNUSED,
-    [MB_WEST_CAVE_ENTRANCE]                 = TILE_FLAG_UNUSED,
     [MB_IMPASSABLE_EAST]                    = TILE_FLAG_UNUSED,
     [MB_IMPASSABLE_WEST]                    = TILE_FLAG_UNUSED,
     [MB_IMPASSABLE_NORTH]                   = TILE_FLAG_UNUSED,
@@ -277,9 +275,7 @@ bool8 MetatileBehavior_IsNonAnimDoor(u8 metatileBehavior)
 {
     if (metatileBehavior == MB_NON_ANIMATED_DOOR
      || metatileBehavior == MB_WATER_DOOR
-     || metatileBehavior == MB_DEEP_SOUTH_WARP
-     || metatileBehavior == MB_EAST_CAVE_ENTRANCE
-     || metatileBehavior == MB_WEST_CAVE_ENTRANCE)
+     || metatileBehavior == MB_DEEP_SOUTH_WARP)
         return TRUE;
     else
         return FALSE;
@@ -303,8 +299,7 @@ bool8 MetatileBehavior_IsSurfableWaterOrUnderwater(u8 metatileBehavior)
 
 bool8 MetatileBehavior_IsEastArrowWarp(u8 metatileBehavior)
 {
-    if (metatileBehavior == MB_EAST_ARROW_WARP
-    || metatileBehavior == MB_EAST_CAVE_ENTRANCE)
+    if (metatileBehavior == MB_EAST_ARROW_WARP)
         return TRUE;
     else
         return FALSE;
@@ -312,8 +307,7 @@ bool8 MetatileBehavior_IsEastArrowWarp(u8 metatileBehavior)
 
 bool8 MetatileBehavior_IsWestArrowWarp(u8 metatileBehavior)
 {
-    if (metatileBehavior == MB_WEST_ARROW_WARP
-    || metatileBehavior == MB_WEST_CAVE_ENTRANCE)
+    if (metatileBehavior == MB_WEST_ARROW_WARP)
         return TRUE;
     else
         return FALSE;

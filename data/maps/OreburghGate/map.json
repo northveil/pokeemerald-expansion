@@ -12,7 +12,7 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
@@ -123,7 +123,5 @@
       "script": "OreburghGate_1F_EventScript_Hiker_MoveToPlayer1"
     }
   ],
-  "bg_events": [
-
-  ]
+  "bg_events": []
 }
