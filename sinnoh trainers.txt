@@ -1,0 +1,150 @@
+
+=== TRAINER_NATALIE ===
+Name: NATALIE
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Bidoof
+Level:5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_TRISTAN ===
+Name: TRISTAN
+Class: Youngster
+Pic: Dawn
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Starly
+Level:5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LOGAN ===
+Name: LOGAN
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Burmy
+Level:5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ROARK ===
+Name: ROARK
+Class: Leader
+Pic: Leader Roxanne
+Gender: Male
+Music: Male
+Items: Potion / Potion
+Double Battle: No
+AI: Basic Trainer
+
+Geodude
+Level: 14
+Ability: Sturdy
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Stealth Rock
+- Rock Tomb
+- Rock Polish
+- Defense Curl
+
+Dwebble
+Level: 14
+Ability: Shell Armor
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Smack Down
+- Bug Bite
+- Rest
+- Withdraw
+
+Onix
+Level: 15
+Ability: Rock Head
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Coil
+- Double-Edge
+- Rock Throw
+- Rock Polish
+
+Binacle
+Level: 15
+Ability: Sniper
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Fury Cutter
+- Taunt
+- Endeavor
+
+Cranidos @ Oran Berry
+Level: 16
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Headbutt
+- Pursuit
+- Leer
+- Smack Down
+
+=== TRAINER_GARDENIA ===
+Name: Gardenia
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Items: Potion / Potion / Full Heal
+Double Battle: No
+AI: Basic Trainer
+
+Grotle
+Tags: Weather Setter
+Level: 24
+Ability: Shell Armor
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sunny Day
+- Protect
+- Bulldoze
+- Leech Seed
+
+Lombre @ Wepear Berry
+Level: 24
+Ability: Own Tempo
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Natural Gift
+- Fake Out
+- Knock Off
+
+Cherrim
+Tags: Weather Abuser
+Level: 25
+Ability: Flower Gift
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sunny Day
+- Solar Beam
+- Weather Ball
+- Dazzling Gleam
+
+Trevenant
+Level: 24
+Ability: Natural Cure
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Will-O-Wisp
+- Ally Switch
+- Shadow Claw
+- Seed Bomb
+
+Roserade @ Sitrus Berry
+Tags: Weather Abuser
+Level: 26
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Grass Knot
+- Weather Ball
+- Sludge 
+- Stun Spore
