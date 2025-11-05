@@ -31,10 +31,17 @@
   "warp_events": [
     {
       "x": 59,
-      "y": 21,
+      "y": 22,
       "elevation": 0,
       "dest_map": "MAP_ROUTE218GATE",
       "dest_warp_id": "2"
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_CANALAVE_CITY",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],

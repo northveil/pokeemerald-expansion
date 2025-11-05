@@ -15,8 +15,13 @@
   "connections": [
     {
       "map": "MAP_ETERNA_CITY",
-      "offset": 0,
+      "offset": 1,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE211_EAST",
+      "offset": 0,
+      "direction": "right"
     }
   ],
   "object_events": [],

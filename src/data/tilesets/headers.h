@@ -919,3 +919,58 @@ const struct Tileset gTileset_Hearthome =
     .metatileAttributes = gMetatileAttributes_Hearthome,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_OldChateau =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_OldChateau,
+    .palettes = gTilesetPalettes_OldChateau,
+    .metatiles = gMetatiles_OldChateau,
+    .metatileAttributes = gMetatileAttributes_OldChateau,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Lakefront =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Lakefront,
+    .palettes = gTilesetPalettes_Lakefront,
+    .metatiles = gMetatiles_Lakefront,
+    .metatileAttributes = gMetatileAttributes_Lakefront,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Pastoria =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Pastoria,
+    .palettes = gTilesetPalettes_Pastoria,
+    .metatiles = gMetatiles_Pastoria,
+    .metatileAttributes = gMetatileAttributes_Pastoria,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Snowpoint =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Snowpoint,
+    .palettes = gTilesetPalettes_Snowpoint,
+    .metatiles = gMetatiles_Snowpoint,
+    .metatileAttributes = gMetatileAttributes_Snowpoint,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Celestic =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Celestic,
+    .palettes = gTilesetPalettes_Celestic,
+    .metatiles = gMetatiles_Celestic,
+    .metatileAttributes = gMetatileAttributes_Celestic,
+    .callback = NULL,
+};

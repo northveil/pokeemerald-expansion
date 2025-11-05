@@ -1,0 +1,28 @@
+{
+  "id": "MAP_AMBER_CASTLE_ENTRANCE",
+  "name": "AmberCastle_Entrance",
+  "layout": "LAYOUT_AMBER_CASTLE_ENTRANCE",
+  "music": "MUS_RG_SEVII_CAVE",
+  "region_map_section": "MAPSEC_AMBER_CASTLE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_FOREST_CLEARING",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -18,6 +18,7 @@ bertha
 flint 
 lucian
 cynthia
+looker
 mars
 jupiter
 saturn

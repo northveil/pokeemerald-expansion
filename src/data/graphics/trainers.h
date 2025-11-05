@@ -281,13 +281,13 @@ const u32 gTrainerFrontPic_RubySapphireMay[] = INCBIN_U32("graphics/trainers/fro
 const u16 gTrainerPalette_RubySapphireMay[] = INCBIN_U16("graphics/trainers/palettes/may_rs.gbapal");
 
 const u32 gTrainerFrontPic_Barry[] = INCBIN_U32("graphics/trainers/front_pics/barry.4bpp.lz");
-const u32 gTrainerPalette_Barry[] = INCBIN_U32("graphics/trainers/palettes/barry.gbapal.lz");
+const u16 gTrainerPalette_Barry[] = INCBIN_U16("graphics/trainers/palettes/barry.gbapal");
 
 const u32 gTrainerFrontPic_Dawn[] = INCBIN_U32("graphics/trainers/front_pics/dawn.4bpp.lz");
-const u32 gTrainerPalette_Dawn[] = INCBIN_U32("graphics/trainers/palettes/dawn.gbapal.lz");
+const u16 gTrainerPalette_Dawn[] = INCBIN_U16("graphics/trainers/palettes/dawn.gbapal");
 
 const u32 gTrainerFrontPic_Lucas[] = INCBIN_U32("graphics/trainers/front_pics/lucas.4bpp.lz");
-const u32 gTrainerPalette_Lucas[] = INCBIN_U32("graphics/trainers/palettes/lucas.gbapal.lz");
+const u16 gTrainerPalette_Lucas[] = INCBIN_U16("graphics/trainers/palettes/lucas.gbapal");
 
 
 const u8 gTrainerBackPic_Dawn[] = INCBIN_U8("graphics/trainers/back_pics/dawn.4bpp");

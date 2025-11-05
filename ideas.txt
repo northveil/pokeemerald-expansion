@@ -7,20 +7,23 @@ battle resort will function similar to sevii islands, accessible after the galac
 battle frontier facilities will be pwt from b2w2, battle factory, standard battle tower, 
 hot spring resort either by snowpoint or maybe by celestic up on the mountainside
 after you beat maylene you will get a call from rowan to go back to eterna forest with dawn/lucas to check out the amber castle. you might meet cheryl there
+iron island will have a small town on it 
+gts will function as a wonder trade with the option to make sure you dont get a dupe
 
 mechanics:
 following pokemon maybe
 rock climb
 sideways waterfalls maybe
 sideways sliding ice for the snowpoint gym
+pal park turns into either a second safari zone for pokemon that didnt fit in other routes or a battle facility that lets you get an egg from your opponent based on one of their pokemon
 
 day/night cycle:
 4 time blocks, morning, day,evening,and night.
 time will pass after:
 1 battling a trainer. time will only pass once for every time you enter a building and fight a trainer; eg, clearing a galactic hideout in one go will only pass from morning to day.
 2 healing, either at a center or otherwise. if you heal at your house or at the valor lakefront hotel it will pass time just like if you heal at a center.
-3 certain story events, such as 
-4 you will be able to "wait" for a certain time at pokemon centers and beds that you can heal at.
+3 certain story events, such as obtaining the starter, 
+4 you will be able to "wait" for a certain time at pokemon centers and beds that you can heal at. (special dialogues if you rest at home)
 
 "week" cycle
 7 day rotation for certain events. 
@@ -31,8 +34,11 @@ maybe routes will have a weather rotation based on day?
 3 roark will be in different places in the underground based on the day, and will give you a different evo stone based on location.
 4 gardenia will be in different routes throughout sinnoh based on the day, after you beat her. 1:eterna forest.2:floaroma meadow.3:212.4:210.5:215.6:214.7:224 she will battle you with a small team of local grass types and give you berries if you win
 5 fantina will enter different contests based on the day (maybe)
-6 maylene will be in snowpoint on certain days, and at the celestic hot springs on others. she will battle you and give you a tm at each place 
+6 maylene will be in snowpoint on certain days, and at the celestic hot springs on others. she will battle you and give you a tm at each place (facade and power up punch maybe)
 7 wake will be at different water routes based on the day 1:220.2:218.3:213.4:212.5:lake acuity.6:223.7:mt coronet b1f?
 8 byron will be at the house on iron island on day 1, mt coronet on day 3, underground on day 5(same area as roark)
 9 candice will be in the upper areas of mt coronet on days 1 and 2. she will be at the celestic hot springs on days 4 and 5
 10 volkner will be at the windworks on day 1, the lighthouse on day 3, and the pokemon league lobby on day 5
+11 dawn/lucas will be available to battle on weekends in sandgem town, team will change with badges some kind of reward idk
+12a steven at different parts of the map depending on day. he will give you mega stones after fighting him after gym 6 
+12b 1: canalave library 2: iron island 3: eterna city statue 4: mt coronet 211 5: oreburgh museum 6: mt coronet snowy area 7: veilstone city meteorite crater

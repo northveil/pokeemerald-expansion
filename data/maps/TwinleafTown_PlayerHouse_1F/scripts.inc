@@ -10,6 +10,7 @@ TwinleafTown_PlayerHouse_1F_OnFrame:
 
 @she will have different dialogues based on in game time
 TwinleafTown_PlayerHouse_1F_EventScript_Mom::
+	setrespawn HEAL_LOCATION_TWINLEAF_TOWN
 	call_if_eq VAR_TWINLEAF_TOWN_STATE, 1, TwinleafTown_PlayerHouse_1F_EventScript_MomNewGame
 	call_if_eq VAR_TWINLEAF_TOWN_STATE, 2, TwinleafTown_PlayerHouse_1F_EventScript_RivalImpatient
 	call_if_eq VAR_TWINLEAF_TOWN_STATE, 3, TwinleafTown_PlayerHouse_1F_EventScript_MomTakeCare

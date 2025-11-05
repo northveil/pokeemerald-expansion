@@ -769,7 +769,7 @@
     },
     {
       "id": "MAPSEC_VEILSTONE_CITY",
-      "name": "VEILSTONE_CITY",
+      "name": "VEILSTONE CITY",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1385,15 +1385,15 @@
     },
     {
       "id": "MAPSEC_ETERNA_FOREST_CLEARING",
-      "name": "ETERNA FOREST",
+      "name": "ETERNA CLEARING",
       "x": 0,
       "y": 0,
       "width": 1,
       "height": 1
     },
     {
-      "id": "MAPSEC_NAVEL_ROCK_FRLG",
-      "name": "NAVEL ROCK",
+      "id": "MAPSEC_AMBER_CASTLE",
+      "name": "AMBER CASTLE",
       "x": 0,
       "y": 0,
       "width": 1,

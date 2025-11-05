@@ -1,0 +1,70 @@
+{
+  "id": "MAP_HEARTHOME_CITY",
+  "name": "HearthomeCity",
+  "layout": "LAYOUT_HEARTHOME_CITY",
+  "music": "MUS_CONTEST_LOBBY",
+  "region_map_section": "MAPSEC_HEARTHOME_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 8,
+      "y": 50,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE208",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 59,
+      "y": 50,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE209",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE212_NORTH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE212_NORTH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 19,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_HEARTHOME_CITY_POKEMON_CENTER_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 53,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_HEARTHOME_CITY_GYM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 31,
+      "y": 35,
+      "elevation": 0,
+      "dest_map": "MAP_HEARTHOME_CITY_MART",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

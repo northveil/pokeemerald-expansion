@@ -38,13 +38,6 @@ extern const u8 EventScript_SprayWoreOff[];
 #define NUM_FISHING_SPOTS_3 149
 #define NUM_FISHING_SPOTS (NUM_FISHING_SPOTS_1 + NUM_FISHING_SPOTS_2 + NUM_FISHING_SPOTS_3)
 
-enum {
-    WILD_AREA_LAND,
-    WILD_AREA_WATER,
-    WILD_AREA_ROCKS,
-    WILD_AREA_FISHING,
-    WILD_AREA_HONEY,
-};
 
 #define WILD_CHECK_REPEL    (1 << 0)
 #define WILD_CHECK_KEEN_EYE (1 << 1)
@@ -306,7 +299,7 @@ static u8 ChooseWildMonIndex_Fishing(u8 rod)
     return wildMonIndex;
 }
 
-//change all of this to the honey tree macros
+//HONEY_WILD_COUNT
 u8 ChooseWildMonIndex_Honey(void)
 {
     //DebugPrintf("Trying to genereate wild encounter...");
@@ -448,6 +441,9 @@ enum TimeOfDay GetTimeOfDayForEncounters(u32 headerId, enum WildPokemonArea area
         case WILD_AREA_FISHING:
             wildMonInfo = gBattlePikeWildMonHeaders[headerId].encounterTypes[timeOfDay].fishingMonsInfo;
             break;
+        case WILD_AREA_HONEY:
+            wildMonInfo = gBattlePikeWildMonHeaders[headerId].encounterTypes[timeOfDay].honeyTreeInfo;
+            break;
         case WILD_AREA_HIDDEN:
             wildMonInfo = gBattlePikeWildMonHeaders[headerId].encounterTypes[timeOfDay].hiddenMonsInfo;
             break;
@@ -470,6 +466,9 @@ enum TimeOfDay GetTimeOfDayForEncounters(u32 headerId, enum WildPokemonArea area
         case WILD_AREA_FISHING:
             wildMonInfo = gBattlePyramidWildMonHeaders[headerId].encounterTypes[timeOfDay].fishingMonsInfo;
             break;
+        case WILD_AREA_HONEY:
+            wildMonInfo = gBattlePyramidWildMonHeaders[headerId].encounterTypes[timeOfDay].honeyTreeInfo;
+            break;
         case WILD_AREA_HIDDEN:
             wildMonInfo = gBattlePyramidWildMonHeaders[headerId].encounterTypes[timeOfDay].hiddenMonsInfo;
             break;
@@ -491,6 +490,9 @@ enum TimeOfDay GetTimeOfDayForEncounters(u32 headerId, enum WildPokemonArea area
             break;
         case WILD_AREA_FISHING:
             wildMonInfo = gWildMonHeaders[headerId].encounterTypes[timeOfDay].fishingMonsInfo;
+            break;
+        case WILD_AREA_HONEY:
+            wildMonInfo = gWildMonHeaders[headerId].encounterTypes[timeOfDay].honeyTreeInfo;
             break;
         case WILD_AREA_HIDDEN:
             wildMonInfo = gWildMonHeaders[headerId].encounterTypes[timeOfDay].hiddenMonsInfo;
@@ -939,11 +941,13 @@ void RockSmashWildEncounter(void)
 
 void HoneyTreeWildEncounter(void)
 {
+    enum TimeOfDay timeOfDay;
     u16 headerId = GetCurrentMapWildMonHeaderId();
 
     if (headerId != HEADER_NONE)
     {
-        const struct WildPokemonInfo *wildPokemonInfo = gWildMonHeaders[headerId].honeyTreeMonsInfo;
+        timeOfDay = GetTimeOfDayForEncounters(headerId, WILD_AREA_HONEY);
+        const struct WildPokemonInfo *wildPokemonInfo = gWildMonHeaders[headerId].encounterTypes[timeOfDay].honeyTreeInfo;
 
         if (wildPokemonInfo == NULL)
         {
@@ -1275,6 +1279,9 @@ static u8 GetMaxLevelOfSpeciesInWildTable(const struct WildPokemon *wildMon, u16
         break;
     case WILD_AREA_ROCKS:
         numMon = ROCK_WILD_COUNT;
+        break;
+    case WILD_AREA_HONEY:
+        numMon = HONEY_WILD_COUNT;
         break;
     default:
     case WILD_AREA_FISHING:

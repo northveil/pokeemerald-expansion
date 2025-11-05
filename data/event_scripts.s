@@ -692,6 +692,7 @@ EventScript_SetBrineyLocation_Route109::
 
 	.include "data/scripts/pkmn_center_nurse.inc"
 	.include "data/scripts/pokemart.inc"
+	.include "data/scripts/pokecenter.inc"
 	.include "data/scripts/obtain_item.inc"
 	.include "data/scripts/record_mix.inc"
 	.include "data/scripts/pc.inc"
@@ -1313,3 +1314,103 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FloaromaTown_Mart/scripts.inc"
 
 	.include "data/maps/EternaCity_Mart/scripts.inc"
+
+	.include "data/maps/HearthomeCity/scripts.inc"
+
+	.include "data/maps/Route209/scripts.inc"
+
+	.include "data/maps/SolaceonTown/scripts.inc"
+
+	.include "data/maps/Route210/scripts.inc"
+
+	.include "data/maps/Route215/scripts.inc"
+
+	.include "data/maps/Route210_North/scripts.inc"
+
+	.include "data/maps/Route211_East/scripts.inc"
+
+	.include "data/maps/CelesticTown/scripts.inc"
+
+	.include "data/maps/Route219/scripts.inc"
+
+	.include "data/maps/Route220/scripts.inc"
+
+	.include "data/maps/VeilstoneCity/scripts.inc"
+
+	.include "data/maps/Route214/scripts.inc"
+
+	.include "data/maps/ValorLakefront/scripts.inc"
+
+	.include "data/maps/Route213/scripts.inc"
+
+	.include "data/maps/PastoriaCity/scripts.inc"
+
+	.include "data/maps/Route212_North/scripts.inc"
+
+	.include "data/maps/Route212_South/scripts.inc"
+
+	.include "data/maps/HearthomeCity_Gym/scripts.inc"
+
+	.include "data/maps/VeilstoneCity_Gym/scripts.inc"
+
+	.include "data/maps/PastoriaCity_Gym/scripts.inc"
+
+	.include "data/maps/FloaromaTown_FlowerShop/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_1F/scripts.inc"
+
+	.include "data/maps/GalacticWarehouse/scripts.inc"
+
+	.include "data/maps/CelesticRuins/scripts.inc"
+
+	.include "data/maps/VeilstoneCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/PastoriaCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/SolaceonTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/HearthomeCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CelesticTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CanalaveCity/scripts.inc"
+
+	.include "data/maps/CanalaveCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/SolaceonTown_Mart/scripts.inc"
+
+	.include "data/maps/PastoriaCity_Mart/scripts.inc"
+
+	.include "data/maps/HearthomeCity_Mart/scripts.inc"
+
+	.include "data/maps/CanalaveCity_Mart/scripts.inc"
+
+	.include "data/maps/Route216/scripts.inc"
+
+	.include "data/maps/Route217/scripts.inc"
+
+	.include "data/maps/AcuityLakefront/scripts.inc"
+
+	.include "data/maps/SnowpointCity/scripts.inc"
+
+	.include "data/maps/IronIsland_Outside/scripts.inc"
+
+	.include "data/maps/RuinManiacCave/scripts.inc"
+
+	.include "data/maps/LakeValor/scripts.inc"
+
+	.include "data/maps/LakeAcuity/scripts.inc"
+
+	.include "data/maps/CanalaveCity_Gym/scripts.inc"
+
+	.include "data/maps/SnowpointCity_Gym/scripts.inc"
+
+	.include "data/maps/IronIsland_1F/scripts.inc"
+
+	.include "data/maps/IronIsland_B1F/scripts.inc"
+
+	.include "data/maps/IronIsland_B2F/scripts.inc"
+
+	.include "data/maps/IronIsland_Exit/scripts.inc"
+
+	.include "data/maps/AmberCastle_Entrance/scripts.inc"

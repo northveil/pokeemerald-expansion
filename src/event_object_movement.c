@@ -9543,7 +9543,6 @@ static void GetGroundEffectFlags_Reflection(struct ObjectEvent *objEvent, u32 *f
         {
             objEvent->hasReflection++;
             *flags |= reflectionFlags[reflType - 1];
-            DebugPrintf("refl");
         }
     }
     else

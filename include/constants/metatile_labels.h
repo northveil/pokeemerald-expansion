@@ -723,9 +723,9 @@
 
 // gTileset_Sinnoh
 #define METATILE_Sinnoh_Door_PokeCenter    0x022
-#define METATILE_Sinnoh_MuddySlope_Frame0  0x0E3
-#define METATILE_Sinnoh_MuddySlope_Frame1  0x0EB
-#define METATILE_Sinnoh_MuddySlope_Frame2  0x0F3
+#define METATILE_Sinnoh_MuddySlope_Frame0  0x188
+#define METATILE_Sinnoh_MuddySlope_Frame1  0x189
+#define METATILE_Sinnoh_MuddySlope_Frame2  0x0EA
 #define METATILE_Sinnoh_MuddySlope_Frame3  0x0FB
 #define METATILE_Sinnoh_ReflectiveWater    0x079
 

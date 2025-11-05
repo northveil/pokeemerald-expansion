@@ -65,6 +65,16 @@ const struct WildPokemon {{ encounter.base_label }}_FishingMons[] =
 const struct WildPokemonInfo {{ encounter.base_label }}_FishingMonsInfo = { {{encounter.fishing_mons.encounter_rate}}, {{ encounter.base_label }}_FishingMons };
 {% endif %}
 
+{% if existsIn(encounter, "honey_tree") %}
+const struct WildPokemon {{ encounter.base_label }}_HoneyMons[] =
+{
+## for wild_mon in encounter.honey_tree.mons
+    { {{ wild_mon.min_level }}, {{ wild_mon.max_level }}, {{ wild_mon.species }} },
+## endfor
+};
+const struct WildPokemonInfo {{ encounter.base_label }}_HoneyMonsInfo = { {{encounter.honey_tree.encounter_rate}}, {{ encounter.base_label }}_HoneyMons };
+{% endif %}
+
 {% if existsIn(encounter, "hidden_mons") %}
 const struct WildPokemon {{ encounter.base_label }}_HiddenMons[] =
 {
@@ -74,16 +84,6 @@ const struct WildPokemon {{ encounter.base_label }}_HiddenMons[] =
 };
 
 const struct WildPokemonInfo {{ encounter.base_label }}_HiddenMonsInfo = { {{encounter.hidden_mons.encounter_rate}}, {{ encounter.base_label }}_HiddenMons };
-{% endif %}
-
-{% if existsIn(encounter, "honey_tree") %}
-const struct WildPokemon {{ encounter.base_label }}_HoneyTree[] =
-{
-## for wild_mon in encounter.honey_tree.mons
-    { {{ wild_mon.min_level }}, {{ wild_mon.max_level }}, {{ wild_mon.species }} },
-## endfor
-};
-const struct WildPokemonInfo {{ encounter.base_label }}_HoneyTreeMonsInfo = { {{encounter.honey_tree.encounter_rate}}, {{ encounter.base_label }}_HoneyTree };
 {% endif %}
 
 ## endfor
@@ -97,8 +97,8 @@ const struct WildPokemonHeader {{ wild_encounter_group.label }}[] =
         .waterMonsInfo = {% if existsIn(encounter, "water_mons") %}&{{ encounter.base_label }}_WaterMonsInfo{% else %}NULL{% endif %},
         .rockSmashMonsInfo = {% if existsIn(encounter, "rock_smash_mons") %}&{{ encounter.base_label }}_RockSmashMonsInfo{% else %}NULL{% endif %},
         .fishingMonsInfo = {% if existsIn(encounter, "fishing_mons") %}&{{ encounter.base_label }}_FishingMonsInfo{% else %}NULL{% endif %},
+        .honeyTreeInfo = {% if existsIn(encounter, "honey_tree") %}&{{ encounter.base_label }}_HoneyMonsInfo{% else %}NULL{% endif %},
         .hiddenMonsInfo = {% if existsIn(encounter, "hidden_mons") %}&{{ encounter.base_label }}_HiddenMonsInfo{% else %}NULL{% endif %},
-        .honeyTreeMonsInfo = {% if existsIn(encounter, "honey_tree") %}&{{ encounter.base_label }}_HoneyTreeMonsInfo{% else %}NULL{% endif %},
     },
 ## endfor
     {
@@ -108,8 +108,8 @@ const struct WildPokemonHeader {{ wild_encounter_group.label }}[] =
         .waterMonsInfo = NULL,
         .rockSmashMonsInfo = NULL,
         .fishingMonsInfo = NULL,
+        .honeyTreeInfo = NULL,
         .hiddenMonsInfo = NULL,
-        .honeyTreeMonsInfo = NULL,
     },
 };
 ## endfor

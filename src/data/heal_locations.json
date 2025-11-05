@@ -136,7 +136,7 @@
       "id": "HEAL_LOCATION_ETERNA_CITY",
       "map": "MAP_ETERNA_CITY",
       "x": 15,
-      "y": 21
+      "y": 20
     },
     {
       "id": "HEAL_LOCATION_FLOAROMA_TOWN",
@@ -166,6 +166,48 @@
       "id": "HEAL_LOCATION_TWINLEAF_TOWN",
       "map": "MAP_TWINLEAF_TOWN",
       "x": 22,
+      "y": 21
+    },
+    {
+      "id": "HEAL_LOCATION_CELESTIC_TOWN",
+      "map": "MAP_CELESTIC_TOWN",
+      "x": 23,
+      "y": 30
+    },
+    {
+      "id": "HEAL_LOCATION_HEARTHOME_CITY",
+      "map": "MAP_HEARTHOME_CITY",
+      "x": 19,
+      "y": 22
+    },
+    {
+      "id": "HEAL_LOCATION_SOLACEON_TOWN",
+      "map": "MAP_SOLACEON_TOWN",
+      "x": 22,
+      "y": 19
+    },
+    {
+      "id": "HEAL_LOCATION_VALOR_LAKEFRONT",
+      "map": "MAP_VALOR_LAKEFRONT",
+      "x": 44,
+      "y": 47
+    },
+    {
+      "id": "HEAL_LOCATION_VEILSTONE_CITY",
+      "map": "MAP_VEILSTONE_CITY",
+      "x": 45,
+      "y": 33
+    },
+    {
+      "id": "HEAL_LOCATION_PASTORIA_CITY",
+      "map": "MAP_PASTORIA_CITY",
+      "x": 22,
+      "y": 12
+    },
+    {
+      "id": "HEAL_LOCATION_CANALAVE_CITY",
+      "map": "MAP_CANALAVE_CITY",
+      "x": 25,
       "y": 21
     }
   ]

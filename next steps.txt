@@ -1,8 +1,8 @@
 graphics
 new general tileset for better tilemap usage?
-jubilife tileset needs trainer school, gts building, jubilife tv 
-oreburgh tileset needs conveyors, diggers, mineshaft, cycling road// try to find a way to add either a new palette or use an existing paleete better
-floaroma tileset needs flower shop, houses, windworks, ironworks
+jubilife tileset needs trainer school, gts building, jubilife tv, slopes 
+oreburgh tileset needs -conveyors, -diggers, mineshaft, cycling road// try to find a way to add either a new palette or use an existing paleete better
+floaroma tileset needs -flower shop, -houses, windworks, ironworks
 eterna tileset needs buildings, statue,
 twinleaf tileset needs rowans lab, sandgem houses, snow trees
 new building tileset(s). tvs, sideways stair warps, 
@@ -12,7 +12,7 @@ scripts
 day night cycle that changes encounter tables. will be based on activities done in game, like battling and healing instead of system time. certain story events will cause the game to be at a certain time.
 honey trees-done
 rock climb
-shops that change depending on badges
+shops that change depending on badges-done
 make nurse joy stop the cursed text-done
 reusable tms-done
 snow footprints
@@ -31,41 +31,41 @@ story scripts done 10
 
 world
 twinleaf town 65%
-sandgem town 20%
+sandgem town 50%
 jubilife city 25%
 oreburgh city 60%
-floaroma town 20%
+floaroma town 60%
 eterna city 10%
-hearthome city 0%
-solaceon town 0%
-veilstone city 0%
-pastoria city 0%
-celestic town 0%
-snowpoint city 0%
+hearthome city 10%
+solaceon town 10%
+veilstone city 10%
+pastoria city 10%
+celestic town 10%
+canalave city 10%
+snowpoint city 10%
 sunyshore city 0%
-canalave city 0%
 pokemon league 0%
 
 route 201 90%
-route 202 25%
-route 203 40%
+route 202 75%
+route 203 60%
 route 204 40%
-route 205 35%
+route 205 40%
 route 206 35%
-route 207 40%
-route 208 0%
-route 209 0%
-route 210 0%
-route 211 0%
-route 212 0%
-route 213 0%
-route 214 0%
-route 215 0%
-route 216 0%
-route 217 0%
-route 218 0%
-route 219 0%
-route 220 0%
+route 207 50%
+route 208 50%
+route 209 40%
+route 210 40%
+route 211 40%
+route 212 30%
+route 213 40%
+route 214 40%
+route 215 40%
+route 216 30%
+route 217 30%
+route 218 40%
+route 219 50%
+route 220 50%
 route 221 0%
 route 222 0%
 route 223 0%
@@ -77,10 +77,20 @@ route 228 0%
 route 229 0%
 route 230 0%
 
-oreburgh gate 40%
+valor lakefront 40%
+verity lakefront 30%
+acuity lakefront 30%
+
+oreburgh gate 60%
 oreburgh mine 40%
-ravaged path 15%
-eterna forest 40%
+ravaged path 60%
+eterna forest 50%
 wayward cave 5%
 mt coronet 1%
+old chateau 10%
+lost tower 0%
+solaceon ruins 5%
+ruin maniac cave 10%
+iron island 20%
+
 
